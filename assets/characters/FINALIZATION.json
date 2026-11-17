@@ -1,0 +1,37 @@
+{
+  "status": "final",
+  "approved_date": "2026-11-17",
+  "user_approval": "完美，定稿吧，中间过程可以删掉，保留这版！",
+  "files": {
+    "style-calibration-trio-fresh-feng-v02.png": {
+      "sha256": "52981cb05d1b203157c3e80d12822b134600393d2fda9ebc2d7b71dde76c45bf"
+    },
+    "style-calibration-amy-scott-wei-v04.png": {
+      "sha256": "3af4daadf4bf581b8df97d2bd51c3b6e1f9b3e4e13ab9f40d5e8be8728a6f3e9"
+    },
+    "lt-six-style-review-v03.png": {
+      "sha256": "8864c9533ef5837eb3f9c2fc0b273cd2a99d37ddff33bfd7afb59cce3a210400"
+    }
+  },
+  "layout": {
+    "top": [
+      "Jessica",
+      "Feng",
+      "Song"
+    ],
+    "bottom": [
+      "Amy",
+      "Scott",
+      "Wei"
+    ]
+  },
+  "scope": "Six character designs approved; video and eight-person cast are not complete.",
+  "cleanup": {
+    "recycled_intermediate_files": 101,
+    "removed_from_project_mib": 68.73,
+    "disposal": "Windows Recycle Bin; recoverable",
+    "original_photos_preserved": 6,
+    "approved_image_hashes_verified_after_cleanup": true,
+    "project_markdown_links_verified": true
+  }
+}

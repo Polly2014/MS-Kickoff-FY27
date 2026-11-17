@@ -1,0 +1,11 @@
+Reference: D:\git_workspace\www.polly.com\X-Workspace\MS-Kickoff-FY27\references\lt\style-calibration-trio-fresh-feng-input-v02.png
+Prompt file: D:\git_workspace\www.polly.com\X-Workspace\MS-Kickoff-FY27\prompts\style-calibration-trio-fresh-feng-v02.txt
+📁 Loading config from: D:\git_workspace\www.polly.com\.claude\skills\dream-painter\scripts\config.env
+🔗 Using endpoint: https://polly-ai-foundry-resource.cognitiveservices.azure.com/
+🚀 Using deployment: gpt-image-1.5
+🎨 Generating transformed image...
+   Size: 1536x1024
+   Prompt preview: Generate a NEW coherent THREE-person 3D animated movie cast lineup in one joint rendering. The input...
+✅ Saved: D:\git_workspace\www.polly.com\X-Workspace\MS-Kickoff-FY27\assets\characters\style-calibration-trio-fresh-feng-v02.png
+📦 File size: 2159 KB
+Saved requested resolution without the CLI 1200px downscale.

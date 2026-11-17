@@ -1,0 +1,56 @@
+{
+  "source": "style-calibration-amy-scott-wei-v01.png",
+  "output": "style-calibration-amy-scott-wei-v04.png",
+  "method": "Local gradient fabric trim only; no face edits or generative redraw",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "changed_pixels": 902,
+  "unchanged_outside_six_cuff_bands": true,
+  "faces_waistbands_trousers_shoes_unchanged": true,
+  "cuffs": [
+    {
+      "x_range": [
+        261,
+        287
+      ],
+      "edited_pixels": 119
+    },
+    {
+      "x_range": [
+        512,
+        538
+      ],
+      "edited_pixels": 126
+    },
+    {
+      "x_range": [
+        617,
+        649
+      ],
+      "edited_pixels": 151
+    },
+    {
+      "x_range": [
+        896,
+        937
+      ],
+      "edited_pixels": 194
+    },
+    {
+      "x_range": [
+        1017,
+        1044
+      ],
+      "edited_pixels": 129
+    },
+    {
+      "x_range": [
+        1295,
+        1335
+      ],
+      "edited_pixels": 184
+    }
+  ]
+}
