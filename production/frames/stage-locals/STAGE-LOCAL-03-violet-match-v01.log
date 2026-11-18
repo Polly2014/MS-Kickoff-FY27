@@ -1,0 +1,14 @@
+Reference: production\frames\continuity\KF-B-Scott-blueviolet-gpt-image-2-v01.png
+Prompt file: production\actual-prompts\STAGE-LOCAL-03-violet-match-v01.txt
+📁 Loading config from: D:\git_workspace\www.polly.com\.claude\skills\dream-painter\scripts\config.env
+🔗 Using endpoint: https://polly-ai-foundry-resource.cognitiveservices.azure.com/
+🚀 Using deployment: gpt-image-1.5
+Actual requested deployment: gpt-image-2
+Image 1: production\frames\continuity\KF-B-Scott-blueviolet-gpt-image-2-v01.png
+Image 2: production\frames\STAGE_MASTER-gpt-image-2-v02.png
+🎨 Generating transformed image...
+   Size: 2048x1152
+   Prompt preview: Use case: precise-object-edit. Produce ONE empty 16:9 background plate by removing Scott completely ...
+✅ Saved: production\frames\stage-locals\STAGE-LOCAL-03-violet-match-v01.png
+📦 File size: 2288 KB
+Saved requested resolution without the CLI 1200px downscale.

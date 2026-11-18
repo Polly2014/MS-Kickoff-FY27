@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-18",
+  "checks": [
+    "8 Python modules compile",
+    "5 selected references: dimensions, SHA, inputs, prompts, non-final log entries; Scott v03 active",
+    "3 approved originals and 3 HANDOFF SHA unchanged; 4 actual LibTV prompts equal v04 snapshots",
+    "9 upload folders: copied hashes match; only B_LAST / D_LAST absent in formal C / E",
+    "12 shots / 5 segments continuous 0-48 seconds; full timeline 60 seconds / 1800 frames; source ranges valid",
+    "2D preview decodes first/last frames: 1920x1080, 30 fps, 120 frames; temporary WAV 60 seconds",
+    "16 current Markdown documents: local links exist"
+  ],
+  "limitations": "No LibTV paid video launched; image API billing not queried; dynamic identity/geometry not yet verified."
+}

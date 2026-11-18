@@ -1,0 +1,596 @@
+# LibTV CLI 完整使用手册
+
+> 基于 LibTV CLI v1.1.1 官方文档整理，涵盖全部命令、节点类型、工作流、管道、错误处理。
+
+---
+
+## 一、概述
+
+LibTV CLI（`libtv`）是 LibTV 画布的命令行操作工具。在终端完整操作/运行画布、项目、节点、模型、素材。
+
+**术语**：
+- **画布（project）** = 真正的画布文件
+- **项目（workspace/工作区）** = 装画布的容器，一个项目下可放多张画布
+- **分组（group）** = 画布上的普通分组，用于组织节点
+
+**画布网页链接**：`https://www.liblib.tv/canvas?projectId=<画布UUID>`
+
+---
+
+## 二、安装与登录
+
+### 安装
+
+```bash
+# macOS / Linux
+chmod +x scripts/install-libtv-cli.sh
+./scripts/install-libtv-cli.sh
+
+# 默认安装到 ~/.libtv/libtv
+# 脚本会自动写入 shell profile 的 PATH
+```
+
+### 登录
+
+```bash
+# 方式1：浏览器登录
+libtv login web --open
+
+# 方式2：手机号登录（两步）
+libtv login phone -p 13800138000          # 发送验证码
+libtv login phone -p 13800138000 -c 123456  # 验证码完成登录
+```
+
+### 登出
+
+```bash
+libtv logout
+```
+
+### 环境变量
+
+| 变量 | 作用 |
+|------|------|
+| `LIBTV_CONFIG_DIR` | 凭据目录（默认 `~/.libtv`） |
+| `LIBTV_LOGIN_WEB_URL` | 整段覆盖登录前缀 |
+| `LIBTV_LOGIN_WEB_PATH` | 只改路径 |
+
+---
+
+## 三、命令总览
+
+| 命令 | 用途 |
+|------|------|
+| `libtv login` / `logout` | 登录/登出 |
+| `libtv account` | 多账户管理（info/list/use） |
+| `libtv workspace` | 项目/工作区（create/list/update/use/unuse） |
+| `libtv project` | 画布（create/list/update/use/unuse） |
+| `libtv node` | 画布节点（create/list/delete/默认查询更新） |
+| `libtv group` | 普通分组（list/create/use/unuse/默认） |
+| `libtv upload` | 上传本地文件为资源节点 |
+| `libtv download` | 下载节点资源到本地 |
+| `libtv image` | 图片节点 Slash 快捷 |
+| `libtv script` | 脚本节点（分镜图组） |
+| `libtv model` | 模型检索与 schema |
+
+---
+
+## 四、核心命令详解
+
+### 4.1 `libtv node` — 画布节点
+
+```bash
+# 查询节点
+libtv node "节点名"
+libtv node list
+libtv node list -g "分组名"
+
+# 创建节点（-t 必填）
+libtv node create "剧情" -t text --prompt "写一段旁白" --set "model=GVLM 3.1"
+
+# 一步到位：创建 + 连上游 + 触发生成
+libtv node create "剧情" -t text \
+  --prompt "根据参考图写一段分镜旁白" \
+  --set "model=GVLM 3.1" \
+  --left 参考图 \
+  --run
+
+# 更新生成参数（-s 写 data.params）
+libtv node "剧情" --set prompt="改后的提示" --set "model=GVLM 3.1" --run
+
+# 更新节点属性（-u 写 data 顶层）
+libtv node "剧情" -u content='["第一段","第二段"]'
+
+# 改展示名（用 --name，不要用 -u）
+libtv node "旧名" --name "新名"
+
+# 连线（确保/追加/移除）
+libtv node "下游" --left 上游A --left 上游B        # 确保（缺则补、多则剪）
+libtv node "下游" --left-add 新上游                  # 追加
+libtv node "下游" --left-rm 旧上游                   # 移除
+
+# 触发生成（同步阻塞等待终态）
+libtv node "剧情" --run
+```
+
+**关键选项**：
+
+| 选项 | 说明 |
+|------|------|
+| `-t, --type` | 节点类型（create 必填） |
+| `--prompt` | 提示词 |
+| `-s, --set key=value` | 生成参数（写 data.params，受 schema 校验） |
+| `-u, --update key=value` | 节点属性（写 data 顶层，不经校验） |
+| `--name` | 改展示名 |
+| `--left` / `--left-add` / `--left-rm` | 左侧入边（确保/追加/移除） |
+| `--right` / `--right-add` / `--right-rm` | 右侧出边 |
+| `--x` / `--y` | 画布坐标 |
+| `-r, --run` | 触发生成（同步等待） |
+| `-p, --project` | 画布UUID |
+| `-g, --group` | 父级分组 |
+
+**`-s` vs `-u` 核心区别**：
+
+| 维度 | `-s`（set） | `-u`（update） |
+|------|------------|----------------|
+| 写入位置 | `data.params.*` | `data.*` 顶层 |
+| 语义 | 生成器参数（怎么生成） | 节点属性（放什么内容） |
+| schema校验 | 严格校验 | 不校验 |
+| 典型用法 | `-s prompt=...` `-s model=...` | `-u content=...` `-u rows=...` |
+
+**prompt 占位符**：
+- `{{Node "节点名"}}` — 按展示名引用上游（推荐）
+- `{{Node <nodeKey>}}` — 按 nodeKey 引用（最稳妥）
+
+### 4.2 `libtv project` — 画布
+
+```bash
+# 新建画布
+libtv project create "第一集" -d "描述"
+
+# 列出画布
+libtv project list -p 1 -s 20
+libtv project list --name "分镜"
+
+# 绑定画布到当前目录
+libtv project use <画布UUID>
+
+# 解除绑定
+libtv project unuse
+
+# 查看画布详情
+libtv project
+libtv project <画布UUID>
+
+# 更新画布
+libtv project update <UUID> -n "新名称"
+```
+
+> ⚠️ `project list -p` 是**页码**，不是画布UUID；`node -p` 才是画布UUID。
+
+### 4.3 `libtv workspace` — 项目/工作区
+
+```bash
+# 新建项目
+libtv workspace create "我的短剧项目" -d "第一季"
+
+# 列出项目
+libtv workspace list
+
+# 绑定项目
+libtv workspace use <项目ID>
+
+# 解除绑定
+libtv workspace unuse
+```
+
+> `workspace use` 会清除画布绑定（projectUuid）和分组绑定（groupNodeKey）。
+
+### 4.4 `libtv group` — 普通分组
+
+```bash
+# 新建分组
+libtv group create "首集分镜"
+
+# 绑定分组
+libtv group use "首集分镜"
+
+# 幂等操作：有则查询/绑定，无则新建
+libtv group "首集分镜" --node 镜头A --node 镜头B
+
+# 查询组内子节点
+libtv group "首集分镜"
+
+# 整组触发生成
+libtv group "首集分镜" --run
+
+# 解除分组绑定
+libtv group unuse
+```
+
+### 4.5 `libtv upload` — 上传素材
+
+```bash
+# 上传图片
+libtv upload "参考图" -f ./refs/scene.png
+
+# 指定类型
+libtv upload "旁白音频" -t audio -f ./voice.m4a
+
+# 上传到指定分组
+libtv upload "图A" -f ./a.png -g "本镜资源组" --x 80 --y 40
+```
+
+### 4.6 `libtv script storyboard` — 生成分镜图组
+
+```bash
+# 先创建脚本节点并生成
+libtv node create "剧本" -t script --prompt "三幕结构，主角是一名侦探" --set "model=GVLM 3.1"
+libtv node "剧本" --run
+
+# 生成分镜图组
+libtv script storyboard "剧本"
+
+# 覆盖分镜图参数
+libtv script storyboard "剧本" -s "model=Seedream 4.0" -s aspectRatio=16:9
+```
+
+### 4.7 `libtv model` — 模型检索
+
+```bash
+# 搜索模型
+libtv model search qwen
+libtv model search --type image
+libtv model search --type video
+
+# 查看完整 schema
+libtv model qwen-3-vl-flash
+```
+
+### 4.8 `libtv image shortcut` — 图片 Slash 快捷
+
+```bash
+# 列出可用 Slash
+libtv image shortcut list
+
+# 执行 Slash
+libtv image shortcut "多机位九宫格" -n "参考图"
+```
+
+---
+
+## 五、节点类型详解
+
+### 5.1 支持的节点类型
+
+| 类型 | `-t` | 用途 |
+|------|------|------|
+| `text` | ✅ | 文本生成（旁白/剧情/多模态转换） |
+| `image` | ✅ | 图片生成（文生图/图生图） |
+| `video` | ✅ | 视频生成（文生/图生/混合） |
+| `audio` | ✅ | 音频生成（配音/BGM） |
+| `script` | ✅ | 脚本/分镜表 |
+| `storyboard` | ✅ | 分镜表（与script共用数据结构） |
+| `video-clip` | ✅ | 视频合成/时间线剪辑 |
+
+### 5.2 text — 文本节点
+
+```bash
+# 基础创建
+libtv node create "旁白" -t text --prompt "写一段独白" --set "model=GVLM 3.1" --set count=1
+
+# 图生文（多模态）
+libtv node create "图文" -t text -s modeType=image2text -s "model=qwen-3-vl-flash" --left 图片节点 --run
+
+# 回写内容
+libtv node "旁白" -u content='["你好世界","第二段"]'
+```
+
+### 5.3 image — 图片节点
+
+```bash
+# 文生图
+libtv node create "概念图" -t image --prompt "赛博朋克街景" \
+  --set "model=LibNano Pro" --set ratio=16:9 --set quality=2K --run
+
+# 图生图
+libtv node create "风格转换" -t image -s modeType=image2image --left 参考图 --run
+```
+
+**常用参数**：`ratio`（16:9/9:16/1:1）、`quality`（1K/2K/4K）、`searchable`（联网开关）、`modeType`（image2image）
+
+### 5.4 video — 视频节点
+
+```bash
+# 文生视频
+libtv node create "镜头A" -t video --prompt "无人机掠过海面" \
+  --set "model=Seedance 2.0" --set modeType=text2video \
+  --set ratio=16:9 --set duration=5 --run
+
+# 图生视频
+libtv node create "镜头B" -t video -s modeType=singleImage2video --left 参考图 --run
+
+# 混合模式（多图+文）
+libtv node create "镜头C" -t video --prompt "..." \
+  --set modeType=mixed2video --left 图1 --left 图2 --run
+```
+
+**modeType 枚举**：
+
+| 值 | 说明 |
+|----|------|
+| `text2video` | 文生视频 |
+| `singleImage2video` | 单图生视频 |
+| `frames2video` | 首尾帧 |
+| `image2video` | 图片参考 |
+| `video2video` | 视频参考 |
+| `audio2video` | 音频驱动 |
+| `mixed2video` | 全能参考 |
+
+**常用参数**：`ratio`、`resolution`（480p/720p/1080P）、`duration`（秒）、`enableSound`（on/off）
+
+### 5.5 audio — 音频节点
+
+```bash
+# 语音配音
+libtv node create "配音" -t audio --prompt "沉稳男声" \
+  --set "model=Eelven V3" --set voice=音色ID --set stability=0.5 --run
+
+# 纯乐器BGM
+libtv node create "片尾曲" -t audio --prompt "弦乐渐强" \
+  --set "model=Mureka V8" --set instrumental=1 --run
+```
+
+### 5.6 script — 脚本节点
+
+```bash
+# 创建并生成
+libtv node create "剧本" -t script --prompt "三幕结构" --set "model=GVLM 3.1" --run
+
+# 手工写分镜行
+libtv node "剧本" -u rows='[{"shotNumber":1,"durationSeconds":5,"plotDescription":"开场","imageGenerationPrompt":"城市全景","videoMotionPrompt":"缓慢推进"}]'
+
+# 生成分镜图组
+libtv script storyboard "剧本"
+```
+
+**rows[*] 核心字段**：
+
+| 字段 | 说明 |
+|------|------|
+| `shotNumber` | 镜号 |
+| `durationSeconds` | 时长（秒） |
+| `plotDescription` | 画面描述 |
+| `characters` | 角色数组（characterName/characterDescription/characterImageUrl） |
+| `shotSize` | 景别（特写/近景/中景/全景/远景） |
+| `emotion` | 情绪 |
+| `lightingAndAtmosphere` | 光影氛围 |
+| `audioEffects` | 音效 |
+| `dialogue` | 台词 |
+| `imageGenerationPrompt` | **核心**：分镜画面生成提示词 |
+| `videoMotionPrompt` | **核心**：视频运动提示词 |
+
+### 5.7 video-clip — 视频合成
+
+```bash
+# 简单拼接（连上游后直接run）
+libtv node create "合成" -t video-clip --left 视频1 --left-add 视频2 --run
+
+# 精细剪辑
+libtv node "合成" -u clipTimelineData='{"clips":[{"sourceNodeId":"node-1","type":"video","startTime":0,"duration":3,"sourceOffset":1,"sourceDuration":3}],"videoAudioVolume":0.8}'
+libtv node "合成" --run
+```
+
+---
+
+## 六、模型 Schema 结构
+
+### 6.1 properties — 参数定义
+
+| 子字段 | 含义 |
+|--------|------|
+| `displayName` | 展示名 |
+| `default` | 默认值 |
+| `enum` | 可选值 |
+| `component` | 控件类型（switch/slider/input） |
+| `originalField` | 写入 params 时的键名 |
+
+### 6.2 modeType.items — 入边数量限制
+
+```json
+"modeType": {
+  "items": {
+    "image2video": [1, 9],   // 最少1张，最多9张
+    "image2text": [0, 7]
+  }
+}
+```
+
+### 6.3 rules — 生成校验
+
+```json
+// 示例：视频需要 prompt 或 media
+"rules": [
+  { "require": ["prompt", "media"], "mode": "any" },
+  { "require": ["prompt"], "forModeTypes": ["text2video"] }
+]
+```
+
+| require类型 | 满足条件 |
+|------------|---------|
+| `prompt` | 提示词非空 |
+| `image` | 有参考图 |
+| `video`/`audio` | 对应列表非空 |
+| `media` | 图片/视频/音频任一存在 |
+
+---
+
+## 七、管道（NDJSON）
+
+### 7.1 核心概念
+
+```bash
+# 上游 stdout 吐 NDJSON，下游 stdin 读取 nodeKey
+libtv node "上游" | libtv node "下游"
+
+# 多上游串联
+(libtv node "上游甲" && libtv node "上游乙") | libtv node "下游"
+# 等价于 libtv node "下游" --left 上游甲 --left 上游乙
+
+# 新建上游并管道给下游
+(
+  libtv node create "选题" -t text --prompt "..." --set "model=GVLM 3.1" &&
+  libtv node create "主KV" -t image --prompt "..." --set "model=LibNano Pro"
+) | libtv node create "拼图" -t image --prompt "..." --set modeType=image2image
+```
+
+### 7.2 stdout/stderr 分工
+
+| 流 | 内容 |
+|----|------|
+| stdout | 业务结果 JSON/NDJSON |
+| stderr | 进度、上传百分比、生成轮询（前缀 `[run]`/`[upload]`） |
+
+### 7.3 管道规则
+
+- 用 `&&` 不用 `;`（左侧失败则停）
+- 用 `set -euo pipefail` 确保失败不被吞
+- 不要并行 `&` 写同一管道
+- `>/dev/null` 抑制 stdout（不要在需要传 nodeKey 的地方用）
+
+---
+
+## 八、完整工作流示例
+
+### 8.1 从零开始：建项目到生成视频
+
+```bash
+set -euo pipefail
+
+# 1. 新建项目
+WS=$(libtv workspace create "我的短剧" -d "第一季" | jq -r '.workspaceId')
+libtv workspace use "$WS"
+
+# 2. 新建画布
+EP=$(libtv project create "第一集" | jq -r '.uuid')
+libtv project use "$EP"
+
+# 3. 上传参考图
+libtv upload "参考图" -t image --resource ./refs/scene.png
+
+# 4. 创建文本节点 + 连上游 + 生成
+libtv node create "剧情" -t text \
+  --prompt "根据参考图写一段分镜旁白" \
+  --set "model=GVLM 3.1" \
+  --left 参考图 --run
+
+# 5. 创建图片节点
+libtv node create "概念图" -t image \
+  --prompt "赛博朋克街景" \
+  --set "model=LibNano Pro" --set ratio=16:9 --set quality=2K \
+  --left 参考图 --run
+
+# 6. 创建视频节点
+libtv node create "镜头A" -t video \
+  --prompt "无人机掠过海面" \
+  --set "model=Seedance 2.0" --set modeType=singleImage2video \
+  --set ratio=16:9 --set duration=5 \
+  --left 概念图 --run
+
+# 7. 建分组并整组触发
+libtv group create "首集分镜"
+libtv group use "首集分镜"
+libtv group "首集分镜" --node 剧情 --node 概念图 --node 镜头A
+libtv group "首集分镜" --run
+```
+
+### 8.2 分镜脚本全流程
+
+```bash
+# 1. 创建脚本节点并生成
+libtv node create "剧本" -t script \
+  --prompt "一个科幻短片，三幕结构" \
+  --set "model=GVLM 3.1" --run
+
+# 2. 生成分镜图组
+libtv script storyboard "剧本" \
+  -s "model=Seedream 4.0" -s aspectRatio=16:9
+
+# 3. 基于分镜图生成视频
+libtv node create "镜头01" -t video \
+  --prompt "第一镜画面" \
+  --set modeType=singleImage2video \
+  --left 分镜图01 --run
+```
+
+### 8.3 复杂DAG（嵌套管道）
+
+```bash
+set -euo pipefail
+
+(
+  (
+    libtv node create "选题" -t text \
+      --prompt "60s短视频脚本" \
+      --set "model=GVLM 3.1" &&
+    libtv node create "主KV" -t image \
+      --prompt "竖版主KV" \
+      --set "model=LibNano Pro" --set ratio=9:16
+  ) | libtv node create "拼图" -t image \
+      --prompt "拼合选题与主KV" \
+      --set "model=LibNano Pro" --set modeType=image2image
+) && libtv node create "BGM" -t audio \
+    --prompt "轻快背景音乐" \
+    --set "model=Mureka V8" --set instrumental=1
+
+# 最终合成
+{
+  libtv node "拼图"
+  libtv node "BGM"
+} | libtv node create "终剪" -t video-clip \
+    --prompt "硬切对齐" >/dev/null
+```
+
+---
+
+## 九、常见错误速查
+
+| 错误 | 原因 | 解决 |
+|------|------|------|
+| `401` / `AUTH_*` | 凭据过期 | `libtv login` 重新登录 |
+| `PROJECT_NOT_BOUND` | 未绑定画布 | `libtv project use <UUID>` |
+| `-u params.*` 被拒 | -u 不能写生成参数 | 改用 `--set` |
+| `-u type=...` 被拒 | 类型不可变更 | 删除重建 |
+| `--left` + `--left-add` 冲突 | 同命令只允许一种模式 | 统一用一种 |
+| `--set` schema 拒绝 | 键不属于当前类型 | `libtv model search --type <类型>` 查可用键 |
+| `node create` 不接受 `--name` | 显示名由位置参数承载 | `libtv node create "显示名"` |
+| `invalid json on line N` | 管道上游混了并行 `&` | 改串行 `&&` |
+| `set -e` 静默跑完结果不全 | 缺 `-o pipefail` | 补 `set -o pipefail` |
+| `modeType` 参考图越界 | 超过 items 上限 | 减少参考图或换 modeType |
+| `-s model=` 报错 | 传了 modelKey | 改传 modelName（如 `"GVLM 3.1"`） |
+
+---
+
+## 十、目录绑定文件 `.libtv/project.json`
+
+```json
+{
+  "projectUuid": "画布UUID",
+  "workspaceId": "项目ID",
+  "teamId": "团队ID",
+  "groupNodeKey": "默认分组"
+}
+```
+
+| 操作 | 影响 |
+|------|------|
+| `project use` | 写 projectUuid + workspaceId + teamId，清 groupNodeKey |
+| `project unuse` | 删除整个文件 |
+| `workspace use` | 写 workspaceId + teamId，清 projectUuid + groupNodeKey |
+| `workspace unuse` | 清 workspaceId + teamId（保留画布绑定如有） |
+| `group use` | 写 groupNodeKey |
+| `group unuse` | 清 groupNodeKey |
+
+---
+
+*本手册基于 LibTV CLI v1.1.1 官方文档整理，涵盖全部命令、节点类型、工作流、管道协议和错误处理。*

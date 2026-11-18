@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-18",
+  "status": "completed",
+  "node_id": "v-mkFVjwxt8O",
+  "node_title": "TEST-B-Feng到Scott-蓝紫局部-15s-Wan3-480P-v01",
+  "canvas_url": "https://www.liblib.tv/canvas?spaceId=16349996&projectId=a955aae8171f4a67b8bc47f6142d931d",
+  "source_node": "v-qFpcETQeIX",
+  "model": "Wan 3.0",
+  "mode": "全能参考",
+  "aspect_ratio": "16:9",
+  "resolution": "480P",
+  "duration_seconds": 15,
+  "quantity": 1,
+  "audio": false,
+  "smart_expansion": true,
+  "auto_link": false,
+  "quoted_credits": 60,
+  "balance_before": 3436,
+  "actual_credits": 60,
+  "balance_after": 3376,
+  "references": [
+    {
+      "label": "图片 1",
+      "node": "i-T5wV1cDMWG"
+    },
+    {
+      "label": "图片 2",
+      "node": "i-rT6OBZqneE"
+    },
+    {
+      "label": "图片 3",
+      "node": "i-OeWdbiLoT2"
+    },
+    {
+      "label": "图片 4",
+      "node": "i-e1Zmtro5VV"
+    },
+    {
+      "label": "图片 5",
+      "node": "i-ZVD1cX5WEo"
+    }
+  ],
+  "prompt_file": "actual-prompts/TEST-B-Feng-Scott-v01.txt",
+  "prompt_ui_file": "actual-prompts/TEST-B-Feng-Scott-v01-ui.json",
+  "stage_master": "frames/STAGE_MASTER-gpt-image-2-v02.png",
+  "stage_master_usage": "Design reference in dream-painter keyframe; full overview not supplied to video",
+  "output_file": null,
+  "used_in_final": false,
+  "download_status": "pending_browser_download_timeout",
+  "output_url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/c3504e8ca6c64c5692c4159bed95e177/7515206882e90ccc01f01b95b5c4067b542e2cf7c7ecaff2be5d4bb0ba79f643.mp4",
+  "media_observed": {
+    "duration_seconds": 15,
+    "width": 854,
+    "height": 480,
+    "source": "visible page video DOM"
+  },
+  "review_status": "browser_spot_check_only",
+  "review_frames": [
+    {
+      "time_seconds": 4.003554,
+      "file": "previews/TEST-B-Feng-Scott-v01-browser-4s.jpg",
+      "observation": "Feng full body on blue-violet stage"
+    },
+    {
+      "time_seconds": 9.99746,
+      "file": "previews/TEST-B-Feng-Scott-v01-browser-10s.jpg",
+      "observation": "Foot close-up"
+    },
+    {
+      "time_seconds": 14.504878,
+      "file": "previews/TEST-B-Feng-Scott-v01-browser-14p5s.jpg",
+      "observation": "Scott full body, head and shoes visible"
+    }
+  ],
+  "review_limitations": [
+    "Sparse browser screenshots do not verify dance speed or full temporal consistency.",
+    "A-to-B cut and 27s combined review remain pending local download.",
+    "Real @ bindings are references; exact first/last-frame adherence is not verified."
+  ],
+  "generation_count": 1
+}

@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-18",
+  "balance": 3726,
+  "paid_B": 880,
+  "quotes_observed_UI": [
+    {
+      "model": "Seedance 2.5",
+      "resolution": "720P",
+      "seconds": 8,
+      "credits": 368
+    },
+    {
+      "model": "Seedance 2.5",
+      "resolution": "720P",
+      "seconds": 30,
+      "credits": 1380
+    },
+    {
+      "model": "Seedance 2.5",
+      "resolution": "1080P",
+      "seconds": 30,
+      "credits": 3300
+    }
+  ],
+  "conditions": "16:9, one video, audio off, same three reference images; price check only; no task submitted; B editor restored to 1080P 8s",
+  "remaining_story_seconds": 40,
+  "scenarios": [
+    {
+      "name": "remaining all SD25 1080P",
+      "estimated_additional": 4400,
+      "balance_after": -674
+    },
+    {
+      "name": "remaining all SD25 720P",
+      "estimated_additional": 1840,
+      "balance_after": 1886
+    },
+    {
+      "name": "remaining A/C/D 28s SD25 720P plus E 12s SD25 1080P",
+      "estimated_additional": 2608,
+      "balance_after": 1118
+    }
+  ],
+  "caveat": "Scenario estimates assume same per-second quote for each new task, one successful run each. Music, upscale and retries excluded. Flash current quotation not checked."
+}

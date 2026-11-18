@@ -1,0 +1,56 @@
+[
+  {
+    "asset_id": "HANDOFF-stage-gpt-image-2-v01",
+    "requested_deployment": "gpt-image-2",
+    "mode": "reference image edit",
+    "quality": "high",
+    "size": [
+      2048,
+      1152
+    ],
+    "inputs": [
+      "../assets/stage/copilot-logo-stage-overview-v01.png"
+    ],
+    "prompt": "actual-prompts/HANDOFF-stage-gpt-image-2-v01.txt",
+    "output": "frames/HANDOFF-stage-gpt-image-2-v01.png",
+    "sha256": "7dded4401fe2f8b4959cba20a4fb94d6d2a8a3acca250e63469ca7b1c9f6a43b",
+    "status": "trial; not approved final"
+  },
+  {
+    "asset_id": "HANDOFF-jessica-gpt-image-2-v01",
+    "requested_deployment": "gpt-image-2",
+    "mode": "reference image edit",
+    "quality": "high",
+    "size": [
+      2048,
+      1152
+    ],
+    "inputs": [
+      "frames/HANDOFF-stage-gpt-image-2-v01.png",
+      "../assets/characters/production-pack/jessica/jessica-front-v01.png"
+    ],
+    "prompt": "actual-prompts/HANDOFF-jessica-gpt-image-2-v01.txt",
+    "output": "frames/HANDOFF-jessica-gpt-image-2-v01.png",
+    "sha256": "de08474831cc84ed2f686a1e1210d8e6ff14f197b679fc9905a444f1fc58bdfc",
+    "status": "trial; not approved final"
+  },
+  {
+    "asset_id": "HANDOFF-feng-gpt-image-2-v01",
+    "requested_deployment": "gpt-image-2",
+    "mode": "reference image edit",
+    "quality": "high",
+    "size": [
+      2048,
+      1152
+    ],
+    "inputs": [
+      "frames/HANDOFF-stage-gpt-image-2-v01.png",
+      "../assets/characters/production-pack/feng/feng-front-v01.png",
+      "frames/HANDOFF-jessica-gpt-image-2-v01.png"
+    ],
+    "prompt": "actual-prompts/HANDOFF-feng-gpt-image-2-v01.txt",
+    "output": "frames/HANDOFF-feng-gpt-image-2-v01.png",
+    "sha256": "fb3add1f5f3fed1a623012adacb0c2438d8027e5f2ae6fdb6abe77874fe6bb40",
+    "status": "trial; not approved final"
+  }
+]

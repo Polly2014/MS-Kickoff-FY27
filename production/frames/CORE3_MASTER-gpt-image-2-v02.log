@@ -1,0 +1,16 @@
+Reference: production\frames\GROUP_LOCAL-gpt-image-2-v02.png
+Prompt file: production\actual-prompts\CORE3_MASTER-gpt-image-2-v01.txt
+📁 Loading config from: D:\git_workspace\www.polly.com\.claude\skills\dream-painter\scripts\config.env
+🔗 Using endpoint: https://polly-ai-foundry-resource.cognitiveservices.azure.com/
+🚀 Using deployment: gpt-image-1.5
+Actual requested deployment: gpt-image-2
+Image 1: production\frames\GROUP_LOCAL-gpt-image-2-v02.png
+Image 2: production\reference-uploads\characters\jessica-front-v01-q95.jpg
+Image 3: production\reference-uploads\characters\feng-front-v01-q95.jpg
+Image 4: production\reference-uploads\characters\scott-front-v01-q95.jpg
+🎨 Generating transformed image...
+   Size: 2048x1152
+   Prompt preview: Edit Image 1, the selected local group scene, into a THREE-person version for an earlier point in th...
+✅ Saved: production\frames\CORE3_MASTER-gpt-image-2-v02.png
+📦 File size: 2619 KB
+Saved requested resolution without the CLI 1200px downscale.

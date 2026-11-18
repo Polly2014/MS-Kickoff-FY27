@@ -1,0 +1,375 @@
+ASSET: CHARACTER-new
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\CHARACTER-new.txt
+
+用途：为已确认的六人3D卡通舞团补齐一位真实对应角色。人物名：[替换为Zhuoying或Michael]。人物照片只提供该人的身份与外貌；六人定稿图只提供统一的卡通程度、头身比例、服装、材质和灯光，不复制六人中任何一张脸。保留该人物照片中最有辨识度的发型、眼镜、脸型与微笑，制作亲切、自信的成年卡通人物，不改成儿童，不追求写实皮肤。队服为深蓝短夹克、白色圆领衫，双袖口与腰边有一条窄的青蓝紫渐变饰边，纯深蓝长裤，裤脚无彩边，白色低帮鞋。单人正面全身，完整头部与双鞋，手臂自然下垂略离身体，双脚站稳。2:3竖幅，浅冷灰纯净背景与轻接触阴影。只输出一个人物，没有标题、标注、多视图、重复身体、道具或其他人物。身份相似度和既定风格优先于新设计。
+
+
+========================================================================
+
+ASSET: GROUP-layout
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\GROUP-layout.txt
+
+用途：制作同一座Copilot Logo舞台的六人站位主图，作为后续群舞与揭示的共同空间依据。16:9横屏，至少1920×1080，优先更高分辨率。以已提供的空舞台为唯一几何与材质依据，保持整体轮廓、前后交叠、厚度、渐变分布和中心留白，禁止改成无限符号、莫比乌斯环、螺旋或其他图标。六张人物参考图分别对应Jessica、Feng、Scott、Song、Amy、Renwei，按实际上传引用明确对应，禁止互换身份或复制人物。高位斜俯视，完整舞台占画面宽度约75%，四周留深蓝负空间。群舞采用相对主镜头的1＋2＋3浅箭头队形：Feng在最靠镜头的前排中央；Jessica在第二排画面左侧，Scott在第二排右侧；Song、Amy、Renwei从画面左到右在第三排错位展开。所有人必须站在既有Logo的可见实面，避开中心留白与陡坡；在实面范围内调整间距，不为队形新增平台或改变外轮廓。六人全景确认后才能从它衍生S10较低机位；S07先展示同一布局中的核心三人，后排三人尚不入画。每位角色站在可见实面，面向摄像机方向，脸和鞋不互相遮挡，不站在中心留白，不把脚放在陡坡上。跳舞位置可局部平缓，但不得改变外轮廓。六位均保持既定3D卡通脸型、眼镜、发型、头身比例与深蓝渐变饰边队服。所有人准备左右踏步的自然姿势，柔和面部主光，克制青紫轮廓光。画面严格六人，无其他角色、观众、文字、水印、额外平台或桥梁。
+
+
+========================================================================
+
+ASSET: MUSIC-main
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\MUSIC-main.txt
+
+生成一首原创纯器乐电子Funk舞曲，用于温暖、有反差、积极自信的团队卡通舞蹈短片。120 BPM，4/4拍，清晰稳定的四拍鼓组，弹性贝斯、轻快切分吉他、少量明亮合成器；不模仿已有歌曲，无人声、无唱词、无口号、无对白。连续统一音乐，不切换流派。目标60秒：0–4秒脚步感打击乐与鼓点前奏；4–16秒加入贝斯和吉他；16–32秒逐层增加声部，适合人物接力；32–40秒上升蓄力；40秒强拍进入明亮高潮并持续到48秒；48–59秒轻柔器乐尾奏；59–60秒自然收束。每2秒形成清楚小节边界，适合后期剪辑卡点。若无法精确60秒，提供更长完整版本供剪辑，不要在句中突然结束。
+
+
+========================================================================
+
+ASSET: S01-image
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S01-image.txt
+
+用途：本片视频首帧，不是拼贴分镜。生成一张16:9横屏、至少1920×1080的统一3D卡通电影画面。只参考所上传人物图中的人物身份、头身比例和队服，不继承其白底；舞台图只约束材质、配色和几何。保持已定稿的脸、发型、眼镜；深蓝短夹克、白色圆领衫、双袖口和腰边窄渐变饰边、纯深蓝裤、白鞋。深蓝演播空间、柔和面部主光、克制的青紫轮廓光，地面为巨大Copilot折叠彩带的一部分。脚与带面真实接触，跳舞区平缓。无文字、水印、额外人物或道具，不改变Logo整体拓扑，不让人站在中心留白。
+素材对应：Jessica＝人物参考图1。
+景别与机位：低位脚部特写；机位朝彩带右侧，完整 Logo 不入画。
+区域：蓝青色平缓带面，只有局部地面。
+画面：只出现 Jessica 的双脚与少量小腿，白鞋完整，双脚站在蓝青色平缓带面上，脚边短光纹，画面上部留出片头字空间；不要在图中生成文字。
+
+
+========================================================================
+
+ASSET: S01-video
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S01-video.txt
+
+以上传的单张首帧为起始画面，保持人物身份、脸型、发型、眼镜、头身比例、服装、舞台材质和光线一致。统一3D卡通电影质感，轻快自信的原创电子Funk舞蹈气质。单镜头，不自动切镜；不说话、不唱歌，不在视频内生成字幕。人物不变脸、不互换、不复制，肢体数量正常，鞋贴地，不穿透。此镜的音乐后期统一铺设，不依赖模型自带配乐。
+此镜人物：Jessica，共1位。
+镜头：低位脚部特写；机位朝彩带右侧，完整 Logo 不入画。
+本次源片段5秒，动作：0–1秒双脚站稳；1–3秒左右轻点两次，随落脚出现两圈短光纹；3–5秒彩光沿地面向画面右侧流动，镜头微微抬升但不露出整个舞台。
+
+
+========================================================================
+
+ASSET: S02-image
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S02-image.txt
+
+用途：本片视频首帧，不是拼贴分镜。生成一张16:9横屏、至少1920×1080的统一3D卡通电影画面。只参考所上传人物图中的人物身份、头身比例和队服，不继承其白底；舞台图只约束材质、配色和几何。保持已定稿的脸、发型、眼镜；深蓝短夹克、白色圆领衫、双袖口和腰边窄渐变饰边、纯深蓝裤、白鞋。深蓝演播空间、柔和面部主光、克制的青紫轮廓光，地面为巨大Copilot折叠彩带的一部分。脚与带面真实接触，跳舞区平缓。无文字、水印、额外人物或道具，不改变Logo整体拓扑，不让人站在中心留白。
+素材对应：Jessica＝人物参考图1。
+景别与机位：眼平略低的单人全身，人物约占画面高度70%，脸清楚，头鞋不裁切。
+区域：同一蓝青色平缓带面。
+画面：Jessica 一人面向镜头站稳，双脚自然分开，双手放松，保持定稿发型、红色矩形眼镜与亲切笑容；身后只有彩带局部。
+
+
+========================================================================
+
+ASSET: S02-video
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S02-video.txt
+
+以上传的单张首帧为起始画面，保持人物身份、脸型、发型、眼镜、头身比例、服装、舞台材质和光线一致。统一3D卡通电影质感，轻快自信的原创电子Funk舞蹈气质。单镜头，不自动切镜；不说话、不唱歌，不在视频内生成字幕。人物不变脸、不互换、不复制，肢体数量正常，鞋贴地，不穿透。此镜的音乐后期统一铺设，不依赖模型自带配乐。
+此镜人物：Jessica，共1位。
+镜头：眼平略低的单人全身，人物约占画面高度70%，脸清楚，头鞋不裁切。
+本次源片段5秒，动作：0–1秒轻压肩部；1–3秒左右踏步，重心自然；3–4秒将右手舒展地向画面右侧打开；4–5秒准备侧移但不离开镜头。镜头轻微向右横移。
+
+
+========================================================================
+
+ASSET: S03-image
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S03-image.txt
+
+用途：本片视频首帧，不是拼贴分镜。生成一张16:9横屏、至少1920×1080的统一3D卡通电影画面。只参考所上传人物图中的人物身份、头身比例和队服，不继承其白底；舞台图只约束材质、配色和几何。保持已定稿的脸、发型、眼镜；深蓝短夹克、白色圆领衫、双袖口和腰边窄渐变饰边、纯深蓝裤、白鞋。深蓝演播空间、柔和面部主光、克制的青紫轮廓光，地面为巨大Copilot折叠彩带的一部分。脚与带面真实接触，跳舞区平缓。无文字、水印、额外人物或道具，不改变Logo整体拓扑，不让人站在中心留白。
+素材对应：Jessica＝人物参考图1。
+景别与机位：全身侧向跟拍，始终向画面右侧运动。
+区域：蓝青带面通向蓝紫弯道。
+画面：Jessica 位于画面左三分之一，脚已站稳，身子微向右侧移，前方蓝青彩带向右弯曲；画面右侧有可掠过镜头的近景彩带边缘。
+
+
+========================================================================
+
+ASSET: S03-video
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S03-video.txt
+
+以上传的单张首帧为起始画面，保持人物身份、脸型、发型、眼镜、头身比例、服装、舞台材质和光线一致。统一3D卡通电影质感，轻快自信的原创电子Funk舞蹈气质。单镜头，不自动切镜；不说话、不唱歌，不在视频内生成字幕。人物不变脸、不互换、不复制，肢体数量正常，鞋贴地，不穿透。此镜的音乐后期统一铺设，不依赖模型自带配乐。
+此镜人物：Jessica，共1位。
+镜头：全身侧向跟拍，始终向画面右侧运动。
+本次源片段5秒，动作：0–1.5秒 Jessica 轻压重心准备；1.5–3.5秒向画面右侧舒展侧滑，白鞋贴地短滑，彩光跟随脚下；3.5–5秒她滑出右边缘，镜头追随光进入彩带弯道，近景彩带边缘掠过镜头。不要变脸、不要出现第二人。
+
+
+========================================================================
+
+ASSET: S04-image
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S04-image.txt
+
+用途：本片视频首帧，不是拼贴分镜。生成一张16:9横屏、至少1920×1080的统一3D卡通电影画面。只参考所上传人物图中的人物身份、头身比例和队服，不继承其白底；舞台图只约束材质、配色和几何。保持已定稿的脸、发型、眼镜；深蓝短夹克、白色圆领衫、双袖口和腰边窄渐变饰边、纯深蓝裤、白鞋。深蓝演播空间、柔和面部主光、克制的青紫轮廓光，地面为巨大Copilot折叠彩带的一部分。脚与带面真实接触，跳舞区平缓。无文字、水印、额外人物或道具，不改变Logo整体拓扑，不让人站在中心留白。
+素材对应：Feng＝人物参考图1。
+景别与机位：单人全身中景，向右轻跟拍后停稳。
+区域：相邻蓝紫平缓带面，与 S03 弯道保持材质和方向。
+画面：Feng 一人位于画面左侧，双脚已在彩带上，身体朝右准备短滑；前方是宽阔平缓的蓝紫区域。与 S03 同向、相近机位高度。
+
+
+========================================================================
+
+ASSET: S04-video
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S04-video.txt
+
+以上传的单张首帧为起始画面，保持人物身份、脸型、发型、眼镜、头身比例、服装、舞台材质和光线一致。统一3D卡通电影质感，轻快自信的原创电子Funk舞蹈气质。单镜头，不自动切镜；不说话、不唱歌，不在视频内生成字幕。人物不变脸、不互换、不复制，肢体数量正常，鞋贴地，不穿透。此镜的音乐后期统一铺设，不依赖模型自带配乐。
+此镜人物：Feng，共1位。
+镜头：单人全身中景，向右轻跟拍后停稳。
+本次源片段5秒，动作：0–0.5秒 Feng 在左侧准备；0.5–1.5秒顺势向画面右侧短滑至中间；1.5–2.5秒踩拍站稳，抬头微笑；2.5–5秒接轻微肩部律动，保持脸清楚。
+
+
+========================================================================
+
+ASSET: S05-image
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S05-image.txt
+
+用途：本片视频首帧，不是拼贴分镜。生成一张16:9横屏、至少1920×1080的统一3D卡通电影画面。只参考所上传人物图中的人物身份、头身比例和队服，不继承其白底；舞台图只约束材质、配色和几何。保持已定稿的脸、发型、眼镜；深蓝短夹克、白色圆领衫、双袖口和腰边窄渐变饰边、纯深蓝裤、白鞋。深蓝演播空间、柔和面部主光、克制的青紫轮廓光，地面为巨大Copilot折叠彩带的一部分。脚与带面真实接触，跳舞区平缓。无文字、水印、额外人物或道具，不改变Logo整体拓扑，不让人站在中心留白。
+素材对应：Feng＝人物参考图1。
+景别与机位：单人全身，低幅横移，不绕到背后。
+区域：同一蓝紫平缓区域。
+画面：Feng 面向镜头，双脚站稳，手臂放松，姿态和 S04 落脚后衔接，保持全部定稿特征。
+
+
+========================================================================
+
+ASSET: S05-video
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S05-video.txt
+
+以上传的单张首帧为起始画面，保持人物身份、脸型、发型、眼镜、头身比例、服装、舞台材质和光线一致。统一3D卡通电影质感，轻快自信的原创电子Funk舞蹈气质。单镜头，不自动切镜；不说话、不唱歌，不在视频内生成字幕。人物不变脸、不互换、不复制，肢体数量正常，鞋贴地，不穿透。此镜的音乐后期统一铺设，不依赖模型自带配乐。
+此镜人物：Feng，共1位。
+镜头：单人全身，低幅横移，不绕到背后。
+本次源片段5秒，动作：0–1秒轻压肩部；1–3秒左右踏步并做一小段手臂波浪；3–4秒向画面右侧开手，将彩光交给 Scott 所在方向；4–5秒收手并保持律动。
+
+
+========================================================================
+
+ASSET: S06-image
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S06-image.txt
+
+用途：本片视频首帧，不是拼贴分镜。生成一张16:9横屏、至少1920×1080的统一3D卡通电影画面。只参考所上传人物图中的人物身份、头身比例和队服，不继承其白底；舞台图只约束材质、配色和几何。保持已定稿的脸、发型、眼镜；深蓝短夹克、白色圆领衫、双袖口和腰边窄渐变饰边、纯深蓝裤、白鞋。深蓝演播空间、柔和面部主光、克制的青紫轮廓光，地面为巨大Copilot折叠彩带的一部分。脚与带面真实接触，跳舞区平缓。无文字、水印、额外人物或道具，不改变Logo整体拓扑，不让人站在中心留白。
+素材对应：Scott＝人物参考图1。
+景别与机位：单人全身中景，微向右横移后稳定，脸清楚。
+区域：与蓝紫带面相邻的金橙平缓区。
+画面：画面只有 Scott，面向镜头站稳，保持定稿头发、矩形眼镜与队服；脚下彩光由左进入，背景只有局部彩带。Jessica 与 Feng 均不入画。
+
+
+========================================================================
+
+ASSET: S06-video
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S06-video.txt
+
+以上传的单张首帧为起始画面，保持人物身份、脸型、发型、眼镜、头身比例、服装、舞台材质和光线一致。统一3D卡通电影质感，轻快自信的原创电子Funk舞蹈气质。单镜头，不自动切镜；不说话、不唱歌，不在视频内生成字幕。人物不变脸、不互换、不复制，肢体数量正常，鞋贴地，不穿透。此镜的音乐后期统一铺设，不依赖模型自带配乐。
+此镜人物：Scott，共1位。
+镜头：单人全身中景，微向右横移后稳定，脸清楚。
+本次源片段5秒，动作：0–1秒 Scott 轻踏一步接住彩光；1–3秒左右踏步并做短手臂波浪；3–4秒向画面左侧开手回应已经出场的两位；4–5秒收手继续律动。至少2秒清楚认脸，不安排长滑行。
+
+
+========================================================================
+
+ASSET: S07-image
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S07-image.txt
+
+用途：本片视频首帧，不是拼贴分镜。生成一张16:9横屏、至少1920×1080的统一3D卡通电影画面。只参考所上传人物图中的人物身份、头身比例和队服，不继承其白底；舞台图只约束材质、配色和几何。保持已定稿的脸、发型、眼镜；深蓝短夹克、白色圆领衫、双袖口和腰边窄渐变饰边、纯深蓝裤、白鞋。深蓝演播空间、柔和面部主光、克制的青紫轮廓光，地面为巨大Copilot折叠彩带的一部分。脚与带面真实接触，跳舞区平缓。无文字、水印、额外人物或道具，不改变Logo整体拓扑，不让人站在中心留白。
+素材对应：Jessica＝人物参考图1；Feng＝人物参考图2；Scott＝人物参考图3。
+景别与机位：三人中全景，Feng居中靠前，Jessica左后、Scott右后，三张脸清楚。
+区域：同一Logo的邻近宽缓实面，隐藏整体轮廓。
+画面：画面只有 Jessica、Feng、Scott。Feng 在前排中央；Jessica 在第二排画面左侧，Scott 在第二排右侧。三人脚踩既有彩带实面、彼此不遮脸，后方不出现其他角色，不露完整Logo。
+
+
+========================================================================
+
+ASSET: S07-video
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S07-video.txt
+
+以上传的单张首帧为起始画面，保持人物身份、脸型、发型、眼镜、头身比例、服装、舞台材质和光线一致。统一3D卡通电影质感，轻快自信的原创电子Funk舞蹈气质。单镜头，不自动切镜；不说话、不唱歌，不在视频内生成字幕。人物不变脸、不互换、不复制，肢体数量正常，鞋贴地，不穿透。此镜的音乐后期统一铺设，不依赖模型自带配乐。
+此镜人物：Jessica、Feng、Scott，共3位。
+镜头：三人中全景，Feng居中靠前，Jessica左后、Scott右后，三张脸清楚。
+本次源片段5秒，动作：0–1秒三人轻踏同一拍；1–2秒 Jessica 与 Scott 向中央开手呼应；2–3秒 Feng 接住动作并向两侧舒展开手；3–4秒三人一起踏步，彩光向画面右侧传出；4–5秒保持队形继续律动。
+
+
+========================================================================
+
+ASSET: S08-image
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S08-image.txt
+
+用途：本片视频首帧，不是拼贴分镜。生成一张16:9横屏、至少1920×1080的统一3D卡通电影画面。只参考所上传人物图中的人物身份、头身比例和队服，不继承其白底；舞台图只约束材质、配色和几何。保持已定稿的脸、发型、眼镜；深蓝短夹克、白色圆领衫、双袖口和腰边窄渐变饰边、纯深蓝裤、白鞋。深蓝演播空间、柔和面部主光、克制的青紫轮廓光，地面为巨大Copilot折叠彩带的一部分。脚与带面真实接触，跳舞区平缓。无文字、水印、额外人物或道具，不改变Logo整体拓扑，不让人站在中心留白。
+素材对应：Song＝人物参考图1；Amy＝人物参考图2。
+景别与机位：双人中全景，Song 左、Amy 右，略错位但不遮脸。
+区域：彩带左前方绿黄平缓舞蹈区。
+画面：画面只有 Song 与 Amy，Song 在左、Amy 在右；两人面向镜头，双脚站稳，保持各自定稿发型与脸型。绿黄彩带局部从左通向右。
+
+
+========================================================================
+
+ASSET: S08-video
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S08-video.txt
+
+以上传的单张首帧为起始画面，保持人物身份、脸型、发型、眼镜、头身比例、服装、舞台材质和光线一致。统一3D卡通电影质感，轻快自信的原创电子Funk舞蹈气质。单镜头，不自动切镜；不说话、不唱歌，不在视频内生成字幕。人物不变脸、不互换、不复制，肢体数量正常，鞋贴地，不穿透。此镜的音乐后期统一铺设，不依赖模型自带配乐。
+此镜人物：Song、Amy，共2位。
+镜头：双人中全景，Song 左、Amy 右，略错位但不遮脸。
+本次源片段5秒，动作：0–1秒两人站稳接节奏；1–3秒左右踏步，手臂波浪从左传到右；3–4秒右侧 Amy 轻踏一步，彩光沿带面向右流出；4–5秒回正。
+
+
+========================================================================
+
+ASSET: S09-image
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S09-image.txt
+
+用途：本片视频首帧，不是拼贴分镜。生成一张16:9横屏、至少1920×1080的统一3D卡通电影画面。只参考所上传人物图中的人物身份、头身比例和队服，不继承其白底；舞台图只约束材质、配色和几何。保持已定稿的脸、发型、眼镜；深蓝短夹克、白色圆领衫、双袖口和腰边窄渐变饰边、纯深蓝裤、白鞋。深蓝演播空间、柔和面部主光、克制的青紫轮廓光，地面为巨大Copilot折叠彩带的一部分。脚与带面真实接触，跳舞区平缓。无文字、水印、额外人物或道具，不改变Logo整体拓扑，不让人站在中心留白。
+素材对应：Renwei＝人物参考图1。
+景别与机位：单人全身中景，保持深色墨镜与脸型清楚。
+区域：右侧紫红平缓彩带，紧邻第三排右侧站位。
+画面：只有 Renwei，使用已确认对应的 Wei 素材，保持定稿深色墨镜、发型与队服；面向镜头站稳，背景只见局部紫红彩带。
+
+
+========================================================================
+
+ASSET: S09-video
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S09-video.txt
+
+以上传的单张首帧为起始画面，保持人物身份、脸型、发型、眼镜、头身比例、服装、舞台材质和光线一致。统一3D卡通电影质感，轻快自信的原创电子Funk舞蹈气质。单镜头，不自动切镜；不说话、不唱歌，不在视频内生成字幕。人物不变脸、不互换、不复制，肢体数量正常，鞋贴地，不穿透。此镜的音乐后期统一铺设，不依赖模型自带配乐。
+此镜人物：Renwei，共1位。
+镜头：单人全身中景，保持深色墨镜与脸型清楚。
+本次源片段5秒，动作：0–1秒轻踏接拍；1–3秒肩部轻摆并开手；3–4秒向画面右侧短距离侧移一步，准备进入紧邻的第三排右侧位置；4–5秒稳住重心，墨镜保持不透明。
+
+
+========================================================================
+
+ASSET: S10-image
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S10-image.txt
+
+用途：本片视频首帧，不是拼贴分镜。生成一张16:9横屏、至少1920×1080的统一3D卡通电影画面。只参考所上传人物图中的人物身份、头身比例和队服，不继承其白底；舞台图只约束材质、配色和几何。保持已定稿的脸、发型、眼镜；深蓝短夹克、白色圆领衫、双袖口和腰边窄渐变饰边、纯深蓝裤、白鞋。深蓝演播空间、柔和面部主光、克制的青紫轮廓光，地面为巨大Copilot折叠彩带的一部分。脚与带面真实接触，跳舞区平缓。无文字、水印、额外人物或道具，不改变Logo整体拓扑，不让人站在中心留白。
+素材对应：Jessica＝人物参考图1；Feng＝人物参考图2；Scott＝人物参考图3；Song＝人物参考图4；Amy＝人物参考图5；Renwei＝人物参考图6。
+景别与机位：低位斜向六人群像，1＋2＋3层次清楚，隐藏完整舞台外轮廓。
+区域：固定 Logo 表面的六个平缓实面站位，中心留白无人。
+画面：严格六位角色，按上传的六人站位主图保持空间关系。相对主镜头采用1＋2＋3浅箭头队形：Feng在最靠镜头的前排中央；Jessica在第二排画面左侧、Scott在第二排右侧；Song、Amy、Renwei从画面左到右在第三排错位展开。前排指靠近镜头，不指画面上方；六人脸不互相遮挡。所有站位必须落在既有Logo的可见实面，避开中心留白与陡坡；在实面范围内调整间距，不为队形新增平台或改变Logo轮廓。Renwei 位于第三排右侧，已在站立实面，其余五人已就位。
+
+
+========================================================================
+
+ASSET: S10-video
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S10-video.txt
+
+以上传的单张首帧为起始画面，保持人物身份、脸型、发型、眼镜、头身比例、服装、舞台材质和光线一致。统一3D卡通电影质感，轻快自信的原创电子Funk舞蹈气质。单镜头，不自动切镜；不说话、不唱歌，不在视频内生成字幕。人物不变脸、不互换、不复制，肢体数量正常，鞋贴地，不穿透。此镜的音乐后期统一铺设，不依赖模型自带配乐。
+此镜人物：Jessica、Feng、Scott、Song、Amy、Renwei，共6位。
+镜头：低位斜向六人群像，1＋2＋3层次清楚，隐藏完整舞台外轮廓。
+本次源片段5秒，动作：0–1秒 Renwei 在第三排右侧紧邻位置小幅侧移站稳，其余五人轻律动；1–2秒六人共同踏稳；2–4秒一起左右踏步并开手；4–5秒继续同一节奏。每人只一具身体，1＋2＋3站位不交换。
+
+
+========================================================================
+
+ASSET: S11-video
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S11-video.txt
+
+以上传的单张首帧为起始画面，保持人物身份、脸型、发型、眼镜、头身比例、服装、舞台材质和光线一致。统一3D卡通电影质感，轻快自信的原创电子Funk舞蹈气质。单镜头，不自动切镜；不说话、不唱歌，不在视频内生成字幕。人物不变脸、不互换、不复制，肢体数量正常，鞋贴地，不穿透。此镜的音乐后期统一铺设，不依赖模型自带配乐。
+此镜人物：Jessica、Feng、Scott、Song、Amy、Renwei，共6位。
+镜头：由低位斜向平稳升高后退，到与定稿全景相符的高位斜俯视。
+本次源片段5秒，动作：0–0.5秒保持低位；0.5–4.5秒镜头连续平稳升高并后退，六人只做轻微原地踏步，舞台不变形，逐渐揭示完整 Copilot Logo；4.5–5秒完整轮廓保持稳定。中心留白、折叠交叠和人物相对站位不变。
+
+
+========================================================================
+
+ASSET: S12-image
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S12-image.txt
+
+用途：本片视频首帧，不是拼贴分镜。生成一张16:9横屏、至少1920×1080的统一3D卡通电影画面。只参考所上传人物图中的人物身份、头身比例和队服，不继承其白底；舞台图只约束材质、配色和几何。保持已定稿的脸、发型、眼镜；深蓝短夹克、白色圆领衫、双袖口和腰边窄渐变饰边、纯深蓝裤、白鞋。深蓝演播空间、柔和面部主光、克制的青紫轮廓光，地面为巨大Copilot折叠彩带的一部分。脚与带面真实接触，跳舞区平缓。无文字、水印、额外人物或道具，不改变Logo整体拓扑，不让人站在中心留白。
+素材对应：Jessica＝人物参考图1；Feng＝人物参考图2；Scott＝人物参考图3；Song＝人物参考图4；Amy＝人物参考图5；Renwei＝人物参考图6。
+景别与机位：与 S11 末帧一致的高位斜俯视；完整 Logo 始终在画面内，不再明显拉远。
+区域：固定完整 Logo，高位视角。
+画面：以 S11 实际末帧或同一六人全景主图为首帧，完整 Logo 占画面宽度约75%，留出边缘，六人站位保持一致，中心留白和关键轮廓无遮挡。
+
+
+========================================================================
+
+ASSET: S12-video
+MODEL: 计划文本，尚未生成
+SOURCE: prompts\S12-video.txt
+
+以上传的单张首帧为起始画面，保持人物身份、脸型、发型、眼镜、头身比例、服装、舞台材质和光线一致。统一3D卡通电影质感，轻快自信的原创电子Funk舞蹈气质。单镜头，不自动切镜；不说话、不唱歌，不在视频内生成字幕。人物不变脸、不互换、不复制，肢体数量正常，鞋贴地，不穿透。此镜的音乐后期统一铺设，不依赖模型自带配乐。
+此镜人物：Jessica、Feng、Scott、Song、Amy、Renwei，共6位。
+镜头：与 S11 末帧一致的高位斜俯视；完整 Logo 始终在画面内，不再明显拉远。
+本次源片段10秒，动作：0–1秒保持节奏；1–3秒六人左右踏步并轻压肩部；3–5秒一同开手并收回；5–7秒简短手臂波浪；7–8秒小幅侧移回正；8–9秒共同踏步开手定格；9–10秒保持姿势，边缘灯完成一次回环。完整 Logo 全程可辨认，镜头稳定，严格六人。
+
+
+========================================================================
+
+ASSET: 既有来源/copilot-logo-stage-overview-v01
+MODEL: 既有生成记录；以实际采用记录为准
+SOURCE: D:\git_workspace\www.polly.com\X-Workspace\MS-Kickoff-FY27\prompts\copilot-logo-stage-overview-v01.txt
+
+Create a professional cinematic 3D stage concept from the supplied Microsoft 365 Copilot icon reference. Transform the icon itself into one monumental sculptural dance stage, approximately 40 meters across, floating slightly above a dark midnight-blue studio floor. The stage IS the logo, not a rectangular stage with a logo printed on it.
+
+Preserve the reference icon's recognizable outer silhouette, proportions, continuous folded ribbon construction, exact overlapping relationships, and open central negative space. Preserve its color geography: cyan and blue at the upper left and top, green and yellow along the left lower sweep, indigo at the rear upper fold, violet and magenta on the right, coral orange and golden yellow on the front lower sweep. Do not turn it into a generic infinity symbol, rings, flower, or spiral. Remove the white reference background. No wordmark.
+
+Build the ribbon as broad, smooth, satin-finished solid architectural surfaces with subtly rounded edges and restrained thickness. Its broad surfaces are the actual dance floor, spacious enough for eight small cartoon dancers in later production. Keep the main colored faces mostly flat and walkable, with gentle slopes only near the folded transitions; preserve the logo contour. Give the open center real physical depth so the dark floor is visible through it. The front rim has a subtle luminous edge; soft contact shadows and realistic ambient occlusion make the physical volume clear. Premium stylized 3D animation art direction, elegant playful technology launch, saturated but tasteful Copilot rainbow gradients, clean materials rather than noisy glitter or chrome.
+
+Camera: elevated near-overhead three-quarter view, about 65 degrees above the horizontal, looking toward the upright orientation of the reference. The entire logo must be visible and immediately recognizable, centered with generous dark negative space on every side, with its top pointing toward the top of the image. Keep the complete stage inside the central 80 percent of the image width and central 70 percent of image height, allowing a later widescreen crop. Subtle atmospheric blue-violet light and a few soft overhead beams establish monumental concert scale without hiding the silhouette. Crisp stage geometry, cinematic global illumination, polished high quality render.
+
+Empty stage only. No people, dancers, faces, silhouettes, furniture, instruments, audience, lettering, signage, labels, logos in the background, watermark, extra platforms, bridges across the center opening, or decorative structures obscuring the ribbon. This is a single coherent stage design for a later camera pullback reveal.
+
+
+========================================================================
+
+ASSET: 既有来源/style-calibration-amy-scott-wei-v01
+MODEL: 既有生成记录；以实际采用记录为准
+SOURCE: D:\git_workspace\www.polly.com\X-Workspace\MS-Kickoff-FY27\prompts\style-calibration-amy-scott-wei-v01.txt
+
+Use case: stylized-concept. Create a coherent THREE-PERSON full-body 3D animated dance-crew cast lineup, jointly designed and rendered in ONE image.
+
+INPUT BOARD: The LARGE TOP IMAGE contains the APPROVED STYLE MASTER: Jessica, Feng and Song. Use that entire top image ONLY for the animation design system, level of cartoon simplification, proportions, uniform, camera, lighting and studio. DO NOT OUTPUT those three people. The THREE LOWER PHOTOGRAPHIC PORTRAITS are the people to output: AMY at bottom left, SCOTT at bottom center, WEI at bottom right. Use the lower photos ONLY for each person's identity. Replace all photographic clothes and scenery. Output exactly AMY at left, SCOTT in center, WEI at right. Never reproduce the board, labels, photos or top-row people. No additional characters.
+
+All three new characters must belong to precisely the SAME animated cast as the top master. Use its moderately enlarged heads, large expressive cartoon eyes where visible, rounded sculpted eyelids, soft simplified noses and smiles, smooth animation skin without pores or realistic wrinkles, clean hair clumps, matching hands, short stylized adult limbs, cloth shading and overall animation-film polish. Match the top master's head-to-body proportions rather than making realistic adults or extreme toddler chibis. Preserve recognizable differences within ONE consistent cartoon system. No realistic portrait faces on cartoon bodies. No independent portrait treatments or pasted faces.
+
+IDENTITY LOCKS:
+LEFT AMY: the lower-left photographic woman. Long dark hair with a side part, gentle oval face, natural gently arched brows and a soft friendly smile. No glasses. Preserve her own hairline, face shape and expression as cartoon shapes. Do not copy Jessica's bob or Song's pixie haircut. Long hair must remain visibly below the shoulders. Keep her face recognizable; do not make a generic doll.
+CENTER SCOTT: the lower-center photographic man. Short neatly side-parted dark hair, thin dark rectangular glasses, broad softly squared face, fuller cheeks and a subtle friendly closed-mouth smile. His hairline is relatively full and forehead not unusually tall. Preserve his distinctive facial width and glasses within the same cartoon simplification. Do not borrow Feng's receding high forehead, tapered long face or broad toothy smile. No beard.
+RIGHT WEI: the lower-right photographic man. Short straight dark hair with a short forward fringe, broad face, dark aviator-style sunglasses with a thin metallic frame and a relaxed subtle smile. KEEP the opaque dark sunglasses, since the original does not show his eyes. Do not invent visible eyes behind transparent glasses. Keep his hairstyle different from Scott's. No beard, hats, props or outdoor scenery.
+
+ONE EXACT SHARED CREW UNIFORM matching the top master: midnight-navy short bomber jacket with ribbed stand collar and open silver zipper over a plain white crew-neck shirt, navy ankle trousers with turned-up hems, white low-top lace-up sneakers. Same jacket construction, sleeve length, fabric and trim treatment on all three. Sleeves end on lower forearms, wrists visible. Narrow cyan-blue-violet-magenta gradient fabric trim at both cuffs and jacket waistband, matching the actual approved master. One narrow band per cuff or hem edge, never two stacked solid-color lines. Keep gradient trim visible. No badges, text, brands, jewelry additions, lanyards, logos or original photographic garments.
+
+COMPOSITION: landscape 3:2, full-body figures facing nearly forward in relaxed standing poses. Amy centered near horizontal 25%, Scott near 50%, Wei near 77%, corresponding to the top master's character spacing. Similar camera distance, face display size and head-to-body proportions to that top image. Heads near the same height with reasonable natural variation; shoes on one ground baseline. Leave breathing room between complete hands and neighboring bodies. Arms relaxed slightly away from torso, no touching or crossed limbs, no dance action yet. Entire hair and white shoes visible with margins. No extreme perspectives, depth staggering, borders, panels or labels.
+
+ONE continuous dark blue-violet seamless studio and floor, matching the top master. Shared neutral soft key light, restrained cyan/violet rim light, soft natural contact shadows. Faces bright and readable, matching material response and saturation. Professional animation character-development render. No stage, scenery, furniture, additional people, reference board, text, watermarks, extra limbs, duplicate bodies or cropped feet. Final image is only the three newly designed cartoon crew members Amy, Scott and Wei. Do not output Jessica, Feng or Song.
+
+
+========================================================================
+
+ASSET: 既有来源/style-calibration-trio-fresh-feng-v02
+MODEL: 既有生成记录；以实际采用记录为准
+SOURCE: D:\git_workspace\www.polly.com\X-Workspace\MS-Kickoff-FY27\prompts\style-calibration-trio-fresh-feng-v02.txt
+
+Generate a NEW coherent THREE-person 3D animated movie cast lineup in one joint rendering. The input board contains three references, LEFT Jessica's approved cartoon, CENTER Feng's ORIGINAL REAL PHOTO, RIGHT Song's approved cartoon. Output exactly three FULL-BODY CARTOON CHARACTERS in this order: Jessica at left, Feng in center, Song at right. Redraw all three together with ONE consistent animation design system, camera, lighting and uniform. Do not output reference panels, photos or labels.
+
+JESSICA AT LEFT IS THE SOLE STYLE MASTER, with Song at right reinforcing the SAME approved animation style. Keep their appealing established faces, head-to-body proportions, materials and rendering close to the references. Design Feng FROM SCRATCH as a member of this same cast. His original photograph provides his identity ONLY, never the rendering style, skin detail, clothes, body proportions or outdoor lighting. The center must be just as cartoon-like as Jessica and Song. Do not paste a realistic portrait face onto a cartoon body. This is a joint character-design pass, not three independently rendered portraits or a collage.
+
+Identity locks: Jessica has chin-length dark bob hair with bangs, glasses and a tooth-showing smile. Feng is the man in the CENTER ORIGINAL PHOTO: keep his distinctive tall exposed forehead with receding corners at the temples, close short side-parted dark hair, thin rectangular eyeglasses, long gently tapered facial outline, noticeable ears and warm upper-teeth smile. Translate these distinctive shapes into the same clean rounded CARTOON sculpture as Jessica. His naturally smiling eye shape should remain recognizable while receiving the SAME stylized relative eye enlargement as the other two. Preserve the recognizable outline of his forehead, hairline, glasses and face rather than realistic age texture. Song has short dark pixie hair, no glasses, small earrings and a bright tooth-showing smile. Never transfer facial identity, hairstyles or glasses between people. Keep all three as friendly adult cartoon characters.
+
+ONE consistent cartoon design system: Jessica's moderately oversized head, expressive animated eyes, softly rounded eyelids and cheeks, simple sculpted nose and graphic smile. Use the same amount of nose/mouth simplification and the same smooth soft animation skin without pores, realistic wrinkles, detailed under-eye bags or photographic nasolabial folds on ALL THREE. Same clean sculpted hair clumps, matching hand simplification, same cloth and skin material response. Feng's face should have no greater anatomical detail or realistic shading than Jessica's. Matching head-to-body proportions around the approved references, comparable head display size and short stylized adult limbs. Do not give Feng a small realistic head, long realistic neck, long body or a realistic portrait treatment. Preserve his individual high forehead and tapered outline WITHIN this shared stylization system.
+
+EXACT MATCHING CREW UNIFORM: midnight-navy short bomber jacket with ribbed stand collar and open silver zipper, plain white crew-neck shirt, navy tailored ankle trousers, white low-top lace-up sneakers. Identical garment construction, fabric and trim treatment on all three. Sleeves end at lower forearm, leaving wrists visible. Each ribbed cuff and both sides of each jacket waistband have exactly ONE narrow continuous fabric ribbon smoothly blending along its horizontal length from cyan/blue through violet to magenta, matching Jessica. No separate stacked solid-color lines, no double piping, no omitted trim, no bracelets, no text or logos. All six cuffs and all three jacket hems show the gradient ribbon.
+
+Landscape 3:2, full-body figures facing nearly forward in relaxed standing poses, arms slightly away from torso, relaxed complete hands. Jessica at horizontal 20%, Feng at 50%, Song at 80%. All feet aligned on ONE common ground baseline near the bottom, all heads near the same height and similar display scale. Equal camera distance and an eye-level neutral camera. Entire hair and white shoes visible with margins. Clear empty space between characters and no overlap. No depth staggering, perspective size differences, separators, borders or name labels.
+
+ONE continuous dark blue-violet seamless studio and floor, shared neutral soft key light and restrained cyan/violet rim light, matching natural contact shadows. Faces clearly lit and readable. No concert stage, scenery, props, other people, text, watermarks, extra limbs, duplicate bodies or cropped feet. These must look designed by ONE animation artist for ONE film. Feng's identity is conveyed through his distinct forehead/hairline, glasses, long tapered outline and smile, never by switching him to a realistic rendering style.
+
+
+========================================================================

@@ -1,0 +1,43 @@
+{
+  "job": "C-PREVIEW",
+  "status": "预演：省略B真实出点帧，不保证与B连续",
+  "source_paths_relative_to": "production/",
+  "images": [
+    {
+      "order": 1,
+      "alias": "JESSICA",
+      "upload_file": "01_JESSICA.png",
+      "source": "../assets/characters/production-pack/jessica/jessica-front-v01.png",
+      "role": "Jessica的短齐发、眼镜、脸型与队服",
+      "exists": true,
+      "sha256": "417dcce1bbfde698257aff9925211bd61f58037ecdb01d5b752b412bbcac85d2"
+    },
+    {
+      "order": 2,
+      "alias": "FENG",
+      "upload_file": "02_FENG.png",
+      "source": "../assets/characters/production-pack/feng/feng-front-v01.png",
+      "role": "Feng的高额头、眼镜、脸型与队服",
+      "exists": true,
+      "sha256": "8fa7995efe4ef9599006b611bd5d6bae247ccec7263a2999a6ca2cd8141068db"
+    },
+    {
+      "order": 3,
+      "alias": "SCOTT",
+      "upload_file": "03_SCOTT.png",
+      "source": "../assets/characters/production-pack/scott/scott-front-v01.png",
+      "role": "Scott的浓密侧分短发与较低发际线、黑色矩形眼镜、较圆脸型和闭嘴微笑；与Feng是不同的人，保持单人定稿图身份",
+      "exists": true,
+      "sha256": "f9a2e7a22ac614d7a1512741b8958379bea20c00952580773527f284036898f4"
+    },
+    {
+      "order": 4,
+      "alias": "CORE3_MASTER",
+      "upload_file": "04_CORE3_MASTER.png",
+      "source": "frames/CORE3_MASTER-gpt-image-2-v02.png",
+      "role": "只约束最后三人镜头的舞台、站位与构图：Feng前中央，Jessica左后，Scott右后",
+      "exists": true,
+      "sha256": "6cc368ef0aefdc7218d6d258bebf1b6e41e67824192f7910b877a4fa0c4f8966"
+    }
+  ]
+}

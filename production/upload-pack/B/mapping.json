@@ -1,0 +1,34 @@
+{
+  "job": "B",
+  "status": "图像已准备，视频效果待试制",
+  "source_paths_relative_to": "production/",
+  "images": [
+    {
+      "order": 1,
+      "alias": "JESSICA_FRAME",
+      "upload_file": "01_JESSICA_FRAME.png",
+      "source": "frames/HANDOFF-jessica-gpt-image-2-v01.png",
+      "role": "图中唯一人物定义为Jessica，参考身份、队服、脚底位置和局部舞台",
+      "exists": true,
+      "sha256": "de08474831cc84ed2f686a1e1210d8e6ff14f197b679fc9905a444f1fc58bdfc"
+    },
+    {
+      "order": 2,
+      "alias": "FENG_FRAME",
+      "upload_file": "02_FENG_FRAME.png",
+      "source": "frames/HANDOFF-feng-gpt-image-2-v01.png",
+      "role": "图中唯一人物定义为Feng，参考身份、队服与遮挡后构图",
+      "exists": true,
+      "sha256": "fb3add1f5f3fed1a623012adacb0c2438d8027e5f2ae6fdb6abe77874fe6bb40"
+    },
+    {
+      "order": 3,
+      "alias": "STAGE_LOCAL",
+      "upload_file": "03_STAGE_LOCAL.png",
+      "source": "frames/HANDOFF-stage-gpt-image-2-v01.png",
+      "role": "只参考空舞台材质与固定边缘，不增加人物",
+      "exists": true,
+      "sha256": "7dded4401fe2f8b4959cba20a4fb94d6d2a8a3acca250e63469ca7b1c9f6a43b"
+    }
+  ]
+}

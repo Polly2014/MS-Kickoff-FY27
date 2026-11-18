@@ -1,0 +1,23 @@
+CINEMATIC SHOT BRIEF — SH04: Maya’s wish — Ma Liang appears
+Film interval 11.00–23.50s; edit duration 12.50s; 16:9. Use local zero-based timing for generated clips.
+Purpose / action: Maya works alone at her laptop late at night. The meeting feedback weighs on her, but no messages, cards or UI appear in the room. She looks exhausted and worried, stops typing, sighs and says, "If only their feedback could come to life." One elegant warm-gold brush-light sweep with sparse black-ink flecks then reveals adult Ma Liang camera-right. He answers, "What if it could?"
+Shot size / 景别: Locked eye-level 40mm medium desk shot that becomes a clean two-shot.
+Camera / 摄像: Preserve the established night-office axis. Maya remains seated camera-left throughout. Keep the right-side office space completely clean and ordinary until Ma Liang materializes there. Use only a nearly imperceptible push after Maya stops typing; no cut, orbit or reframing.
+Lighting / 光线: Warm practical lamp camera-left, cool city-window night camera-right and laptop spill on Maya. No magic before her wish. During Ma Liang’s arrival, add one restrained warm-gold rim with sparse ink flecks around his outline; keep both faces unobscured.
+Blocking / 走位:
+- Local 0.00–4.20s: Maya works alone at the laptop. She gradually slows as fatigue and worry settle across her face. The air and right-side office remain completely clean: no messages or UI.
+- Local +4.20s: Maya stops typing and rests her cheek on one hand, 愁容满面.
+- Local +4.90s: one audible sigh.
+- Local +5.20–8.40s / absolute 16.20–19.40s: Maya says exactly, "If only their feedback could come to life."
+- Local +8.75–9.20s: one elegant vertical sweep of translucent warm-gold light and sparse black-ink flecks reveals Ma Liang camera-right. Maya raises her head in surprise.
+- Local +9.40–11.40s / absolute 20.40–22.40s: Ma Liang says exactly, "What if it could?"
+- Local +11.40–12.50s: the last gold-and-ink motes fade; hold their eyeline and cut to SH07B.
+Magical-arrival rules: one thin broken halo of warm-gold light mixed with sparse black-ink flecks hugging Ma Liang’s outer silhouette, with a few particles drifting upward. His identity, wardrobe, brush and body remain fully readable. No portal, fire, explosion, dense smoke, giant glow or effect across either face.
+Speakers and exact dialogue:
+1. Maya Chen, absolute 16.20–19.40s: "If only their feedback could come to life."
+2. Ma Liang, absolute 20.40–22.40s: "What if it could?"
+No overlapping speech.
+Sound: quiet night-office room tone, keyboard taps that stop, Maya’s sigh and line, a brief airy brush shimmer for Ma Liang’s arrival, then Ma Liang’s reply. No notifications, product sound or extra voice.
+Transition: Ma Liang is fully present and the clean office remains free of messages before SH07B. Preserve his camera-right position, low brush and Maya’s raised eyeline into the closer legend-introduction shot.
+References: C01, C08, S01, P01 and P03. Absolutely no messages, message cards, avatars, feedback text, files, attachments, filenames, dashboard windows, cursor, product UI, subtitle, speech bubble, logo, extra person or watermark.
+After “What if it could?”, let the final arrival motes fade, then cut to SH07B. Preserve Ma Liang’s camera-right position, low brush and Maya’s raised eyeline; no message or UI appears anywhere in the shot.

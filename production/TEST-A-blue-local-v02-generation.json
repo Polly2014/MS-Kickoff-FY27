@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-18",
+  "status": "completed",
+  "canvas_url": "https://www.liblib.tv/canvas?spaceId=16349996&projectId=a955aae8171f4a67b8bc47f6142d931d",
+  "node_id": "v-qFpcETQeIX",
+  "node_title": "TEST-A-Jessica到Feng-蓝青局部-15s-Wan3-480P-v02",
+  "original_node_id": "v-qH9MQ0txJ2",
+  "model": "Wan 3.0",
+  "mode": "全能参考",
+  "requested_resolution": "480P",
+  "requested_duration_seconds": 15,
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "audio": false,
+  "smart_expansion": true,
+  "auto_link": false,
+  "quoted_credits": 60,
+  "quoted_nonmember_credits": 75,
+  "balance_before": 3496,
+  "actual_credits": 60,
+  "prompt_normalized_matches_original": true,
+  "actual_prompt": "actual-prompts/TEST-A-blue-local-v02.txt",
+  "actual_ui_reference_record": "actual-prompts/TEST-A-blue-local-v02-ui.json",
+  "references": [
+    {
+      "index": "1",
+      "label": "图片 1",
+      "node": "i-UFXG7j5lVY"
+    },
+    {
+      "index": "2",
+      "label": "图片 2",
+      "node": "i-T5wV1cDMWG"
+    },
+    {
+      "index": "3",
+      "label": "图片 3",
+      "node": "i-rT6OBZqneE"
+    }
+  ],
+  "stage_source": "frames/HANDOFF-stage-gpt-image-2-v01.png",
+  "stage_node_id": "i-rT6OBZqneE",
+  "used_in_final": false,
+  "output_file": "raw-video/TEST-A_blue-local_v02.mp4",
+  "note": "Only stage reference changed; original 12-second prompt text retained with 15-second UI duration for a controlled comparison.",
+  "balance_after_submission": 3436,
+  "actual_width": 854,
+  "actual_height": 480,
+  "actual_duration_seconds": 15,
+  "actual_fps": 30,
+  "actual_frames": 450,
+  "output_bytes": 8426099,
+  "output_sha256": "5e7a6b4b4a7706bf23c2c86207646ab0e0f533498113cf5d7f9b3f7fbdc9365c",
+  "completed_page_screenshot": "previews/TEST-A-blue-local-v02-completed.jpg",
+  "contact_sheet": "previews/TEST-A-blue-local-v02-contact.jpg",
+  "review_method": "Browser preview plus 12 sampled frames; no claim of beat-perfect synchronization.",
+  "review": {
+    "stage": "Sampled frames retain blue/cyan local ribbon surface; full Logo not revealed. Subjects appear supported by surface. Geometry changes between shots remain unverified.",
+    "handoff": "Jessica then shoe/light detail then Feng; independent identities visible.",
+    "limitations": "Final 14.8s frame crops Feng head. Prompt requests 12s while configured output is 15s, preserved for controlled comparison. No audio requested.",
+    "decision": "Stage-reference test works; candidate only, not selected for final. No second generation."
+  }
+}

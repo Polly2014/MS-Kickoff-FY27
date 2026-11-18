@@ -1,0 +1,20 @@
+[
+  {
+    "file": "frames/continuity/KF-AtoB-Feng-fullbody-12s-candidate-v01.png",
+    "source": "raw-video/TEST-A_blue-local_v02.mp4",
+    "frame_index_zero_based": 360,
+    "time_seconds": 12.0,
+    "width": 854,
+    "height": 480,
+    "status": "candidate only; not uploaded or generated"
+  },
+  {
+    "file": "frames/continuity/KF-AtoB-Feng-medium-13p5s-candidate-v01.png",
+    "source": "raw-video/TEST-A_blue-local_v02.mp4",
+    "frame_index_zero_based": 405,
+    "time_seconds": 13.5,
+    "width": 854,
+    "height": 480,
+    "status": "candidate only; not uploaded or generated"
+  }
+]

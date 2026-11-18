@@ -1,0 +1,15 @@
+﻿shot,timeline_in,timeline_out,used_seconds,planned_source_seconds,suggested_source_in,suggested_source_out,speed,transition,file
+S01,0,4,4,5,0.5,4.5,1,hard cut; choose exact beat manually,selected/S01.mp4
+S02,4,8,4,5,0.5,4.5,1,hard cut; choose exact beat manually,selected/S02.mp4
+S03,8,10,2,5,1.5,3.5,1,hard cut; choose exact beat manually,selected/S03.mp4
+S04,10,12,2,5,0.5,2.5,1,hard cut; choose exact beat manually,selected/S04.mp4
+S05,12,16,4,5,0.5,4.5,1,hard cut; choose exact beat manually,selected/S05.mp4
+S06,16,20,4,5,0.5,4.5,1,hard cut; choose exact beat manually,selected/S06.mp4
+S07,20,24,4,5,0.5,4.5,1,hard cut; choose exact beat manually,selected/S07.mp4
+S08,24,28,4,5,0.5,4.5,1,hard cut; choose exact beat manually,selected/S08.mp4
+S09,28,32,4,5,0.5,4.5,1,hard cut; choose exact beat manually,selected/S09.mp4
+S10,32,36,4,5,0.5,4.5,1,hard cut; choose exact beat manually,selected/S10.mp4
+S11,36,40,4,5,0.5,4.5,1,hard cut; choose exact beat manually,selected/S11.mp4
+S12,40,48,8,10,1,9,1,hard cut; choose exact beat manually,selected/S12.mp4
+CREDITS,48,52,4,,,,,,credits-info.png
+PROMPTS,52,60,8,,,,,,actual prompt cards; see credits tool

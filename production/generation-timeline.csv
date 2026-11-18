@@ -1,0 +1,6 @@
+﻿segment,timeline_in,timeline_out,used_seconds,shots,prompt_file,selected_file
+A,0,4,4,S01,prompts/SEG-A-video-v05.txt,selected/SEG-A.mp4
+B,4,12,8,S02;S03;S04,prompts/SEG-B-video-v05.txt,selected/SEG-B.mp4
+C,12,24,12,S05;S06;S07,prompts/SEG-C-video-v05.txt,selected/SEG-C.mp4
+D,24,36,12,S08;S09;S10,prompts/SEG-D-video-v05.txt,selected/SEG-D.mp4
+E,36,48,12,S11;S12,prompts/SEG-E-video-v05.txt,selected/SEG-E.mp4

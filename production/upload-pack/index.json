@@ -1,0 +1,60 @@
+[
+  {
+    "job": "A",
+    "status": "图像已准备，视频效果待试制",
+    "image_count": 2,
+    "missing": []
+  },
+  {
+    "job": "B",
+    "status": "图像已准备，视频效果待试制",
+    "image_count": 3,
+    "missing": []
+  },
+  {
+    "job": "C",
+    "status": "待补素材：B_LAST；等待真实连续帧",
+    "image_count": 5,
+    "missing": [
+      "B_LAST"
+    ]
+  },
+  {
+    "job": "D",
+    "status": "图像已准备，视频效果待试制",
+    "image_count": 8,
+    "missing": []
+  },
+  {
+    "job": "E",
+    "status": "待补素材：D_LAST；等待真实连续帧",
+    "image_count": 8,
+    "missing": [
+      "D_LAST"
+    ]
+  },
+  {
+    "job": "C-PREVIEW",
+    "status": "预演：省略B真实出点帧，不保证与B连续",
+    "image_count": 4,
+    "missing": []
+  },
+  {
+    "job": "E-PREVIEW",
+    "status": "预演：GROUP_LOCAL代替D真实出点帧，正式任务需换回D_LAST",
+    "image_count": 8,
+    "missing": []
+  },
+  {
+    "job": "E1-PREVIEW-4s",
+    "status": "四秒揭示预演；GROUP_LOCAL不是D实际末态，正式需替换首帧",
+    "image_count": 2,
+    "missing": []
+  },
+  {
+    "job": "E2-PREVIEW-8s",
+    "status": "八秒群舞预演；正式需用E1真实出点帧衔接",
+    "image_count": 7,
+    "missing": []
+  }
+]

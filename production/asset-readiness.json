@@ -1,0 +1,249 @@
+{
+  "audited": "2026-11-18",
+  "note": "Existence is not creative approval or proof of 3D continuity. preparation-manifest.json records selected image references. B_LAST/D_LAST require actual selected videos.",
+  "assets": {
+    "JESSICA": {
+      "path": "../assets/characters/production-pack/jessica/jessica-front-v01.png",
+      "kind": "existing_character",
+      "note": "单人正面身份与队服；白底不进入视频",
+      "exists": true,
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "417dcce1bbfde698257aff9925211bd61f58037ecdb01d5b752b412bbcac85d2"
+    },
+    "FENG": {
+      "path": "../assets/characters/production-pack/feng/feng-front-v01.png",
+      "kind": "existing_character",
+      "note": "单人正面身份与队服；白底不进入视频",
+      "exists": true,
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "8fa7995efe4ef9599006b611bd5d6bae247ccec7263a2999a6ca2cd8141068db"
+    },
+    "SCOTT": {
+      "path": "../assets/characters/production-pack/scott/scott-front-v01.png",
+      "kind": "existing_character",
+      "note": "单人正面身份与队服；白底不进入视频",
+      "exists": true,
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "f9a2e7a22ac614d7a1512741b8958379bea20c00952580773527f284036898f4"
+    },
+    "SONG": {
+      "path": "../assets/characters/production-pack/song/song-front-v01.png",
+      "kind": "existing_character",
+      "note": "单人正面身份与队服；白底不进入视频",
+      "exists": true,
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "54222d7600c3df68df148c8ec64dc76cc7233df9213e00c3aef8ef988a25c259"
+    },
+    "AMY": {
+      "path": "../assets/characters/production-pack/amy/amy-front-v01.png",
+      "kind": "existing_character",
+      "note": "单人正面身份与队服；白底不进入视频",
+      "exists": true,
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "b4c0d82bced45e622afaa14d5c4bfbe85dd5299621a41b1754bd0e93598d3a72"
+    },
+    "RENWEI": {
+      "path": "../assets/characters/production-pack/wei/wei-front-v01.png",
+      "kind": "existing_character",
+      "note": "单人正面身份与队服；白底不进入视频",
+      "exists": true,
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "1c78d9ead123a33875557d75d20cb1034067c832e359a64c469f6ae33137cee6"
+    },
+    "STAGE_LOCAL": {
+      "path": "frames/HANDOFF-stage-gpt-image-2-v01.png",
+      "kind": "existing_trial",
+      "note": "局部平缓带面，不能证明全景三维几何",
+      "exists": true,
+      "size": [
+        2048,
+        1152
+      ],
+      "sha256": "7dded4401fe2f8b4959cba20a4fb94d6d2a8a3acca250e63469ca7b1c9f6a43b"
+    },
+    "JESSICA_FRAME": {
+      "path": "frames/HANDOFF-jessica-gpt-image-2-v01.png",
+      "kind": "existing_trial",
+      "note": "Jessica身份、队服与局部构图",
+      "exists": true,
+      "size": [
+        2048,
+        1152
+      ],
+      "sha256": "de08474831cc84ed2f686a1e1210d8e6ff14f197b679fc9905a444f1fc58bdfc"
+    },
+    "FENG_FRAME": {
+      "path": "frames/HANDOFF-feng-gpt-image-2-v01.png",
+      "kind": "existing_trial",
+      "note": "Feng身份、队服与局部构图",
+      "exists": true,
+      "size": [
+        2048,
+        1152
+      ],
+      "sha256": "fb3add1f5f3fed1a623012adacb0c2438d8027e5f2ae6fdb6abe77874fe6bb40"
+    },
+    "STAGE_MASTER": {
+      "path": "frames/STAGE_MASTER-gpt-image-2-v02.png",
+      "kind": "prepared_reference",
+      "note": "4K empty overview inspected; silhouette, overlap and central opening retained visually; front warm surface reserved for cast; not a reconstructed 3D model.",
+      "exists": true,
+      "selection_status": "agent-selected preparation reference; not user-approved final",
+      "size": [
+        3840,
+        2160
+      ],
+      "sha256": "3c43dc4e15ec98ab9619cf882bb5f5d3ae350ac79b80dc8a116598936447275a"
+    },
+    "GROUP_MASTER": {
+      "path": "frames/GROUP_MASTER-gpt-image-2-v03.png",
+      "kind": "prepared_reference",
+      "note": "Selected for preparation after visual review: six distinct roles, Scott corrected to fuller hair, black rectangular glasses and closed-mouth smile; Feng remains front center; all feet on warm solid ribbon. Geometry visually related, not pixel-locked or a 3D reconstruction.",
+      "exists": true,
+      "selection_status": "agent-selected preparation reference; not user-approved final",
+      "size": [
+        3840,
+        2160
+      ],
+      "sha256": "bd1d0f5afec08785ab11357204712f6d43457a3bfb8c8227b01cc2bc1b3b9e73"
+    },
+    "GROUP_LOCAL": {
+      "path": "frames/GROUP_LOCAL-gpt-image-2-v03.png",
+      "kind": "prepared_reference",
+      "note": "Six faces and 1+2+3 reviewed; front Feng refined to high forehead and own smile; second-row right Scott retains low hairline, black rectangular glasses and closed-mouth smile. Solid warm ribbon support; approximate camera relation, not calibrated 3D.",
+      "exists": true,
+      "selection_status": "agent-selected preparation reference; not user-approved final",
+      "size": [
+        2048,
+        1152
+      ],
+      "sha256": "7b3c1b01fe7e2c50dd46d9c10f77725f0793a4981b6a706ed27b09858a1ce5d8"
+    },
+    "CORE3_MASTER": {
+      "path": "frames/CORE3_MASTER-gpt-image-2-v02.png",
+      "kind": "prepared_reference",
+      "note": "Exactly Jessica left, Feng front center and Scott right; distinct high-forehead Feng and fuller-hair rectangular-glasses Scott reviewed against original identity references. Full shoes supported, no other people.",
+      "exists": true,
+      "selection_status": "agent-selected preparation reference; not user-approved final",
+      "size": [
+        2048,
+        1152
+      ],
+      "sha256": "6cc368ef0aefdc7218d6d258bebf1b6e41e67824192f7910b877a4fa0c4f8966"
+    },
+    "DUO_MASTER": {
+      "path": "frames/DUO_MASTER-gpt-image-2-v01.png",
+      "kind": "prepared_reference",
+      "note": "Exactly Song left and Amy right; identities, navy uniforms, complete bodies and shoes reviewed; no background people; same warm ribbon material and lighting.",
+      "exists": true,
+      "selection_status": "agent-selected preparation reference; not user-approved final",
+      "size": [
+        2048,
+        1152
+      ],
+      "sha256": "8420cd23aa11c1a8d44865ce9952fbd25861fb1084d59f3e5051c3cdd827d336"
+    },
+    "B_LAST": {
+      "path": "frames/SEG-B-selected-last.png",
+      "kind": "future_extract",
+      "note": "B采用源片的实际剪辑出点帧，不是原片最后一帧；尚待生成",
+      "exists": false
+    },
+    "D_LAST": {
+      "path": "frames/SEG-D-selected-last.png",
+      "kind": "future_extract",
+      "note": "D采用源片的实际剪辑出点帧；尚待生成",
+      "exists": false
+    }
+  },
+  "jobs": [
+    {
+      "segment": "A",
+      "image_count": 2,
+      "aliases": [
+        "JESSICA",
+        "STAGE_LOCAL"
+      ],
+      "missing": [],
+      "reference_files_present": true
+    },
+    {
+      "segment": "B",
+      "image_count": 3,
+      "aliases": [
+        "JESSICA_FRAME",
+        "FENG_FRAME",
+        "STAGE_LOCAL"
+      ],
+      "missing": [],
+      "reference_files_present": true
+    },
+    {
+      "segment": "C",
+      "image_count": 5,
+      "aliases": [
+        "JESSICA",
+        "FENG",
+        "SCOTT",
+        "CORE3_MASTER",
+        "B_LAST"
+      ],
+      "missing": [
+        "B_LAST"
+      ],
+      "reference_files_present": false
+    },
+    {
+      "segment": "D",
+      "image_count": 8,
+      "aliases": [
+        "JESSICA",
+        "FENG",
+        "SCOTT",
+        "SONG",
+        "AMY",
+        "RENWEI",
+        "DUO_MASTER",
+        "GROUP_LOCAL"
+      ],
+      "missing": [],
+      "reference_files_present": true
+    },
+    {
+      "segment": "E",
+      "image_count": 8,
+      "aliases": [
+        "JESSICA",
+        "FENG",
+        "SCOTT",
+        "SONG",
+        "AMY",
+        "RENWEI",
+        "D_LAST",
+        "GROUP_MASTER"
+      ],
+      "missing": [
+        "D_LAST"
+      ],
+      "reference_files_present": false
+    }
+  ]
+}

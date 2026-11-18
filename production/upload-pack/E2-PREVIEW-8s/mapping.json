@@ -1,0 +1,70 @@
+{
+  "job": "E2-PREVIEW-8s",
+  "status": "八秒群舞预演；正式需用E1真实出点帧衔接",
+  "source_paths_relative_to": "production/",
+  "images": [
+    {
+      "order": 1,
+      "alias": "JESSICA",
+      "upload_file": "01_JESSICA.png",
+      "source": "../assets/characters/production-pack/jessica/jessica-front-v01.png",
+      "role": "Jessica的短齐发、眼镜、脸型与队服",
+      "exists": true,
+      "sha256": "417dcce1bbfde698257aff9925211bd61f58037ecdb01d5b752b412bbcac85d2"
+    },
+    {
+      "order": 2,
+      "alias": "FENG",
+      "upload_file": "02_FENG.png",
+      "source": "../assets/characters/production-pack/feng/feng-front-v01.png",
+      "role": "Feng的高额头、眼镜、脸型与队服",
+      "exists": true,
+      "sha256": "8fa7995efe4ef9599006b611bd5d6bae247ccec7263a2999a6ca2cd8141068db"
+    },
+    {
+      "order": 3,
+      "alias": "SCOTT",
+      "upload_file": "03_SCOTT.png",
+      "source": "../assets/characters/production-pack/scott/scott-front-v01.png",
+      "role": "Scott的浓密侧分短发与较低发际线、黑色矩形眼镜、较圆脸型和闭嘴微笑；与Feng是不同的人，保持单人定稿图身份",
+      "exists": true,
+      "sha256": "f9a2e7a22ac614d7a1512741b8958379bea20c00952580773527f284036898f4"
+    },
+    {
+      "order": 4,
+      "alias": "SONG",
+      "upload_file": "04_SONG.png",
+      "source": "../assets/characters/production-pack/song/song-front-v01.png",
+      "role": "Song的短发、脸型与队服",
+      "exists": true,
+      "sha256": "54222d7600c3df68df148c8ec64dc76cc7233df9213e00c3aef8ef988a25c259"
+    },
+    {
+      "order": 5,
+      "alias": "AMY",
+      "upload_file": "05_AMY.png",
+      "source": "../assets/characters/production-pack/amy/amy-front-v01.png",
+      "role": "Amy的长发、脸型与队服",
+      "exists": true,
+      "sha256": "b4c0d82bced45e622afaa14d5c4bfbe85dd5299621a41b1754bd0e93598d3a72"
+    },
+    {
+      "order": 6,
+      "alias": "RENWEI",
+      "upload_file": "06_RENWEI.png",
+      "source": "../assets/characters/production-pack/wei/wei-front-v01.png",
+      "role": "Renwei的不透明墨镜、短发、脸型与队服",
+      "exists": true,
+      "sha256": "1c78d9ead123a33875557d75d20cb1034067c832e359a64c469f6ae33137cee6"
+    },
+    {
+      "order": 7,
+      "alias": "GROUP_MASTER",
+      "upload_file": "07_GROUP_MASTER.png",
+      "source": "frames/GROUP_MASTER-gpt-image-2-v03.png",
+      "role": "开头完整全景与站位参考；正式应使用E1实际采用的出点帧，而不是静态设计图",
+      "exists": true,
+      "sha256": "bd1d0f5afec08785ab11357204712f6d43457a3bfb8c8227b01cc2bc1b3b9e73"
+    }
+  ]
+}

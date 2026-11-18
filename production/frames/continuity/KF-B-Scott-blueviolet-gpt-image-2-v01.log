@@ -1,0 +1,15 @@
+Reference: production\frames\continuity\KF-AtoB-Feng-fullbody-12s-candidate-v01.png
+Prompt file: production\actual-prompts\KF-B-Scott-blueviolet-gpt-image-2-v01.txt
+📁 Loading config from: D:\git_workspace\www.polly.com\.claude\skills\dream-painter\scripts\config.env
+🔗 Using endpoint: https://polly-ai-foundry-resource.cognitiveservices.azure.com/
+🚀 Using deployment: gpt-image-1.5
+Actual requested deployment: gpt-image-2
+Image 1: production\frames\continuity\KF-AtoB-Feng-fullbody-12s-candidate-v01.png
+Image 2: assets\characters\production-pack\scott\scott-front-v01.png
+Image 3: production\frames\STAGE_MASTER-gpt-image-2-v02.png
+🎨 Generating transformed image...
+   Size: 2048x1152
+   Prompt preview: Create one 16:9 cinematic 3D cartoon animation production keyframe for a street-dance relay, using a...
+✅ Saved: production\frames\continuity\KF-B-Scott-blueviolet-gpt-image-2-v01.png
+📦 File size: 2166 KB
+Saved requested resolution without the CLI 1200px downscale.

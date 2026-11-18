@@ -1,0 +1,15 @@
+﻿shot,timeline_in,timeline_out,used_seconds,planned_source_seconds,suggested_source_in,suggested_source_out,speed,transition,file,source_segment
+S01,0,4,4,4,0,4,1,planned in-segment cut; verify actual timing,selected/SEG-A.mp4,A
+S02,4,8,4,8,0,4,1,planned in-segment cut; verify actual timing,selected/SEG-B.mp4,B
+S03,8,10,2,8,4,6,1,planned in-segment cut; verify actual timing,selected/SEG-B.mp4,B
+S04,10,12,2,8,6,8,1,planned in-segment cut; verify actual timing,selected/SEG-B.mp4,B
+S05,12,16,4,12,0,4,1,planned in-segment cut; verify actual timing,selected/SEG-C.mp4,C
+S06,16,20,4,12,4,8,1,planned in-segment cut; verify actual timing,selected/SEG-C.mp4,C
+S07,20,24,4,12,8,12,1,planned in-segment cut; verify actual timing,selected/SEG-C.mp4,C
+S08,24,28,4,12,0,4,1,planned in-segment cut; verify actual timing,selected/SEG-D.mp4,D
+S09,28,32,4,12,4,8,1,planned in-segment cut; verify actual timing,selected/SEG-D.mp4,D
+S10,32,36,4,12,8,12,1,planned in-segment cut; verify actual timing,selected/SEG-D.mp4,D
+S11,36,40,4,12,0,4,1,planned in-segment cut; verify actual timing,selected/SEG-E.mp4,E
+S12,40,48,8,12,4,12,1,planned in-segment cut; verify actual timing,selected/SEG-E.mp4,E
+CREDITS,48,52,4,,,,,,credits-info.png,
+PROMPTS,52,60,8,,,,,,actual prompt cards; see credits tool,

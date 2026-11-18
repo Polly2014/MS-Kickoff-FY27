@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-18",
+  "model": "gpt-image-2",
+  "provider": "dream-painter configured Azure deployment",
+  "quality": "high",
+  "requested_size": "2048x1152",
+  "actual_size": [
+    2048,
+    1152
+  ],
+  "references": [
+    "frames/continuity/KF-AtoB-Feng-fullbody-12s-candidate-v01.png",
+    "../assets/characters/production-pack/scott/scott-front-v01.png",
+    "frames/STAGE_MASTER-gpt-image-2-v02.png"
+  ],
+  "prompt": "actual-prompts/KF-B-Scott-blueviolet-gpt-image-2-v01.txt",
+  "output": "frames/continuity/KF-B-Scott-blueviolet-gpt-image-2-v01.png",
+  "sha256": "7312b6bd79569d05ca1d60399b304842a5046288a45f954f74a9e87215be606d",
+  "api_cost": null,
+  "libtv_image_credits": 0,
+  "review": "Scott round face / dense side part / rectangular glasses distinct from Feng; head and shoes complete; dynamic bent-knee preparation; local blue-violet stage; overview used only as design reference; geometry is not calibrated 3D."
+}

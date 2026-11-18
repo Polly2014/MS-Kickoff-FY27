@@ -1,0 +1,25 @@
+{
+  "job": "E1-PREVIEW-4s",
+  "status": "四秒揭示预演；GROUP_LOCAL不是D实际末态，正式需替换首帧",
+  "source_paths_relative_to": "production/",
+  "images": [
+    {
+      "order": 1,
+      "alias": "GROUP_LOCAL",
+      "upload_file": "01_GROUP_LOCAL.png",
+      "source": "frames/GROUP_LOCAL-gpt-image-2-v03.png",
+      "role": "预演首帧的局部六人构图",
+      "exists": true,
+      "sha256": "7b3c1b01fe7e2c50dd46d9c10f77725f0793a4981b6a706ed27b09858a1ce5d8"
+    },
+    {
+      "order": 2,
+      "alias": "GROUP_MASTER",
+      "upload_file": "02_GROUP_MASTER.png",
+      "source": "frames/GROUP_MASTER-gpt-image-2-v03.png",
+      "role": "四秒末尾到达的全景构图；严格首尾锁定须在面板实际启用",
+      "exists": true,
+      "sha256": "bd1d0f5afec08785ab11357204712f6d43457a3bfb8c8227b01cc2bc1b3b9e73"
+    }
+  ]
+}

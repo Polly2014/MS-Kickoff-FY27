@@ -1,0 +1,49 @@
+[
+  {
+    "source": "../assets/characters/production-pack/jessica/jessica-front-v01.png",
+    "derived": "reference-uploads/characters/jessica-front-v01-q95.jpg",
+    "operation": "JPEG quality=95 subsampling=0; original dimensions retained",
+    "source_sha256": "417dcce1bbfde698257aff9925211bd61f58037ecdb01d5b752b412bbcac85d2",
+    "output_sha256": "2526378bca436be684f3059813b623f4042d23db28d94693fe857bd14a5404fc"
+  },
+  {
+    "source": "../assets/characters/production-pack/feng/feng-front-v01.png",
+    "derived": "reference-uploads/characters/feng-front-v01-q95.jpg",
+    "operation": "JPEG quality=95 subsampling=0; original dimensions retained",
+    "source_sha256": "8fa7995efe4ef9599006b611bd5d6bae247ccec7263a2999a6ca2cd8141068db",
+    "output_sha256": "61e64419408a7251c4d439f6588258e51670ee0893f82e7c8f5d43f0aa4d22ab"
+  },
+  {
+    "source": "../assets/characters/production-pack/scott/scott-front-v01.png",
+    "derived": "reference-uploads/characters/scott-front-v01-q95.jpg",
+    "operation": "JPEG quality=95 subsampling=0; original dimensions retained",
+    "source_sha256": "f9a2e7a22ac614d7a1512741b8958379bea20c00952580773527f284036898f4",
+    "output_sha256": "c782dab1570e052bca1c61cf93ec324303afe8e6d0a8883a445ecf7a0c036a80"
+  },
+  {
+    "source": "../assets/characters/production-pack/song/song-front-v01.png",
+    "derived": "reference-uploads/characters/song-front-v01-q95.jpg",
+    "operation": "JPEG quality=95 subsampling=0; original dimensions retained",
+    "source_sha256": "54222d7600c3df68df148c8ec64dc76cc7233df9213e00c3aef8ef988a25c259",
+    "output_sha256": "5af70521becb1e2eb458df3865ce52ec9a4972b076449833a5f211f2c3b00058"
+  },
+  {
+    "source": "../assets/characters/production-pack/amy/amy-front-v01.png",
+    "derived": "reference-uploads/characters/amy-front-v01-q95.jpg",
+    "operation": "JPEG quality=95 subsampling=0; original dimensions retained",
+    "source_sha256": "b4c0d82bced45e622afaa14d5c4bfbe85dd5299621a41b1754bd0e93598d3a72",
+    "output_sha256": "94eb41252d3bd729384cbbcb97772b8eea83530012714a5be33caab25cb795e9"
+  },
+  {
+    "source": "../assets/characters/production-pack/wei/wei-front-v01.png",
+    "derived": "reference-uploads/characters/wei-front-v01-q95.jpg",
+    "operation": "JPEG quality=95 subsampling=0; original dimensions retained",
+    "source_sha256": "1c78d9ead123a33875557d75d20cb1034067c832e359a64c469f6ae33137cee6",
+    "output_sha256": "d7a4a7475af0b9e3a09593f732a368fd23f9d2493e412e948674686a2934248f"
+  },
+  {
+    "source": "frames/GROUP_MASTER-gpt-image-2-v03.png",
+    "derived": "reference-uploads/GROUP_MASTER-v03-2048.png",
+    "operation": "Lanczos resize from 3840x2160 to 2048x1152; original retained"
+  }
+]

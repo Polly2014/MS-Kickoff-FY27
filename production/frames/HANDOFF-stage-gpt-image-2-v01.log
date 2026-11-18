@@ -1,0 +1,13 @@
+Reference: assets\stage\copilot-logo-stage-overview-v01.png
+Prompt file: production\actual-prompts\HANDOFF-stage-gpt-image-2-v01.txt
+📁 Loading config from: D:\git_workspace\www.polly.com\.claude\skills\dream-painter\scripts\config.env
+🔗 Using endpoint: https://polly-ai-foundry-resource.cognitiveservices.azure.com/
+🚀 Using deployment: gpt-image-1.5
+Actual requested deployment: gpt-image-2
+Image 1: assets\stage\copilot-logo-stage-overview-v01.png
+🎨 Generating transformed image...
+   Size: 2048x1152
+   Prompt preview: Create one clean 16:9 widescreen production background for an animated dance relay. Image 1 is the a...
+✅ Saved: production\frames\HANDOFF-stage-gpt-image-2-v01.png
+📦 File size: 2189 KB
+Saved requested resolution without the CLI 1200px downscale.

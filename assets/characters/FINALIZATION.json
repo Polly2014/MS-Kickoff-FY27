@@ -25,7 +25,7 @@
       "Wei"
     ]
   },
-  "scope": "Six character designs approved; video and eight-person cast are not complete.",
+  "scope": "Six character designs approved; six-person video cast locked on 2026-11-18; final video not produced.",
   "cleanup": {
     "recycled_intermediate_files": 101,
     "removed_from_project_mib": 68.73,
@@ -33,5 +33,49 @@
     "original_photos_preserved": 6,
     "approved_image_hashes_verified_after_cleanup": true,
     "project_markdown_links_verified": true
+  },
+  "confirmed_identity_aliases": {
+    "Wei": {
+      "display_name": "Renwei",
+      "confirmed_date": "2026-11-18",
+      "confirmation_source": "User: 确认Wei和Renwei是对应的",
+      "preserve_source_filenames": true
+    }
+  },
+  "video_cast": {
+    "status": "locked",
+    "confirmed_date": "2026-11-18",
+    "members": [
+      "Jessica",
+      "Feng",
+      "Scott",
+      "Song",
+      "Amy",
+      "Renwei"
+    ],
+    "excluded_from_video": [
+      "Zhuoying",
+      "Michael"
+    ],
+    "first_appearance_order": [
+      "Jessica",
+      "Feng",
+      "Scott"
+    ],
+    "formation_relative_to_main_camera": {
+      "front_center": [
+        "Feng"
+      ],
+      "second_row_left_to_right": [
+        "Jessica",
+        "Scott"
+      ],
+      "third_row_left_to_right": [
+        "Song",
+        "Amy",
+        "Renwei"
+      ]
+    },
+    "note": "First three appearances and 1+2+3 hierarchy confirmed; remaining three left-to-right placement is production layout suggestion."
   }
 }

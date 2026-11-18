@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-18",
+  "status": "generated_and_visually_checked",
+  "provider": "dream-painter configured Azure",
+  "model": "gpt-image-2",
+  "size": "2048x1152",
+  "quality": "high",
+  "libtv_video_generations": 0,
+  "items": [
+    {
+      "id": "STAGE-LOCAL-02-blue-side-v01",
+      "label": "蓝青侧向低机位",
+      "use": "单人快速脚步、侧向跟拍、倒立全身",
+      "refs": [
+        "frames/STAGE_MASTER-gpt-image-2-v02.png",
+        "frames/HANDOFF-stage-gpt-image-2-v01.png"
+      ],
+      "prompt_file": "actual-prompts/STAGE-LOCAL-02-blue-side-v01.txt",
+      "output": "frames/stage-locals/STAGE-LOCAL-02-blue-side-v01.png",
+      "exit_code": 0,
+      "status": "generated",
+      "actual_size": [
+        2048,
+        1152
+      ],
+      "sha256": "37e359dc9622a1dbf3053a325ac3fe0b4ef9821e1035a744a540d94b7c5177f7",
+      "review": "Empty broad blue/cyan floor; substantial left ribbon arch and right violet fold. Camera reads near frontal/oblique rather than a strong lateral reverse, so do not treat as calibrated side camera.",
+      "review_status": "visually_checked_candidate",
+      "used_in_final": false,
+      "libtv_uploaded": false
+    },
+    {
+      "id": "STAGE-LOCAL-04-warm-duo-v01",
+      "label": "暖色带面双人机位",
+      "use": "后续双人接力与对舞，冷区切到暖区",
+      "refs": [
+        "frames/STAGE_MASTER-gpt-image-2-v02.png",
+        "frames/HANDOFF-stage-gpt-image-2-v01.png"
+      ],
+      "prompt_file": "actual-prompts/STAGE-LOCAL-04-warm-duo-v01.txt",
+      "output": "frames/stage-locals/STAGE-LOCAL-04-warm-duo-v01.png",
+      "exit_code": 0,
+      "status": "generated",
+      "actual_size": [
+        2048,
+        1152
+      ],
+      "sha256": "70a3476c071a432eac431b3eea081b74813198f8ae6660f6122221cd04f8a45b",
+      "review": "Clear central coral/magenta floor with blue arch behind and magenta curl to right; partial architecture stays legible while full outer logo contour is cropped. Quite bright warm floor; adapt shot exposure if needed.",
+      "review_status": "visually_checked_candidate",
+      "used_in_final": false,
+      "libtv_uploaded": false
+    },
+    {
+      "id": "STAGE-LOCAL-05-warm-ensemble-v01",
+      "label": "暖色群舞斜俯机位",
+      "use": "三至六人队形、齐舞与最终揭示前的过渡",
+      "refs": [
+        "frames/STAGE_MASTER-gpt-image-2-v02.png",
+        "frames/HANDOFF-stage-gpt-image-2-v01.png"
+      ],
+      "prompt_file": "actual-prompts/STAGE-LOCAL-05-warm-ensemble-v01.txt",
+      "output": "frames/stage-locals/STAGE-LOCAL-05-warm-ensemble-v01.png",
+      "exit_code": 0,
+      "status": "generated",
+      "actual_size": [
+        2048,
+        1152
+      ],
+      "sha256": "83bce100f80da94a19354e5741d88c45aba051d7cbd11dbde7f0a2058b150289",
+      "review": "Wide warm floor with visible thick front edge and right magenta curl, blue band behind. Modestly elevated local composition, no full logo. Keep dancers inside solid floor with margins from curved edges.",
+      "review_status": "visually_checked_candidate",
+      "used_in_final": false,
+      "libtv_uploaded": false
+    },
+    {
+      "id": "STAGE-LOCAL-03-violet-match-v01",
+      "label": "蓝紫接棒空舞台",
+      "use": "匹配B段Scott所在机位，供换人和后续衔接",
+      "refs": [
+        "frames/continuity/KF-B-Scott-blueviolet-gpt-image-2-v01.png",
+        "frames/STAGE_MASTER-gpt-image-2-v02.png"
+      ],
+      "prompt_file": "actual-prompts/STAGE-LOCAL-03-violet-match-v01.txt",
+      "output": "frames/stage-locals/STAGE-LOCAL-03-violet-match-v01.png",
+      "exit_code": 0,
+      "status": "generated",
+      "actual_size": [
+        2048,
+        1152
+      ],
+      "sha256": "22eff76b318d256eb3a77fedad8c0d54d20905bc56c0189ba46eb58d8133622b",
+      "review": "Scott removed with no visible body/ghost. Same overall blue-violet plate composition and right folds retained; thin cyan foreground light strokes remain. Generated removal is not pixel-identical to source.",
+      "review_status": "visually_checked_candidate",
+      "used_in_final": false,
+      "libtv_uploaded": false
+    }
+  ],
+  "libtv_credits_spent": 0,
+  "api_cost": null,
+  "api_cost_note": "Four configured Azure GPT Image 2 calls; API charge not queried, separate from LibTV credits.",
+  "contact_sheet": "previews/stage-local-pack-v01-contact.jpg",
+  "geometry_note": "AI-referenced set derivatives, not a calibrated 3D scene or guaranteed exact camera continuity."
+}

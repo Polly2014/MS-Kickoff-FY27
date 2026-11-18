@@ -1,0 +1,15 @@
+Reference: production\frames\HANDOFF-stage-gpt-image-2-v01.png
+Prompt file: production\actual-prompts\HANDOFF-feng-gpt-image-2-v01.txt
+📁 Loading config from: D:\git_workspace\www.polly.com\.claude\skills\dream-painter\scripts\config.env
+🔗 Using endpoint: https://polly-ai-foundry-resource.cognitiveservices.azure.com/
+🚀 Using deployment: gpt-image-1.5
+Actual requested deployment: gpt-image-2
+Image 1: production\frames\HANDOFF-stage-gpt-image-2-v01.png
+Image 2: assets\characters\production-pack\feng\feng-front-v01.png
+Image 3: production\frames\HANDOFF-jessica-gpt-image-2-v01.png
+🎨 Generating transformed image...
+   Size: 2048x1152
+   Prompt preview: Create a single 16:9 animation start frame by editing Image 1, the approved empty stage background. ...
+✅ Saved: production\frames\HANDOFF-feng-gpt-image-2-v01.png
+📦 File size: 2454 KB
+Saved requested resolution without the CLI 1200px downscale.

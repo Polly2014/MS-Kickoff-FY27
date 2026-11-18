@@ -1,0 +1,205 @@
+{
+  "date": "2026-11-18",
+  "assets": {
+    "STAGE_MASTER": {
+      "alias": "STAGE_MASTER",
+      "path": "frames/STAGE_MASTER-gpt-image-2-v02.png",
+      "sha256": "3c43dc4e15ec98ab9619cf882bb5f5d3ae350ac79b80dc8a116598936447275a",
+      "size": [
+        3840,
+        2160
+      ],
+      "requested_deployment": "gpt-image-2",
+      "quality": "high",
+      "actual_prompt": "actual-prompts/STAGE_MASTER-gpt-image-2-v01.txt",
+      "inputs": [
+        "../assets/stage/copilot-logo-stage-overview-v01.png",
+        "../references/copilot-icon-cropped.png",
+        "frames/HANDOFF-stage-gpt-image-2-v01.png"
+      ],
+      "review": "4K empty overview inspected; silhouette, overlap and central opening retained visually; front warm surface reserved for cast; not a reconstructed 3D model.",
+      "status": "agent-selected preparation reference; not user-approved final",
+      "used_in_final": false,
+      "cost": "API billed separately; actual bill not queried"
+    },
+    "GROUP_MASTER": {
+      "alias": "GROUP_MASTER",
+      "path": "frames/GROUP_MASTER-gpt-image-2-v03.png",
+      "sha256": "bd1d0f5afec08785ab11357204712f6d43457a3bfb8c8227b01cc2bc1b3b9e73",
+      "size": [
+        3840,
+        2160
+      ],
+      "requested_deployment": "gpt-image-2",
+      "quality": "high",
+      "actual_prompt": "actual-prompts/GROUP_MASTER-gpt-image-2-v03.txt",
+      "inputs": [
+        "frames/GROUP_MASTER-gpt-image-2-v02.png",
+        "../assets/characters/production-pack/scott/scott-front-v01.png",
+        "frames/SCOTT-identity-detail-v01.png"
+      ],
+      "review": "Selected for preparation after visual review: six distinct roles, Scott corrected to fuller hair, black rectangular glasses and closed-mouth smile; Feng remains front center; all feet on warm solid ribbon. Geometry visually related, not pixel-locked or a 3D reconstruction.",
+      "status": "agent-selected preparation reference; not user-approved final",
+      "used_in_final": false,
+      "cost": "API billed separately; actual bill not queried"
+    },
+    "GROUP_LOCAL": {
+      "alias": "GROUP_LOCAL",
+      "path": "frames/GROUP_LOCAL-gpt-image-2-v03.png",
+      "sha256": "7b3c1b01fe7e2c50dd46d9c10f77725f0793a4981b6a706ed27b09858a1ce5d8",
+      "size": [
+        2048,
+        1152
+      ],
+      "requested_deployment": "gpt-image-2",
+      "quality": "high",
+      "actual_prompt": "actual-prompts/GROUP_LOCAL-gpt-image-2-v03.txt",
+      "inputs": [
+        "frames/GROUP_LOCAL-gpt-image-2-v02.png",
+        "reference-uploads/characters/feng-front-v01-q95.jpg",
+        "frames/FENG-identity-detail-v01.png"
+      ],
+      "review": "Six faces and 1+2+3 reviewed; front Feng refined to high forehead and own smile; second-row right Scott retains low hairline, black rectangular glasses and closed-mouth smile. Solid warm ribbon support; approximate camera relation, not calibrated 3D.",
+      "status": "agent-selected preparation reference; not user-approved final",
+      "used_in_final": false,
+      "cost": "API billed separately; actual bill not queried"
+    },
+    "DUO_MASTER": {
+      "alias": "DUO_MASTER",
+      "path": "frames/DUO_MASTER-gpt-image-2-v01.png",
+      "sha256": "8420cd23aa11c1a8d44865ce9952fbd25861fb1084d59f3e5051c3cdd827d336",
+      "size": [
+        2048,
+        1152
+      ],
+      "requested_deployment": "gpt-image-2",
+      "quality": "high",
+      "actual_prompt": "actual-prompts/DUO_MASTER-gpt-image-2-v01.txt",
+      "inputs": [
+        "frames/GROUP_LOCAL-gpt-image-2-v02.png",
+        "reference-uploads/characters/song-front-v01-q95.jpg",
+        "reference-uploads/characters/amy-front-v01-q95.jpg"
+      ],
+      "review": "Exactly Song left and Amy right; identities, navy uniforms, complete bodies and shoes reviewed; no background people; same warm ribbon material and lighting.",
+      "status": "agent-selected preparation reference; not user-approved final",
+      "used_in_final": false,
+      "cost": "API billed separately; actual bill not queried"
+    },
+    "CORE3_MASTER": {
+      "alias": "CORE3_MASTER",
+      "path": "frames/CORE3_MASTER-gpt-image-2-v02.png",
+      "sha256": "6cc368ef0aefdc7218d6d258bebf1b6e41e67824192f7910b877a4fa0c4f8966",
+      "size": [
+        2048,
+        1152
+      ],
+      "requested_deployment": "gpt-image-2",
+      "quality": "high",
+      "actual_prompt": "actual-prompts/CORE3_MASTER-gpt-image-2-v01.txt",
+      "inputs": [
+        "frames/GROUP_LOCAL-gpt-image-2-v02.png",
+        "reference-uploads/characters/jessica-front-v01-q95.jpg",
+        "reference-uploads/characters/feng-front-v01-q95.jpg",
+        "reference-uploads/characters/scott-front-v01-q95.jpg"
+      ],
+      "review": "Exactly Jessica left, Feng front center and Scott right; distinct high-forehead Feng and fuller-hair rectangular-glasses Scott reviewed against original identity references. Full shoes supported, no other people.",
+      "status": "agent-selected preparation reference; not user-approved final",
+      "used_in_final": false,
+      "cost": "API billed separately; actual bill not queried"
+    }
+  },
+  "attempts": [
+    {
+      "asset": "STAGE_MASTER-gpt-image-2-v01",
+      "status": "failed before API call",
+      "reason": "Windows stdout cp1252 could not encode an emoji; resumed with python -X utf8",
+      "log": "frames/STAGE_MASTER-gpt-image-2-v01.log",
+      "image_created": false
+    },
+    {
+      "alias": "GROUP_MASTER",
+      "path": "frames/GROUP_MASTER-gpt-image-2-v01.png",
+      "sha256": "798fa15a024df789a1f74160536ddea1e43dc9e757f069ded4632254927ab5ac",
+      "size": [
+        3840,
+        2160
+      ],
+      "requested_deployment": "gpt-image-2",
+      "quality": "high",
+      "actual_prompt": "actual-prompts/GROUP_MASTER-gpt-image-2-v01.txt",
+      "inputs": [
+        "frames/STAGE_MASTER-gpt-image-2-v02.png",
+        "../assets/characters/production-pack/jessica/jessica-front-v01.png",
+        "../assets/characters/production-pack/feng/feng-front-v01.png",
+        "../assets/characters/production-pack/scott/scott-front-v01.png",
+        "../assets/characters/production-pack/song/song-front-v01.png",
+        "../assets/characters/production-pack/amy/amy-front-v01.png",
+        "../assets/characters/production-pack/wei/wei-front-v01.png"
+      ],
+      "review": "Rejected: figures too large; Scott resembles Feng; Amy foot support in central opening is ambiguous.",
+      "status": "rejected candidate; do not upload as selected reference",
+      "used_in_final": false,
+      "cost": "API billed separately; actual bill not queried"
+    },
+    {
+      "alias": "GROUP_MASTER",
+      "path": "frames/GROUP_MASTER-gpt-image-2-v02.png",
+      "sha256": "f4d427bc27a35e923cab3f59823a6c4da08f6015e70ebc13de8e026f9094b1ed",
+      "size": [
+        3840,
+        2160
+      ],
+      "requested_deployment": "gpt-image-2",
+      "quality": "high",
+      "actual_prompt": "actual-prompts/GROUP_MASTER-gpt-image-2-v02.txt",
+      "inputs": [
+        "frames/GROUP_MASTER-gpt-image-2-v01.png",
+        "frames/STAGE_MASTER-gpt-image-2-v02.png",
+        "../assets/characters/production-pack/jessica/jessica-front-v01.png",
+        "../assets/characters/production-pack/feng/feng-front-v01.png",
+        "../assets/characters/production-pack/scott/scott-front-v01.png",
+        "../assets/characters/production-pack/song/song-front-v01.png",
+        "../assets/characters/production-pack/amy/amy-front-v01.png",
+        "../assets/characters/production-pack/wei/wei-front-v01.png"
+      ],
+      "review": "Rejected: scale and solid-surface placement improved, but user identified Scott as a second Feng. Do not derive final group shots from this candidate.",
+      "status": "rejected candidate; do not upload as selected reference",
+      "used_in_final": false,
+      "cost": "API billed separately; actual bill not queried"
+    },
+    {
+      "asset": "GROUP_LOCAL-gpt-image-2-v01",
+      "status": "upload connection failed; no output",
+      "reason": "Socket write timeout while sending eight references including two 4K images; billing unknown",
+      "actual_prompt": "actual-prompts/GROUP_LOCAL-gpt-image-2-v01.txt",
+      "log": "frames/GROUP_LOCAL-gpt-image-2-v01.log"
+    },
+    {
+      "alias": "GROUP_LOCAL",
+      "path": "frames/GROUP_LOCAL-gpt-image-2-v02.png",
+      "sha256": "65fd7bc7549730a404d76d6d93147d3109b559a2c6b69c89f83e45405d1f83e6",
+      "size": [
+        2048,
+        1152
+      ],
+      "requested_deployment": "gpt-image-2",
+      "quality": "high",
+      "actual_prompt": "actual-prompts/GROUP_LOCAL-gpt-image-2-v02.txt",
+      "inputs": [
+        "reference-uploads/GROUP_MASTER-v03-2048.png",
+        "frames/SCOTT-identity-detail-v01.png"
+      ],
+      "review": "Environment and six-person placement retained; Feng identity refinement requested before selecting as local master. Used only as environment source for trio and duo preparation.",
+      "status": "rejected candidate; do not upload as selected reference",
+      "used_in_final": false,
+      "cost": "API billed separately; actual bill not queried"
+    },
+    {
+      "asset": "CORE3_MASTER-gpt-image-2-v01",
+      "status": "API rejected 429 RateLimitReached; no image",
+      "reason": "Service requested retry after 59 seconds; next attempt uses a new version and same deployment",
+      "actual_prompt": "actual-prompts/CORE3_MASTER-gpt-image-2-v01.txt",
+      "log": "frames/CORE3_MASTER-gpt-image-2-v01.log"
+    }
+  ]
+}

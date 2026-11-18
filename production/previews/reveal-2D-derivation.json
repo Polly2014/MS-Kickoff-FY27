@@ -1,0 +1,23 @@
+{
+  "source": "frames\\GROUP_MASTER-gpt-image-2-v03.png",
+  "source_sha256": "bd1d0f5afec08785ab11357204712f6d43457a3bfb8c8227b01cc2bc1b3b9e73",
+  "exact_crop": "frames\\GROUP_LOCAL-exact-crop-v01.png",
+  "crop_xyxy": [
+    1550,
+    850,
+    3470,
+    1930
+  ],
+  "source_size": [
+    3840,
+    2160
+  ],
+  "preview": "previews\\E1-reveal-2D-PREVIS-v01.mp4",
+  "preview_size": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "frames": 120,
+  "note": "Same pixels, smooth 2D crop pullout. Static people; not AI video, not a 3D camera move, not final."
+}

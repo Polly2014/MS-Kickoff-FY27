@@ -1,0 +1,25 @@
+{
+  "job": "A",
+  "status": "图像已准备，视频效果待试制",
+  "source_paths_relative_to": "production/",
+  "images": [
+    {
+      "order": 1,
+      "alias": "JESSICA",
+      "upload_file": "01_JESSICA.png",
+      "source": "../assets/characters/production-pack/jessica/jessica-front-v01.png",
+      "role": "仅参考Jessica白鞋、裤装和身体比例，本段只拍鞋和小腿",
+      "exists": true,
+      "sha256": "417dcce1bbfde698257aff9925211bd61f58037ecdb01d5b752b412bbcac85d2"
+    },
+    {
+      "order": 2,
+      "alias": "STAGE_LOCAL",
+      "upload_file": "02_STAGE_LOCAL.png",
+      "source": "frames/HANDOFF-stage-gpt-image-2-v01.png",
+      "role": "局部地面材质与光线",
+      "exists": true,
+      "sha256": "7dded4401fe2f8b4959cba20a4fb94d6d2a8a3acca250e63469ca7b1c9f6a43b"
+    }
+  ]
+}

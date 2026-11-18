@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-18",
+  "balance": 3726,
+  "operation": "UI quote comparison only; no generation; restored initial Wan 3.0 / 480P / 8s setting",
+  "references": "Existing B three images remained connected; UI showed 全能参考 for each compared model; video quality not tested",
+  "quotes": [
+    {
+      "model": "Wan 3.0",
+      "resolution": "480P",
+      "seconds": 8,
+      "credits": 32,
+      "undiscounted_credits": 40,
+      "audio": "off, verified in parameter panel",
+      "proof": "previews/budget-Wan30-480p-8s.jpg"
+    },
+    {
+      "model": "Wan 3.0",
+      "resolution": "720P",
+      "seconds": 8,
+      "credits": 64,
+      "undiscounted_credits": 80,
+      "audio": "off, inherited from verified Wan panel",
+      "proof": "previews/budget-Wan30-720p-8s.jpg"
+    },
+    {
+      "model": "Minimax H3",
+      "resolution": "768P",
+      "seconds": 8,
+      "credits": 112,
+      "audio": "no audio switch in observed panel; not assumed silent",
+      "proof": "previews/budget-MinimaxH3-768p-8s.jpg"
+    },
+    {
+      "model": "H3-Highspeed",
+      "resolution": "768P",
+      "seconds": 8,
+      "credits": 56,
+      "audio": "no audio switch in observed panel; not assumed silent",
+      "proof": "previews/budget-MinimaxH3Highspeed-768p-8s.jpg"
+    },
+    {
+      "model": "Seedance 2.5 Flash",
+      "resolution": "480P",
+      "seconds": 8,
+      "credits": 104,
+      "audio": "switched-model default not verified off; requote with intended settings before submission",
+      "proof": "previews/budget-Flash25-480p-8s.jpg"
+    },
+    {
+      "model": "Seedance 2.5 Flash",
+      "resolution": "720P",
+      "seconds": 8,
+      "credits": 224,
+      "audio": "switched-model default not verified off"
+    }
+  ],
+  "recommendation": "Wan 3.0 480P for first inexpensive comparison, Wan 3.0 720P for production if identity and motion pass; H3-Highspeed 768P alternative; preserve completed B",
+  "budget_estimate": "40 remaining seconds at observed Wan720 8 credits/sec = 320; three complete passes about 960; extrapolation only, excluding music/upscale and subject to each actual task quote",
+  "membership": "UI says upgrade for zero-credit access; current paid monthly account not assumed eligible. No upgrade or purchase."
+}

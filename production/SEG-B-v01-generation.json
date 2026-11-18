@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-18",
+  "status": "completed; user accepts effect; budget strategy under discussion",
+  "canvas_url": "https://www.liblib.tv/canvas?spaceId=16309688&projectId=13a4ddd3ecf843018e3121871fd7bcaa",
+  "node_id": "v-EYLPiLPFk9",
+  "node_title": "SEG-B_v01_Jessica-Feng_8s_SD25",
+  "model": "Seedance 2.5",
+  "mode": "全能参考",
+  "requested_duration_seconds": 8,
+  "requested_resolution": "1080P",
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "audio": false,
+  "web_search": false,
+  "auto_link": false,
+  "material_validation": true,
+  "quoted_credits": 880,
+  "balance_before": 4606,
+  "balance_after_submission": 3726,
+  "actual_prompt": "actual-prompts/SEG-B-video-v01.txt",
+  "actual_ui_reference_record": "actual-prompts/SEG-B-video-v01-ui.json",
+  "inputs": [
+    "frames/HANDOFF-jessica-gpt-image-2-v01.png",
+    "frames/HANDOFF-feng-gpt-image-2-v01.png",
+    "frames/HANDOFF-stage-gpt-image-2-v01.png"
+  ],
+  "used_in_final": false,
+  "output_file": "raw-video/SEG-B_v01.mp4",
+  "note": "Submitted once through LibTV UI; generating indicator and 880-credit balance decrease observed. No additional generation requested.",
+  "actual_media": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24.0,
+    "frames": 193,
+    "duration": 8.041666666666666,
+    "bytes": 8832263,
+    "sha256": "dff801324b2420f86c31b6d099c61e3756f3cafd4129f72f093f0bb20b7ccc2c"
+  },
+  "review": {
+    "status": "first production candidate; awaiting user review; not selected final",
+    "observed": [
+      "Jessica readable at opening; small lateral step rather than running",
+      "purple foreground covers frame around 5.5-5.75 seconds; Feng appears after occlusion; no direct face morph observed in sampled frames",
+      "Feng receives light and stands at ending; no additional person or complete Logo visible in sampled frames",
+      "actual file has video stream only; audio disabled"
+    ],
+    "limitations": [
+      "foreground wipe occupies much of 4-6 second window; rhythm may feel slow",
+      "Feng looks down with eyes mostly closed from appearance until roughly 7 seconds; stable forward face shorter than desired 2 seconds",
+      "foot light forms bright magenta rings and bars, stronger than intended fine light trace",
+      "sampled contact sheets verify selected frames, not calibrated stage geometry; full-speed user review remains necessary"
+    ]
+  },
+  "review_export": "exports/SEG-B_v01_review_1080p30.mp4",
+  "export_note": "8 seconds / 240 frames / 30 fps H264; deterministic trim and frame-rate conversion, no motion interpolation; original 24fps HEVC retained; no final selection",
+  "user_feedback": "2026-11-18: 效果已经可以了"
+}

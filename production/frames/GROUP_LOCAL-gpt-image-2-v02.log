@@ -1,0 +1,14 @@
+Reference: production\reference-uploads\GROUP_MASTER-v03-2048.png
+Prompt file: production\actual-prompts\GROUP_LOCAL-gpt-image-2-v02.txt
+📁 Loading config from: D:\git_workspace\www.polly.com\.claude\skills\dream-painter\scripts\config.env
+🔗 Using endpoint: https://polly-ai-foundry-resource.cognitiveservices.azure.com/
+🚀 Using deployment: gpt-image-1.5
+Actual requested deployment: gpt-image-2
+Image 1: production\reference-uploads\GROUP_MASTER-v03-2048.png
+Image 2: production\frames\SCOTT-identity-detail-v01.png
+🎨 Generating transformed image...
+   Size: 2048x1152
+   Prompt preview: Image 1 is the selected full group master showing SIX different approved characters on one Copilot r...
+✅ Saved: production\frames\GROUP_LOCAL-gpt-image-2-v02.png
+📦 File size: 2687 KB
+Saved requested resolution without the CLI 1200px downscale.

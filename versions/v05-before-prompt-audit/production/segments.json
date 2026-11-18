@@ -1,0 +1,259 @@
+[
+  {
+    "id": "A",
+    "start": 0,
+    "end": 4,
+    "shots": [
+      "S01"
+    ],
+    "cast": [
+      "Jessica"
+    ],
+    "title": "第一拍，空间苏醒",
+    "refs": [
+      [
+        "SHOES_JESSICA",
+        "Jessica鞋部与队服下装参考，来自认可角色图"
+      ],
+      [
+        "STAGE_LOCAL",
+        "认可的局部空舞台，只约束材质与空间"
+      ]
+    ],
+    "beats": [
+      [
+        "0–1秒",
+        "白鞋与细腻带面特写，深蓝暗场中先静后动。"
+      ],
+      [
+        "1–2秒",
+        "Jessica白鞋轻踏，接触点产生第一圈青色光纹。"
+      ],
+      [
+        "2–4秒",
+        "光沿既有带面向右传播，轻抬镜，仍看不出完整Logo；不露脸。"
+      ]
+    ],
+    "prompt_file": "prompts/SEG-A-video-v05.txt"
+  },
+  {
+    "id": "B",
+    "start": 4,
+    "end": 12,
+    "shots": [
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "cast": [
+      "Jessica",
+      "Feng"
+    ],
+    "title": "Jessica → Feng，光的第一棒",
+    "refs": [
+      [
+        "JESSICA",
+        "Jessica原单人正面图，仅身份与队服"
+      ],
+      [
+        "FENG",
+        "Feng原单人正面图，仅身份与队服"
+      ],
+      [
+        "STAGE_LOCAL",
+        "HANDOFF-stage-gpt-image-2-v01.png，局部舞台"
+      ],
+      [
+        "JESSICA_FRAME",
+        "HANDOFF-jessica-gpt-image-2-v01.png，Jessica起始构图"
+      ],
+      [
+        "FENG_FRAME",
+        "HANDOFF-feng-gpt-image-2-v01.png，遮挡后Feng构图"
+      ]
+    ],
+    "beats": [
+      [
+        "0–2秒",
+        "只有Jessica。膝上中景清楚认脸，短拉至全身，轻压肩部和小幅踏步；脚边光纹随落拍回应。"
+      ],
+      [
+        "2–4秒",
+        "Jessica面向镜头略偏右，右手轻送，做一次短距离贴地侧步；光先于人物向右传出。保持头鞋完整，不跑步。"
+      ],
+      [
+        "4–6秒",
+        "Jessica完成短侧步，近景彩带边缘扫满画面，在约5.5秒遮挡最满处明确切镜；不要求她长距离滑出，不得把她变形成Feng。"
+      ],
+      [
+        "6–8秒",
+        "遮挡移开后只见Feng，匹配机位、人物大小与脚底高度；从左进入的光抵达鞋边，他向右小幅移重心并踩拍站稳，抬头微笑，脸保持清楚。"
+      ]
+    ],
+    "prompt_file": "prompts/SEG-B-video-v05.txt"
+  },
+  {
+    "id": "C",
+    "start": 12,
+    "end": 24,
+    "shots": [
+      "S05",
+      "S06",
+      "S07"
+    ],
+    "cast": [
+      "Jessica",
+      "Feng",
+      "Scott"
+    ],
+    "title": "回应，核心三人共振",
+    "refs": [
+      [
+        "JESSICA",
+        "Jessica角色身份"
+      ],
+      [
+        "FENG",
+        "Feng角色身份"
+      ],
+      [
+        "SCOTT",
+        "Scott角色身份"
+      ],
+      [
+        "CORE3_MASTER",
+        "Feng前排中央、Jessica左后、Scott右后的局部三人主图"
+      ],
+      [
+        "B_LAST",
+        "已采用B段实际末帧，只约束开头Feng与机位"
+      ]
+    ],
+    "beats": [
+      [
+        "0–4秒",
+        "只有Feng，承接B段末态，小幅肩部律动和手臂波浪；末尾向右开手，光沿地面传出。"
+      ],
+      [
+        "4–8秒",
+        "在光纹上匹配切镜，只见Scott第三位首次露脸；轻踏接光，至少2秒清楚认脸，短舞后向左开手回应。"
+      ],
+      [
+        "8–12秒",
+        "明确切到核心三人中全景，Feng前排中央，Jessica左后、Scott右后；三人同拍踏步，向中央开手再传出汇聚光；镜头短暂停稳，其他成员尚不出现。"
+      ]
+    ],
+    "prompt_file": "prompts/SEG-C-video-v05.txt"
+  },
+  {
+    "id": "D",
+    "start": 24,
+    "end": 36,
+    "shots": [
+      "S08",
+      "S09",
+      "S10"
+    ],
+    "cast": [
+      "Jessica",
+      "Feng",
+      "Scott",
+      "Song",
+      "Amy",
+      "Renwei"
+    ],
+    "title": "伙伴接续，六人同一拍",
+    "refs": [
+      [
+        "SONG",
+        "Song角色身份"
+      ],
+      [
+        "AMY",
+        "Amy角色身份"
+      ],
+      [
+        "RENWEI",
+        "Renwei身份，使用wei-front-v01.png"
+      ],
+      [
+        "DUO_MASTER",
+        "Song左、Amy右的局部双人主图"
+      ],
+      [
+        "GROUP_LOCAL",
+        "固定六人主图派生的低位局部；前三人仅在8秒后出现"
+      ],
+      [
+        "STAGE_LOCAL",
+        "同一Logo的局部材质机位参考"
+      ]
+    ],
+    "beats": [
+      [
+        "0–4秒",
+        "只有Song和Amy，Song左Amy右；光与手臂波浪从Song传向Amy，Amy末尾轻踏将光送出。"
+      ],
+      [
+        "4–8秒",
+        "在光点上明确切到Renwei单人中景；他轻踏接光、开手，墨镜保持不透明，末尾向紧邻站位小移一步。"
+      ],
+      [
+        "8–12秒",
+        "切六人局部群像，其他五人已在位置；严格1＋2＋3，Feng前排中央，Jessica和Scott第二排，Song/Amy/Renwei第三排从左到右。六人共同落脚，六处微光沿带面汇聚蓄力；完整Logo仍不入画。"
+      ]
+    ],
+    "prompt_file": "prompts/SEG-D-video-v05.txt"
+  },
+  {
+    "id": "E",
+    "start": 36,
+    "end": 48,
+    "shots": [
+      "S11",
+      "S12"
+    ],
+    "cast": [
+      "Jessica",
+      "Feng",
+      "Scott",
+      "Song",
+      "Amy",
+      "Renwei"
+    ],
+    "title": "共同舞台，完整点亮",
+    "refs": [
+      [
+        "D_LAST",
+        "已采用D段实际末帧，锁定六人身份与站位"
+      ],
+      [
+        "GROUP_MASTER",
+        "同一舞台同一站位的高位全景主图，约束完整Logo几何；是第4秒到达的构图，不是整段视频的尾帧"
+      ],
+      [
+        "CAST_MASTER",
+        "同一六人角色校验图，仅必要时辅助身份"
+      ]
+    ],
+    "beats": [
+      [
+        "0–4秒",
+        "从D段末态连续升高后退，六人保持位置轻律动；暗部和画外的既有彩带进入视野，逐渐揭示完整Copilot。不可随机切景或把彩带变形成Logo；第4秒全貌稳定。"
+      ],
+      [
+        "4–6秒",
+        "高潮强拍，六人同拍踏步，光沿已有边缘贯通，完整Logo被共同点亮；镜头稳定，左右踏步和肩压。"
+      ],
+      [
+        "6–10秒",
+        "完整Logo持续可辨，六人统一开手收回、短手臂波浪和小幅踏步，不交换站位，不再远离人物。"
+      ],
+      [
+        "10–12秒",
+        "六人共同落脚开手，边缘光完成一次回环呼应第一拍，最后约0.5秒定格；进入片尾。"
+      ]
+    ],
+    "prompt_file": "prompts/SEG-E-video-v05.txt"
+  }
+]
