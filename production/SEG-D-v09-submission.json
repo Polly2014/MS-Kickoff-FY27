@@ -1,0 +1,23 @@
+{
+  "submittedAt": "2026-11-19T12:39:43.622Z",
+  "nodeId": "v-aBjKkphXQR",
+  "version": "v09",
+  "status": "generated",
+  "model": "Wan 3.0",
+  "mode": "全能参考",
+  "durationSeconds": 8,
+  "resolution": "480P",
+  "aspectRatio": "16:9",
+  "outputs": 1,
+  "audio": false,
+  "quotedCredits": 32,
+  "balanceBefore": 2805,
+  "preparation": "SEG-D-v09-canvas-preparation.json",
+  "referenceImage": "REF-DE-group-LibTV-v04-generation.json",
+  "oldVersionPreserved": "v-mJlycCOmzY",
+  "balanceAfter": 2773,
+  "chargedCredits": 32,
+  "completedObservedAt": "2026-11-19T12:45:46.6467146Z",
+  "localVideo": "videos/SEG-D-Wan3-480P-v09-skin-revision.mp4",
+  "review": "Six-second group frame inspected: six distinct people, naturally lit faces and hands. User review pending. No claim that every specified dance step is exact."
+}

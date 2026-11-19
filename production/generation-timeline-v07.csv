@@ -1,0 +1,6 @@
+﻿segment,timeline_in,timeline_out,planned_seconds,model,mode,resolution,prompt_file,status
+A,0,12,12,Wan 3.0,全能参考,480P,prompts/SEG-A-video-v07.txt,blueprint_only_not_generated
+B,12,24,12,Wan 3.0,全能参考,480P,prompts/SEG-B-video-v07.txt,blueprint_only_not_generated
+C,24,32,8,Wan 3.0,全能参考,480P,prompts/SEG-C-video-v07.txt,blueprint_only_not_generated
+D,32,40,8,Wan 3.0,全能参考,480P,prompts/SEG-D-video-v07.txt,blueprint_only_not_generated
+E,40,48,8,Wan 3.0,全能参考,480P,prompts/SEG-E-video-v07.txt,blueprint_only_not_generated

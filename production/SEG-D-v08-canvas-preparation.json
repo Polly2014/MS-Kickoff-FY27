@@ -1,0 +1,65 @@
+{
+  "version": "v08",
+  "status": "prepared_not_submitted",
+  "preparedAt": "2026-11-19T12:17:48.856Z",
+  "nodeId": "v-mJlycCOmzY",
+  "nodeName": "SEG-D-Renwei到六人共舞-8s-Wan3-480P-v08-待生成",
+  "model": "Wan 3.0",
+  "mode": "全能参考",
+  "aspectRatio": "16:9",
+  "resolution": "480P",
+  "durationSeconds": 8,
+  "outputs": 1,
+  "audio": false,
+  "smartExpansion": false,
+  "autoLink": false,
+  "quotedCredits": 32,
+  "originalQuotedCredits": 40,
+  "balanceObserved": 2876,
+  "references": [
+    {
+      "id": "i-4cmaW64j1o",
+      "name": "STAGE-Copilot-局部04-暖色双人-2K-v01"
+    },
+    {
+      "id": "i-P9XvulU7pU",
+      "name": "CHAR-Renwei-多视图设定-v01"
+    },
+    {
+      "id": "i-kzsIrmfBdI",
+      "name": "STAGE-Copilot-局部05-暖色群舞-2K-v01"
+    },
+    {
+      "id": "i-PIufotrfK5",
+      "name": "REF-DE-六人身份与队形-Scott已修正-v03",
+      "localFile": "frames/GROUP_LOCAL-gpt-image-2-v03.png"
+    }
+  ],
+  "verifiedMentions": [
+    {
+      "id": "i-4cmaW64j1o",
+      "text": "图片 1"
+    },
+    {
+      "id": "i-P9XvulU7pU",
+      "text": "图片 2"
+    },
+    {
+      "id": "i-kzsIrmfBdI",
+      "text": "图片 3"
+    },
+    {
+      "id": "i-PIufotrfK5",
+      "text": "图片 4"
+    }
+  ],
+  "promptHTML": "生成8秒视频。电影级3D卡通街舞MV，16:9横屏。人物沿用参考中的脸、头发、眼镜、比例、深蓝队服、窄渐变饰边和白鞋。120 BPM、4/4为节奏目标，正常速度、利落爆发，短促锁点后立即回弹，不慢放。鞋底、肩背和撑地手掌与舞台有真实接触阴影。完整Copilot Logo保留在画外，音轨关闭，后期统一配乐，无对白、文字或字幕。<br><br>【素材职责】 <span contenteditable=\"false\" draggable=\"true\" data-mention-type=\"mixed\" data-mention-index=\"1\" data-mention-node-id=\"i-4cmaW64j1o\" data-draggable-mention=\"true\" data-mention-media-type=\"image\" class=\"mention-badge text-canvas-controls-text inline-flex h-6 cursor-default select-none items-center gap-1 whitespace-nowrap rounded-lg border-hair border-canvas-controls-border bg-transparent px-1 align-middle text-sm\"><span data-mention-thumb=\"true\" style=\"position: relative; display: inline-flex; width: 16px; height: 16px; border-radius: 4px; overflow: hidden; flex-shrink: 0;\"><img src=\"https://libtv-res.liblib.art/upload-images/c3504e8ca6c64c5692c4159bed95e177/b936777302d0a7cf8c8a96868a896d76d7b502c8.png?x-oss-process=image/resize,w_32,m_lfit/format,webp/ignore-error,1\" alt=\"\" draggable=\"false\" style=\"width: 100%; height: 100%; object-fit: cover;\"></span><span data-mention-label=\"true\">图片 1</span></span>  定义0–4秒的暖色局部04舞台结构、地面和光色； <span contenteditable=\"false\" draggable=\"true\" data-mention-type=\"mixed\" data-mention-index=\"2\" data-mention-node-id=\"i-P9XvulU7pU\" data-draggable-mention=\"true\" data-mention-media-type=\"image\" class=\"mention-badge text-canvas-controls-text inline-flex h-6 cursor-default select-none items-center gap-1 whitespace-nowrap rounded-lg border-hair border-canvas-controls-border bg-transparent px-1 align-middle text-sm\"><span data-mention-thumb=\"true\" style=\"position: relative; display: inline-flex; width: 16px; height: 16px; border-radius: 4px; overflow: hidden; flex-shrink: 0;\"><img src=\"https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/c3504e8ca6c64c5692c4159bed95e177/1028862451_e4de15212b044879b0257c0e2e26ead0.png?x-oss-process=image/resize,w_32,m_lfit/format,webp/ignore-error,1\" alt=\"\" draggable=\"false\" style=\"width: 100%; height: 100%; object-fit: cover;\"></span><span data-mention-label=\"true\">图片 2</span></span>  只定义Renwei一个人的身份与服装，多视图各角度是同一人； <span contenteditable=\"false\" draggable=\"true\" data-mention-type=\"mixed\" data-mention-index=\"3\" data-mention-node-id=\"i-kzsIrmfBdI\" data-draggable-mention=\"true\" data-mention-media-type=\"image\" class=\"mention-badge text-canvas-controls-text inline-flex h-6 cursor-default select-none items-center gap-1 whitespace-nowrap rounded-lg border-hair border-canvas-controls-border bg-transparent px-1 align-middle text-sm\"><span data-mention-thumb=\"true\" style=\"position: relative; display: inline-flex; width: 16px; height: 16px; border-radius: 4px; overflow: hidden; flex-shrink: 0;\"><img src=\"https://libtv-res.liblib.art/upload-images/c3504e8ca6c64c5692c4159bed95e177/e298d51fa0537f1f1148fb1eaf989aa33d47d556.png?x-oss-process=image/resize,w_32,m_lfit/format,webp/ignore-error,1\" alt=\"\" draggable=\"false\" style=\"width: 100%; height: 100%; object-fit: cover;\"></span><span data-mention-label=\"true\">图片 3</span></span>  定义4–8秒的暖色局部05群舞舞台、平坦活动地面和光色； <span contenteditable=\"false\" draggable=\"true\" data-mention-type=\"mixed\" data-mention-index=\"4\" data-mention-node-id=\"i-PIufotrfK5\" data-draggable-mention=\"true\" data-mention-media-type=\"image\" class=\"mention-badge text-canvas-controls-text inline-flex h-6 cursor-default select-none items-center gap-1 whitespace-nowrap rounded-lg border-hair border-canvas-controls-border bg-transparent px-1 align-middle text-sm\"><span data-mention-thumb=\"true\" style=\"position: relative; display: inline-flex; width: 16px; height: 16px; border-radius: 4px; overflow: hidden; flex-shrink: 0;\"><img src=\"https://libtv-res.liblib.art/upload-images/c3504e8ca6c64c5692c4159bed95e177/e57b8ef86df97c0d07f6311fe41c4ad8a8d354a4.png?x-oss-process=image/resize,w_32,m_lfit/format,webp/ignore-error,1\" alt=\"\" draggable=\"false\" style=\"width: 100%; height: 100%; object-fit: cover;\"></span><span data-mention-label=\"true\">图片 4</span></span>  只用于4–8秒的六个不同人物身份与1+2+3队形，Scott是第二排右侧戴黑框眼镜的男性。不要照搬静止站姿和紧裁切，应拉开站距，让全员头、手、脚完整入画。<br><br>0–4秒｜略高三分之四斜侧完整全身固定机位，只出现Renwei。开场已侧身低蹲，第一拍细青光从画面左沿短空中弧线抵达手边，随即消散；他同时落手发力进入Windmill风车，不停下来等光。双腿打开，重心经肩和上背连续滚转，清楚完成至少一整圈风车，支撑接触与双腿轨迹连贯、头部不撑地，随后收住一个约半拍的低位Freeze。全程保留身体、四肢和地面接触范围，不插特写，不环绕，不追加站起或走入队形。<br>4–8秒｜重拍明确切镜到局部05，六人已站成1+2+3队形，人物不变形转化。Feng前排中央；Jessica第二排左、Scott第二排右；Song、Amy、Renwei后排从左到右。总共恰好六个不同的人，Renwei只出现一次。正面完整全身固定机位，稍宽取景，层间和左右留足摆臂、跨步空间，前后错开不挡脸脚；后排也全力跳舞。暖色舞台结构稳定，不变成台阶或狭窄高台。<br>完整保留4秒八拍齐舞：1右脚交叉，2打开，3左脚交叉，4打开，5胸肩短促向下Hit，6立即回弹，7双臂有力展开，8共同落脚并向右转肩。六人脚步清楚整齐，节拍中持续膝部弹动；躯干自然挺拔、胸口打开、双肩放松下沉、颈部中立，尤其Amy不要持续弓背探头。Hit只短暂收缩后马上回正，膝部弹动不靠含胸驼背完成。最后保持起舞和膝部回弹，稳定人物位置、画面尺度与暖光，供下一段继续群舞再拉远揭示Logo，不定格合照。",
+  "notes": [
+    "C generated and user approved with Amy slight hunch noted.",
+    "D uses existing group image as identity and formation reference, not a newly generated transition keyframe.",
+    "D preview is inherited C video until D generation.",
+    "No generation submitted and no credits spent during D preparation.",
+    "Short aerial cyan light arc preserves approved continuity; complete Logo reserved for E.",
+    "Standing group posture upright, chest open, shoulders relaxed; knee bounce distinct from sustained hunch."
+  ]
+}

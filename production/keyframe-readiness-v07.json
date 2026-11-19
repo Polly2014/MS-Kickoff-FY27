@@ -1,0 +1,222 @@
+{
+  "revision": "v07",
+  "date": "2026-11-19",
+  "status": "planning_only",
+  "keyframes": [
+    {
+      "id": "KF_AB_FENG",
+      "priority": "P0",
+      "use": "A后2秒构图／B首帧目标",
+      "sources": [
+        "../assets/characters/production-pack/feng/feng-front-v01.png",
+        "frames/stage-locals/STAGE-LOCAL-06-Feng-cyan-violet-4K-v01.png"
+      ],
+      "gap": "已有Demo抽帧来自01旧舞台，不能当作02正式交接帧；目标图未生成。",
+      "prompt": "生成16:9横屏电影级3D卡通舞蹈MV关键构图。参考Feng单人身份图锁定脸型、发际线、眼镜、比例、深蓝队服和白鞋；参考局部02锁定青蓝过渡台面与远处暗紫折叠，不能用01替代。只出现一个Feng，完整全身居中，头顶、双手、双鞋留边，前方与身体两侧留足地板动作空间。Feng面朝镜头略偏画面右，双脚分开，右脚略前、左脚略后，两脚掌贴地，膝盖弯曲、重心下沉、双手低位打开，像正在接下一拍而不是站定合照。机位为略低斜前方，看清面部和地面接触，光从画面左方抵达，青蓝环境与柔和脸部主光，鞋底阴影清楚。只展示局部Logo实面，不展示全貌、不改变台面几何、不新增底座，无文字水印。",
+      "prompt_file": "prompts/keyframes-v07/KF_AB_FENG.txt",
+      "planned_output": "frames/keyframes-v07/KF_AB_FENG.png",
+      "generated": false,
+      "status": "planned_not_generated",
+      "source_checks": [
+        {
+          "path": "../assets/characters/production-pack/feng/feng-front-v01.png",
+          "exists": true,
+          "role": "source_candidate_not_frame_lock",
+          "size": [
+            1024,
+            1536
+          ]
+        },
+        {
+          "path": "frames/stage-locals/STAGE-LOCAL-06-Feng-cyan-violet-4K-v01.png",
+          "exists": true,
+          "role": "source_candidate_not_frame_lock",
+          "size": [
+            3840,
+            2160
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KF_B_CORE3",
+      "priority": "P0",
+      "use": "B段8–12秒段内三人构图参考",
+      "sources": [
+        "frames/CORE3_MASTER-gpt-image-2-v02.png",
+        "../assets/characters/production-pack/jessica/jessica-front-v01.png",
+        "../assets/characters/production-pack/feng/feng-front-v01.png",
+        "../assets/characters/production-pack/scott/scott-front-v01.png",
+        "frames/stage-locals/STAGE-LOCAL-03-violet-match-v01.png"
+      ],
+      "gap": "本轮查看的既有三人母图是暖色台面、静态站姿；需适配03蓝紫区域及舞蹈间距，不能直接作为已经匹配的首尾帧。",
+      "prompt": "生成16:9横屏电影级3D卡通街舞关键构图。三人母图仅参考Jessica、Feng、Scott身份关系与前后站位，三张单人图用于身份核对；场景必须以局部03蓝紫台面为准，不能复制三人母图的橙红暖色地面。Feng前中央，Jessica左后、Scott右后，正面完整全身同框，六只鞋与双臂均有活动空间，不互相挡脸或挡脚。三人正在同拍屈膝回弹、手臂半展开，呈现蓄力中的舞蹈状态，不做合照。服装、比例沿用身份，Scott浓密侧分头发和黑色矩形眼镜，与Feng明显不同。前景蓝紫带缘、中景人物、远景暗折带形成纵深，面部清楚。人物站在同一已有平缓实面，避开留白与陡坡，不新增平台，不完整曝光Logo，无文字水印。",
+      "prompt_file": "prompts/keyframes-v07/KF_B_CORE3.txt",
+      "planned_output": "frames/keyframes-v07/KF_B_CORE3.png",
+      "generated": false,
+      "status": "planned_not_generated",
+      "source_checks": [
+        {
+          "path": "frames/CORE3_MASTER-gpt-image-2-v02.png",
+          "exists": true,
+          "role": "source_candidate_not_frame_lock",
+          "size": [
+            2048,
+            1152
+          ]
+        },
+        {
+          "path": "../assets/characters/production-pack/jessica/jessica-front-v01.png",
+          "exists": true,
+          "role": "source_candidate_not_frame_lock",
+          "size": [
+            1024,
+            1536
+          ]
+        },
+        {
+          "path": "../assets/characters/production-pack/feng/feng-front-v01.png",
+          "exists": true,
+          "role": "source_candidate_not_frame_lock",
+          "size": [
+            1024,
+            1536
+          ]
+        },
+        {
+          "path": "../assets/characters/production-pack/scott/scott-front-v01.png",
+          "exists": true,
+          "role": "source_candidate_not_frame_lock",
+          "size": [
+            1024,
+            1536
+          ]
+        },
+        {
+          "path": "frames/stage-locals/STAGE-LOCAL-03-violet-match-v01.png",
+          "exists": true,
+          "role": "source_candidate_not_frame_lock",
+          "size": [
+            2048,
+            1152
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KF_DE_GROUP",
+      "priority": "P0",
+      "use": "D段后4秒六人构图／E首帧目标",
+      "sources": [
+        "frames/GROUP_LOCAL-gpt-image-2-v03.png",
+        "frames/stage-locals/STAGE-LOCAL-05-warm-ensemble-v01.png",
+        "frames/STAGE_MASTER-gpt-image-2-v02.png"
+      ],
+      "gap": "本轮查看的既有六人图身份队形可作来源，但仍是静态站姿；须核对05几何、动作间距，并与完整Logo母版建立可解释的相机关系。",
+      "prompt": "生成16:9横屏电影级3D卡通六人街舞关键构图。参考修正Scott后的六人图逐一保留身份：Feng前中央；Jessica第二排画面左、Scott第二排画面右；Song、Amy、Renwei第三排从左到右错位展开。Renwei保持不透明墨镜，Scott不能变成第二个Feng。用局部05及完整Logo母版共同确定同一舞台的暖色平缓实面与远处折叠关系，局部机位不展示完整Logo。正面中全景保留六人完整头手鞋，各排留够横向开臂和短交叉步空间，视线与地平线关系统一，避开中心空洞。六人处于同拍落脚后的膝部回弹，双手正由胸前打开，姿态有力且自然，不站定合照。光来自既定蓝色环境与柔和面部主光，暖色地面不过曝，脚底阴影方向一致，不新增台阶或独立底座。此图应能沿同一观察方向升高后退到完整Logo构图，无文字水印。",
+      "prompt_file": "prompts/keyframes-v07/KF_DE_GROUP.txt",
+      "planned_output": "frames/keyframes-v07/KF_DE_GROUP.png",
+      "generated": false,
+      "status": "planned_not_generated",
+      "source_checks": [
+        {
+          "path": "frames/GROUP_LOCAL-gpt-image-2-v03.png",
+          "exists": true,
+          "role": "source_candidate_not_frame_lock",
+          "size": [
+            2048,
+            1152
+          ]
+        },
+        {
+          "path": "frames/stage-locals/STAGE-LOCAL-05-warm-ensemble-v01.png",
+          "exists": true,
+          "role": "source_candidate_not_frame_lock",
+          "size": [
+            2048,
+            1152
+          ]
+        },
+        {
+          "path": "frames/STAGE_MASTER-gpt-image-2-v02.png",
+          "exists": true,
+          "role": "source_candidate_not_frame_lock",
+          "size": [
+            3840,
+            2160
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KF_E_LOGO",
+      "priority": "P0",
+      "use": "E约4秒到达的全景／结束构图",
+      "sources": [
+        "frames/STAGE_MASTER-gpt-image-2-v02.png",
+        "frames/GROUP_MASTER-gpt-image-2-v03.png"
+      ],
+      "gap": "完整舞台与修正Scott后的群像来源已存在，仍需匹配局部05、观察方向、六人位置和最终尺度；不要求原图已具备相机标定。",
+      "prompt": "生成16:9横屏电影级3D卡通舞蹈MV全景关键构图。STAGE_MASTER-gpt-image-2-v02唯一决定完整Copilot折叠彩带外轮廓、交叠、配色和中心留白，禁止重画成其他Logo或新造舞台。修正Scott后的六人全景仅定义身份与1＋2＋3队形：Feng前中央，Jessica与Scott第二排左右，Song、Amy、Renwei第三排从左到右。六人位于与暖色局部05对应的平缓实面，身体完整，位置支持从局部机位沿同一方向升高后退到此全景；不能跨空洞或换到另一边。优先完整Logo与全团阵势，允许人物在远景变小，不为了读脸放大人物到错误比例。全团同拍落脚开臂的收招瞬间，蓝色环境保留，现有带缘达到亮度高潮，皮肤不过曝，留白干净，无新增人物、平台、文字或水印。",
+      "prompt_file": "prompts/keyframes-v07/KF_E_LOGO.txt",
+      "planned_output": "frames/keyframes-v07/KF_E_LOGO.png",
+      "generated": false,
+      "status": "planned_not_generated",
+      "source_checks": [
+        {
+          "path": "frames/STAGE_MASTER-gpt-image-2-v02.png",
+          "exists": true,
+          "role": "source_candidate_not_frame_lock",
+          "size": [
+            3840,
+            2160
+          ]
+        },
+        {
+          "path": "frames/GROUP_MASTER-gpt-image-2-v03.png",
+          "exists": true,
+          "role": "source_candidate_not_frame_lock",
+          "size": [
+            3840,
+            2160
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KF_A_SHOE",
+      "priority": "P1_optional",
+      "use": "A段开场0–0.5秒的可选首帧",
+      "sources": [
+        "../assets/characters/production-pack/jessica/jessica-front-v01.png",
+        "frames/HANDOFF-stage-gpt-image-2-v01.png"
+      ],
+      "gap": "开场微距如难以稳定可补；不作为必须新增的图像任务。",
+      "prompt": "生成16:9横屏低机位鞋部特写。Jessica既定白鞋与深蓝裤脚，从画面左侧进入蓝青局部01的平缓实面，前脚鞋底即将或刚刚接触台面，后脚部分留在画外。鞋底接触阴影清楚，画面右侧留出地面细光前进空间；不要强加完整人物或完整Logo。舞台材质、厚度、远处暗折带沿用01，光色与后续Jessica舞段一致，无文字水印。",
+      "prompt_file": "prompts/keyframes-v07/KF_A_SHOE.txt",
+      "planned_output": "frames/keyframes-v07/KF_A_SHOE.png",
+      "generated": false,
+      "status": "planned_not_generated",
+      "source_checks": [
+        {
+          "path": "../assets/characters/production-pack/jessica/jessica-front-v01.png",
+          "exists": true,
+          "role": "source_candidate_not_frame_lock",
+          "size": [
+            1024,
+            1536
+          ]
+        },
+        {
+          "path": "frames/HANDOFF-stage-gpt-image-2-v01.png",
+          "exists": true,
+          "role": "source_candidate_not_frame_lock",
+          "size": [
+            2048,
+            1152
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-11-19T13:02:10.816Z",
+  "sourceNode": "v-mJlycCOmzY",
+  "quoteNode": "b-hxztrXiMKN",
+  "feature": "元素替换",
+  "input": {
+    "durationSeconds": 8,
+    "width": 854,
+    "height": 480
+  },
+  "quotes": [
+    {
+      "model": "Seedance 2.5",
+      "resolution": "720P",
+      "credits": 736
+    },
+    {
+      "model": "Seedance 2.5",
+      "resolution": "480P",
+      "credits": 320
+    },
+    {
+      "model": "Minimax H3",
+      "resolution": "768P",
+      "credits": 224
+    }
+  ],
+  "status": "quote_only_not_submitted",
+  "balanceObserved": 2773,
+  "replacementImagesAdded": 0,
+  "notes": [
+    "Displayed estimates with source video loaded. Generate button disabled until required replacement asset supplied.",
+    "Generative edit, not verified dedicated color-grading functionality.",
+    "Local postproduction color correction consumes no LibTV credits and preserves original frame timing/motion."
+  ]
+}

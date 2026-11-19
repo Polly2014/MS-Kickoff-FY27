@@ -1,0 +1,43 @@
+{
+  "status": "prepared_not_submitted",
+  "preparedAt": "2026-11-19T12:39:22.432Z",
+  "nodeId": "v-aBjKkphXQR",
+  "name": "SEG-D-Renwei到六人共舞-8s-Wan3-480P-v09-肤色修订",
+  "model": "Wan 3.0",
+  "mode": "全能参考",
+  "aspectRatio": "16:9",
+  "resolution": "480P",
+  "durationSeconds": 8,
+  "outputs": 1,
+  "audio": false,
+  "smartExpansion": false,
+  "autoLink": false,
+  "quotedCredits": 32,
+  "balanceBefore": 2805,
+  "refs": [
+    {
+      "id": "i-4cmaW64j1o",
+      "text": "图片 1"
+    },
+    {
+      "id": "i-P9XvulU7pU",
+      "text": "图片 2"
+    },
+    {
+      "id": "i-kzsIrmfBdI",
+      "text": "图片 3"
+    },
+    {
+      "id": "i-0Xh7Sm0vo8",
+      "text": "图片 4"
+    }
+  ],
+  "prompt": "生成8秒视频。电影级3D卡通街舞MV，16:9横屏。人物沿用参考中的脸、头发、眼镜、原始肤色、比例、深蓝队服、窄渐变饰边和白鞋。120 BPM、4/4为节奏目标，正常速度、利落爆发，短促锁点后立即回弹，不慢放。鞋底、肩背和撑地手掌与舞台有真实接触阴影。完整Copilot Logo保留在画外，音轨关闭，后期统一配乐，无对白、文字或字幕。\n\n人物照明：持续保持柔和中性白色正面主光和适度填充，脸与手自然明亮、肤色稳定，下巴阴影柔和，白衬衫和白鞋保持中性白。暖橙舞台光只作地面及衣服边缘反射，蓝紫光只作轮廓光，不将人脸染暗或染成橙褐、灰黑、暗紫；不整体美白，不改变个人肤色差异。\n\n【素材职责】 \n图片 1\n  只定义0–4秒的局部04舞台几何与暖色背景，不定义人物肤色或面部曝光； \n图片 2\n  只定义Renwei一个人的身份、原肤色与服装，多视图各角度是同一人； \n图片 3\n  只定义4–8秒的局部05平坦群舞地面和暖色背景，不覆盖人物的中性正面主光； \n图片 4\n  是新生成的六人队形图，只用于4–8秒，锁定六个不同人物的身份、自然肤色、中性面光和1+2+3队形。Scott是第二排右侧戴黑框眼镜的男性。保持参考图中明亮清楚的脸与手，身体立即起舞，略放宽取景使六人跨步摆臂时仍完整入画。\n\n0–4秒｜略高三分之四斜侧完整全身固定机位，只出现Renwei。开场已侧身低蹲，第一拍细青光从画面左沿短空中弧线抵达手边，随即消散；他同时落手发力进入Windmill风车，不停下来等光。双腿打开，重心经肩和上背连续滚转，清楚完成至少一整圈风车，支撑接触与双腿轨迹连贯、头部不撑地，随后收住一个约半拍的低位Freeze。全程保留身体、四肢和地面接触范围，不插特写，不环绕，不追加站起或走入队形。\n4–8秒｜重拍明确切镜到局部05，六人已站成1+2+3队形，人物不变形转化。Feng前排中央；Jessica第二排左、Scott第二排右；Song、Amy、Renwei后排从左到右。总共恰好六个不同的人，Renwei只出现一次。正面完整全身固定机位，稍宽取景，层间和左右留足摆臂、跨步空间，前后错开不挡脸脚；后排也全力跳舞。暖色舞台结构稳定，不变成台阶或狭窄高台。\n完整保留4秒八拍齐舞：1右脚交叉，2打开，3左脚交叉，4打开，5胸肩短促向下Hit，6立即回弹，7双臂有力展开，8共同落脚并向右转肩。六人脚步清楚整齐，节拍中持续膝部弹动；躯干自然挺拔、胸口打开、双肩放松下沉、颈部中立，尤其Amy不要持续弓背探头。Hit只短暂收缩后马上回正，膝部弹动不靠含胸驼背完成。最后保持起舞和膝部回弹，稳定人物位置、画面尺度与暖光，供下一段继续群舞再拉远揭示Logo，不定格合照。",
+  "promptHTML": "生成8秒视频。电影级3D卡通街舞MV，16:9横屏。人物沿用参考中的脸、头发、眼镜、原始肤色、比例、深蓝队服、窄渐变饰边和白鞋。120 BPM、4/4为节奏目标，正常速度、利落爆发，短促锁点后立即回弹，不慢放。鞋底、肩背和撑地手掌与舞台有真实接触阴影。完整Copilot Logo保留在画外，音轨关闭，后期统一配乐，无对白、文字或字幕。<br><br>人物照明：持续保持柔和中性白色正面主光和适度填充，脸与手自然明亮、肤色稳定，下巴阴影柔和，白衬衫和白鞋保持中性白。暖橙舞台光只作地面及衣服边缘反射，蓝紫光只作轮廓光，不将人脸染暗或染成橙褐、灰黑、暗紫；不整体美白，不改变个人肤色差异。<br><br>【素材职责】 <span contenteditable=\"false\" draggable=\"true\" data-mention-type=\"mixed\" data-mention-index=\"1\" data-mention-node-id=\"i-4cmaW64j1o\" data-draggable-mention=\"true\" data-mention-media-type=\"image\" class=\"mention-badge text-canvas-controls-text inline-flex h-6 cursor-default select-none items-center gap-1 whitespace-nowrap rounded-lg border-hair border-canvas-controls-border bg-transparent px-1 align-middle text-sm\"><span data-mention-thumb=\"true\" style=\"position: relative; display: inline-flex; width: 16px; height: 16px; border-radius: 4px; overflow: hidden; flex-shrink: 0;\"><img src=\"https://libtv-res.liblib.art/upload-images/c3504e8ca6c64c5692c4159bed95e177/b936777302d0a7cf8c8a96868a896d76d7b502c8.png?x-oss-process=image/resize,w_32,m_lfit/format,webp/ignore-error,1\" alt=\"\" draggable=\"false\" style=\"width: 100%; height: 100%; object-fit: cover;\"></span><span data-mention-label=\"true\">图片 1</span></span>  只定义0–4秒的局部04舞台几何与暖色背景，不定义人物肤色或面部曝光； <span contenteditable=\"false\" draggable=\"true\" data-mention-type=\"mixed\" data-mention-index=\"2\" data-mention-node-id=\"i-P9XvulU7pU\" data-draggable-mention=\"true\" data-mention-media-type=\"image\" class=\"mention-badge text-canvas-controls-text inline-flex h-6 cursor-default select-none items-center gap-1 whitespace-nowrap rounded-lg border-hair border-canvas-controls-border bg-transparent px-1 align-middle text-sm\"><span data-mention-thumb=\"true\" style=\"position: relative; display: inline-flex; width: 16px; height: 16px; border-radius: 4px; overflow: hidden; flex-shrink: 0;\"><img src=\"https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/c3504e8ca6c64c5692c4159bed95e177/1028862451_e4de15212b044879b0257c0e2e26ead0.png?x-oss-process=image/resize,w_32,m_lfit/format,webp/ignore-error,1\" alt=\"\" draggable=\"false\" style=\"width: 100%; height: 100%; object-fit: cover;\"></span><span data-mention-label=\"true\">图片 2</span></span>  只定义Renwei一个人的身份、原肤色与服装，多视图各角度是同一人； <span contenteditable=\"false\" draggable=\"true\" data-mention-type=\"mixed\" data-mention-index=\"3\" data-mention-node-id=\"i-kzsIrmfBdI\" data-draggable-mention=\"true\" data-mention-media-type=\"image\" class=\"mention-badge text-canvas-controls-text inline-flex h-6 cursor-default select-none items-center gap-1 whitespace-nowrap rounded-lg border-hair border-canvas-controls-border bg-transparent px-1 align-middle text-sm\"><span data-mention-thumb=\"true\" style=\"position: relative; display: inline-flex; width: 16px; height: 16px; border-radius: 4px; overflow: hidden; flex-shrink: 0;\"><img src=\"https://libtv-res.liblib.art/upload-images/c3504e8ca6c64c5692c4159bed95e177/e298d51fa0537f1f1148fb1eaf989aa33d47d556.png?x-oss-process=image/resize,w_32,m_lfit/format,webp/ignore-error,1\" alt=\"\" draggable=\"false\" style=\"width: 100%; height: 100%; object-fit: cover;\"></span><span data-mention-label=\"true\">图片 3</span></span>  只定义4–8秒的局部05平坦群舞地面和暖色背景，不覆盖人物的中性正面主光； <span contenteditable=\"false\" draggable=\"true\" data-mention-type=\"mixed\" data-mention-index=\"4\" data-mention-node-id=\"i-0Xh7Sm0vo8\" data-draggable-mention=\"true\" data-mention-media-type=\"image\" class=\"mention-badge text-canvas-controls-text inline-flex h-6 cursor-default select-none items-center gap-1 whitespace-nowrap rounded-lg border-hair border-canvas-controls-border bg-transparent px-1 align-middle text-sm\"><span data-mention-thumb=\"true\" style=\"position: relative; display: inline-flex; width: 16px; height: 16px; border-radius: 4px; overflow: hidden; flex-shrink: 0;\"><img src=\"https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/c3504e8ca6c64c5692c4159bed95e177/1031275034_b1ee201db01140eeab11067d46d6b430.png?x-oss-process=image/resize,w_32,m_lfit/format,webp/ignore-error,1\" alt=\"\" draggable=\"false\" style=\"width: 100%; height: 100%; object-fit: cover;\"></span><span data-mention-label=\"true\">图片 4</span></span>  是新生成的六人队形图，只用于4–8秒，锁定六个不同人物的身份、自然肤色、中性面光和1+2+3队形。Scott是第二排右侧戴黑框眼镜的男性。保持参考图中明亮清楚的脸与手，身体立即起舞，略放宽取景使六人跨步摆臂时仍完整入画。<br><br>0–4秒｜略高三分之四斜侧完整全身固定机位，只出现Renwei。开场已侧身低蹲，第一拍细青光从画面左沿短空中弧线抵达手边，随即消散；他同时落手发力进入Windmill风车，不停下来等光。双腿打开，重心经肩和上背连续滚转，清楚完成至少一整圈风车，支撑接触与双腿轨迹连贯、头部不撑地，随后收住一个约半拍的低位Freeze。全程保留身体、四肢和地面接触范围，不插特写，不环绕，不追加站起或走入队形。<br>4–8秒｜重拍明确切镜到局部05，六人已站成1+2+3队形，人物不变形转化。Feng前排中央；Jessica第二排左、Scott第二排右；Song、Amy、Renwei后排从左到右。总共恰好六个不同的人，Renwei只出现一次。正面完整全身固定机位，稍宽取景，层间和左右留足摆臂、跨步空间，前后错开不挡脸脚；后排也全力跳舞。暖色舞台结构稳定，不变成台阶或狭窄高台。<br>完整保留4秒八拍齐舞：1右脚交叉，2打开，3左脚交叉，4打开，5胸肩短促向下Hit，6立即回弹，7双臂有力展开，8共同落脚并向右转肩。六人脚步清楚整齐，节拍中持续膝部弹动；躯干自然挺拔、胸口打开、双肩放松下沉、颈部中立，尤其Amy不要持续弓背探头。Hit只短暂收缩后马上回正，膝部弹动不靠含胸驼背完成。最后保持起舞和膝部回弹，稳定人物位置、画面尺度与暖光，供下一段继续群舞再拉远揭示Logo，不定格合照。",
+  "changes": [
+    "Replaced old group v03 with new LibTV v04 group image based on six individual fronts and stage05.",
+    "Kept timing and choreography unchanged.",
+    "Added neutral facial fill and natural original skin-tone stability; stage reference controls geometry/background, not face exposure."
+  ],
+  "oldVideoPreserved": "v-mJlycCOmzY"
+}

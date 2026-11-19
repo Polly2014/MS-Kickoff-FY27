@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-19",
+  "source": "Live LibTV audio generator UI; no generation submitted.",
+  "quotes": [
+    {
+      "model": "ElevenMusic V3",
+      "credits": 120,
+      "duration_setting": "1分钟"
+    },
+    {
+      "model": "ElevenMusic V3",
+      "credits": 60,
+      "duration_setting": "30秒"
+    },
+    {
+      "model": "Mureka V9.5",
+      "credits": 30,
+      "duration_setting": null,
+      "note": "Pure instrumental mode; 60 seconds requested only in prompt, not a verified output duration."
+    },
+    {
+      "model": "Mureka V8",
+      "credits": 60,
+      "duration_setting": null,
+      "note": "Pure instrumental mode; 1024-character prompt limit observed."
+    },
+    {
+      "model": "Seed Audio 1.0",
+      "credits": 4,
+      "duration_setting": null,
+      "note": "Quote with short comparison prompt; not a verified one-minute music price."
+    }
+  ],
+  "comparison_prompt": "原创60秒纯器乐街舞MV配乐，120 BPM，4/4拍，固定速度，无人声、无歌词、无念白。电子Funk融合Breakbeat，清脆底鼓、军鼓、拍手和切分踩镲，有弹性的合成器贝斯、短促铜管与合成器重音，活力、自信、俏皮，有街舞比赛的力度。开头直接重拍，不要长前奏。0–12秒建立律动并推进；12–20秒力量感低频与Popping打点；20–24秒三人共舞小高潮；24–32秒细密打击乐与Locking重音问答；32–36秒旋转推进后短刹车；36–40秒六人齐舞；40–44秒减薄鼓组但保持脉冲；44秒最强重拍进入主Drop，44–48秒最终高潮；48–60秒安静尾奏，60秒完整收束。全曲统一动机与音色，混音清楚有冲击力，为后期脚步音效留空间。",
+  "balance_observed": 3147,
+  "agent_submitted": false,
+  "restored_configuration": "ElevenMusic V3, instrumental, 1 minute, original full prompt",
+  "screenshot_paths": [
+    "previews/MUSIC-price-MurekaV8-20261119.jpg",
+    "previews/MUSIC-price-MurekaV95-20261119.jpg",
+    "previews/MUSIC-price-SeedAudio-20261119.jpg"
+  ]
+}

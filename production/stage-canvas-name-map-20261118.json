@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-18",
+  "changes": [
+    {
+      "id": "i-dgQOPwWiXd",
+      "old": "STAGE-LOCAL-06-Feng-cyan-violet-4K-v01",
+      "name": "STAGE-Copilot-局部02-青蓝过渡-4K-v01",
+      "previous_canvas_title": "STAGE-Copilot-局部06-青蓝过渡-4K-v01",
+      "playback_order": 2,
+      "use": "Feng"
+    },
+    {
+      "id": "i-kzsIrmfBdI",
+      "old": "STAGE-LOCAL-05-warm-ensemble-v01",
+      "name": "STAGE-Copilot-局部05-暖色群舞-2K-v01",
+      "playback_order": 5,
+      "use": "六人群舞"
+    },
+    {
+      "id": "i-4cmaW64j1o",
+      "old": "STAGE-LOCAL-04-warm-duo-v01",
+      "name": "STAGE-Copilot-局部04-暖色双人-2K-v01",
+      "playback_order": 4,
+      "use": "后续接力"
+    },
+    {
+      "id": "i-2otVSX966A",
+      "old": "STAGE-LOCAL-03-violet-match-v01",
+      "name": "STAGE-Copilot-局部03-蓝紫接棒-2K-v01",
+      "playback_order": 3,
+      "use": "Scott"
+    },
+    {
+      "id": "i-Fb9Mu0iXWH",
+      "old": "STAGE-LOCAL-02-blue-side-v01",
+      "name": "STAGE-Copilot-局部06-蓝青拱折-备用-2K-v01",
+      "previous_canvas_title": "STAGE-Copilot-局部02-蓝青拱折-2K-v01",
+      "playback_order": null,
+      "use": "备用"
+    },
+    {
+      "id": "i-rT6OBZqneE",
+      "old": "STAGE-Copilot-蓝青局部空景-v01",
+      "name": "STAGE-Copilot-局部01-蓝青开场-2K-v01",
+      "playback_order": 1,
+      "use": "Jessica"
+    }
+  ],
+  "action": "rename_existing_nodes_only",
+  "verified": "page node titles and asset-manager list",
+  "numbering": "Main local stages 01 through 05 match playback; 06 explicitly spare, not a sixth playback step.",
+  "local_source_filenames": "Original generation filenames remain unchanged for provenance; use current canvas names for playback."
+}

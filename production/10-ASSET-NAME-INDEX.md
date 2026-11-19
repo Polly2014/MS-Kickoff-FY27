@@ -1,5 +1,7 @@
 # 资产名称与现有舞台素材索引
 
+> 最新编号已按播放顺序调整：01 Jessica → 02 Feng → 03 Scott → 04 暖色接力 → 05 群舞；06为备用。下文早期06 Feng／02备用是历史命名，以文末“按播放顺序重编号”表及stage-canvas-name-map-20261118.json为准。
+
 更新：2026-11-18。此表整理名称与来源，不代表新增生成或最终采用。
 
 ## LibTV 手工试片画布：已执行重命名
@@ -75,3 +77,54 @@ B段已完成，单次60积分，余额3376。原画布节点 `v-mkFVjwxt8O`；[
 | [STAGE-LOCAL-05-warm-ensemble-v01](frames/stage-locals/STAGE-LOCAL-05-warm-ensemble-v01.png) | 三至六人队形、齐舞与最终揭示前的过渡 |
 
 [四图总览](previews/stage-local-pack-v01-contact.jpg) / [使用说明](12-STAGE-LOCAL-SHOT-PACK.md) / [提示词路径与生成记录](stage-locals-v01-manifest.json)。这些为参考图派生背景，非三维标定的多相机输出。02实图机位偏正面斜向，不作为严格侧拍反打；03保留部分地面青色光线，去人并非像素级固定背景。
+
+## Song／Amy／Renwei画布命名更新（2026-11-18）
+
+用户完成正面图上传及多视图准备后，本次仅修改以下6个已有节点的显示名称，保留图片、节点ID与连线。多视图来自用户当前画布的3808×1632结果，不等同于本地1536×1024三视图文件；本次未触发生成。
+
+| 节点ID | 当前名称 |
+| --- | --- |
+| i-FJj0jSYnVL | CHAR-Song-正面全身-v01 |
+| i-PHayPm84M6 | CHAR-Song-多视图设定-v01 |
+| i-5EaLZTHFnc | CHAR-Amy-正面全身-v01 |
+| i-jMeEQyh1bC | CHAR-Amy-多视图设定-v01 |
+| i-Rdk6hADvE5 | CHAR-Renwei-正面全身-v01 |
+| i-P9XvulU7pU | CHAR-Renwei-多视图设定-v01 |
+
+Renwei对应原wei-front-v01.png。已通过节点标题和资产管理列表核对名称。证据截图：previews/CHAR-Song-Amy-Renwei-renamed-20261118.jpg。
+
+## Feng专用4K局部舞台
+
+[STAGE-LOCAL-06-Feng-cyan-violet-4K-v01](frames/stage-locals/STAGE-LOCAL-06-Feng-cyan-violet-4K-v01.png)：3840×2160 PNG，dream-painter / GPT Image 2，单次生成。青蓝舞面连接右侧蓝紫高大折带，供Jessica与Scott之间的Feng段使用。静态画面已检查，无人物、无文字、未露全Logo；运动／段间接缝尚未验证，未上传、未生成新视频。旧素材保留。
+
+主线按01→06→03→04→05→全景母版，02为备用；素材库6张局部，主线仍5张。正式采用须先看低成本衔接样片，其他局部当前为2K，不声称已全部4K。详见[连续性方案](13-STAGE-CONTINUITY-LOCK.md)、[生成记录](STAGE-LOCAL-06-Feng-cyan-violet-4K-v01-generation.json)、[静态顺序对照](previews/stage-continuity-route-v02.jpg)。
+
+## 局部舞台画布统一名称（最新，2026-11-18）
+
+已核对用户上传的5张新图并统一命名，原有蓝青局部编为01。本次仅修改6个现有节点显示名，不移动节点、不修改图片和连线、不触发生成。下表覆盖前文旧显示名，本地文件名保持原样。
+
+| 节点ID | 旧显示名 | 当前显示名 |
+| --- | --- | --- |
+| i-rT6OBZqneE | STAGE-Copilot-蓝青局部空景-v01 | STAGE-Copilot-局部01-蓝青开场-2K-v01 |
+| i-Fb9Mu0iXWH | STAGE-LOCAL-02-blue-side-v01 | STAGE-Copilot-局部02-蓝青拱折-2K-v01 |
+| i-2otVSX966A | STAGE-LOCAL-03-violet-match-v01 | STAGE-Copilot-局部03-蓝紫接棒-2K-v01 |
+| i-4cmaW64j1o | STAGE-LOCAL-04-warm-duo-v01 | STAGE-Copilot-局部04-暖色双人-2K-v01 |
+| i-kzsIrmfBdI | STAGE-LOCAL-05-warm-ensemble-v01 | STAGE-Copilot-局部05-暖色群舞-2K-v01 |
+| i-dgQOPwWiXd | STAGE-LOCAL-06-Feng-cyan-violet-4K-v01 | STAGE-Copilot-局部06-青蓝过渡-4K-v01 |
+
+主线建议：01 Jessica → 06 Feng → 03 Scott → 04 暖色接力 → 05 群舞；02保留为备用。01–05为2048×1152，06为3840×2160；标题2K／4K只描述背景图片，不代表生成视频分辨率。核对截图：previews/STAGE-local-names-unified-20261118.jpg。
+
+## 按播放顺序重编号（当前唯一有效编号）
+
+按用户要求，Feng青蓝过渡从06改为02；原蓝青拱折从02改为06并明确备用。01、03、04、05不变。
+
+| 编号 | 用途 | 当前画布名称 | 节点ID |
+| --- | --- | --- | --- |
+| 01 | Jessica | STAGE-Copilot-局部01-蓝青开场-2K-v01 | i-rT6OBZqneE |
+| 02 | Feng | STAGE-Copilot-局部02-青蓝过渡-4K-v01 | i-dgQOPwWiXd |
+| 03 | Scott | STAGE-Copilot-局部03-蓝紫接棒-2K-v01 | i-2otVSX966A |
+| 04 | 后续接力 | STAGE-Copilot-局部04-暖色双人-2K-v01 | i-4cmaW64j1o |
+| 05 | 六人群舞 | STAGE-Copilot-局部05-暖色群舞-2K-v01 | i-kzsIrmfBdI |
+| 06 备用 | 备用 | STAGE-Copilot-局部06-蓝青拱折-备用-2K-v01 | i-Fb9Mu0iXWH |
+
+本地原始生成文件名保留以确保提示词、日志及视频历史可追溯；当前素材编号按画布名执行。仅修改显示名称，未生成内容。截图：previews/STAGE-playback-order-renumbered-20261118.jpg。

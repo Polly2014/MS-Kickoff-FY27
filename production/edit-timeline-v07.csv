@@ -1,0 +1,17 @@
+﻿segment,shot,timeline_in,timeline_out,segment_in,segment_out,framing_camera,purpose,status
+A,A01,0,0.5,0,0.5,鞋部特写／低机位固定,第一拍接触光纹,target_not_observed
+A,A02,0.5,1.5,0.5,1.5,脸与肩胸近景／固定,认脸与胸肩Hit,target_not_observed
+A,A03,1.5,10,1.5,10,全身／短横移→停稳→收招后短甩镜,连续舞段、短Freeze与遮挡切点,target_not_observed
+A,A04,10,12,10,12,全身／固定,Feng接拍与下一段蓄力,target_not_observed
+B,B01,12,16,0,4,完整全身／斜侧固定,Flare完整周期与自然低位收招,target_not_observed
+B,B02,16,17,4,5,中景／固定,Scott认脸与肩胸回应,target_not_observed
+B,B03,17,20,5,8,全身／短横移,滑步、锁点与邀请,target_not_observed
+B,B04,20,24,8,12,三人全身／固定,完整统一八拍，不缩短,target_not_observed
+C,C01,24,28,0,4,全身／略高斜侧固定,Six-step一项主动作,target_not_observed
+C,C02,28,29,4,5,中景／固定,Amy向左Point回应,target_not_observed
+C,C03,29,32,5,8,全身／短横移,锁舞、短转身与向右交接,target_not_observed
+D,D01,32,36,0,4,全身／略高斜侧固定,风车完整周期与短Freeze,target_not_observed
+D,D02,36,40,4,8,六人全身／正面固定,复现三人主舞，形成全员同拍,target_not_observed
+E,E01,40,48,0,8,六人全身起始→完整Logo远景／一次升高后退后稳定,单一连续空间揭示，4秒共同点亮,target_not_observed
+POST,CREDITS,48,52,,,深蓝后期信息卡,团队名、主创、实际采用工具,planned
+POST,PROMPTS,52,60,,,后期分页,实际采用Prompt全文；另附可读文本,planned

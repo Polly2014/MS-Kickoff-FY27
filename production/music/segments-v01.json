@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-19",
+  "method": "LibTV custom split",
+  "status": "canvas_nodes_created_and_renamed",
+  "master": "MUSIC-FY27-street-dance-60s-ElevenMusicV3-v01.mp3",
+  "master_preserved": true,
+  "video_canvas_import": {
+    "date": "2026-11-19",
+    "url": "https://www.liblib.tv/canvas?guideSource=home-feature-grid&spaceId=16349996&projectId=a955aae8171f4a67b8bc47f6142d931d",
+    "method": "Copy and paste existing LibTV canvas nodes",
+    "group_title": "MUSIC-FY27-A至E分段及片尾-v01",
+    "imported": "Six clip nodes and the full 60-second music node",
+    "proof": "../previews/MUSIC-imported-to-video-canvas-v01.jpg",
+    "model_audio_driven_dance_verified": false,
+    "note": "Audio nodes appeared in the Wan 3.0 canvas reference picker; none were selected and no paid generation was submitted. This does not verify model audio support or beat synchronization."
+  },
+  "balance_before": 3027,
+  "balance_after": 3027,
+  "additional_credits_observed": 0,
+  "verification": "All six canvas node durations match the requested intervals. Individual split audio files have not been downloaded or decoded for content verification.",
+  "final_edit": "Use the continuous master for final soundtrack; clips are working references.",
+  "clips": [
+    {"segment":"A", "start_seconds":0, "end_seconds":12, "ui_duration_seconds":12, "node_title":"MUSIC-A-00-12-Jessica-Feng-12s-v01"},
+    {"segment":"B", "start_seconds":12, "end_seconds":24, "ui_duration_seconds":12, "node_title":"MUSIC-B-12-24-Feng-Scott-Trio-12s-v01"},
+    {"segment":"C", "start_seconds":24, "end_seconds":32, "ui_duration_seconds":8, "node_title":"MUSIC-C-24-32-Song-Amy-8s-v01"},
+    {"segment":"D", "start_seconds":32, "end_seconds":40, "ui_duration_seconds":8, "node_title":"MUSIC-D-32-40-Renwei-Group-8s-v01"},
+    {"segment":"E", "start_seconds":40, "end_seconds":48, "ui_duration_seconds":8, "node_title":"MUSIC-E-40-48-Group-Logo-8s-v01"},
+    {"segment":"CREDITS", "start_seconds":48, "end_seconds":60, "ui_duration_seconds":12, "node_title":"MUSIC-CREDITS-48-60-Outro-12s-v01"}
+  ]
+}

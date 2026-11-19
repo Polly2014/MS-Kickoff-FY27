@@ -27,7 +27,10 @@
       "review": "Empty broad blue/cyan floor; substantial left ribbon arch and right violet fold. Camera reads near frontal/oblique rather than a strong lateral reverse, so do not treat as calibrated side camera.",
       "review_status": "visually_checked_candidate",
       "used_in_final": false,
-      "libtv_uploaded": false
+      "libtv_uploaded": true,
+      "canvas_node_id": "i-Fb9Mu0iXWH",
+      "canvas_title": "STAGE-Copilot-局部06-蓝青拱折-备用-2K-v01",
+      "playback_order": null
     },
     {
       "id": "STAGE-LOCAL-04-warm-duo-v01",
@@ -49,7 +52,10 @@
       "review": "Clear central coral/magenta floor with blue arch behind and magenta curl to right; partial architecture stays legible while full outer logo contour is cropped. Quite bright warm floor; adapt shot exposure if needed.",
       "review_status": "visually_checked_candidate",
       "used_in_final": false,
-      "libtv_uploaded": false
+      "libtv_uploaded": true,
+      "canvas_node_id": "i-4cmaW64j1o",
+      "canvas_title": "STAGE-Copilot-局部04-暖色双人-2K-v01",
+      "playback_order": 4
     },
     {
       "id": "STAGE-LOCAL-05-warm-ensemble-v01",
@@ -71,7 +77,10 @@
       "review": "Wide warm floor with visible thick front edge and right magenta curl, blue band behind. Modestly elevated local composition, no full logo. Keep dancers inside solid floor with margins from curved edges.",
       "review_status": "visually_checked_candidate",
       "used_in_final": false,
-      "libtv_uploaded": false
+      "libtv_uploaded": true,
+      "canvas_node_id": "i-kzsIrmfBdI",
+      "canvas_title": "STAGE-Copilot-局部05-暖色群舞-2K-v01",
+      "playback_order": 5
     },
     {
       "id": "STAGE-LOCAL-03-violet-match-v01",
@@ -93,12 +102,16 @@
       "review": "Scott removed with no visible body/ghost. Same overall blue-violet plate composition and right folds retained; thin cyan foreground light strokes remain. Generated removal is not pixel-identical to source.",
       "review_status": "visually_checked_candidate",
       "used_in_final": false,
-      "libtv_uploaded": false
+      "libtv_uploaded": true,
+      "canvas_node_id": "i-2otVSX966A",
+      "canvas_title": "STAGE-Copilot-局部03-蓝紫接棒-2K-v01",
+      "playback_order": 3
     }
   ],
   "libtv_credits_spent": 0,
   "api_cost": null,
   "api_cost_note": "Four configured Azure GPT Image 2 calls; API charge not queried, separate from LibTV credits.",
   "contact_sheet": "previews/stage-local-pack-v01-contact.jpg",
-  "geometry_note": "AI-referenced set derivatives, not a calibrated 3D scene or guaranteed exact camera continuity."
+  "geometry_note": "AI-referenced set derivatives, not a calibrated 3D scene or guaranteed exact camera continuity.",
+  "canvas_numbering_note": "Source id 02 is now canvas spare06; source id06 Feng is now canvas playback02. See stage-canvas-name-map-20261118.json."
 }

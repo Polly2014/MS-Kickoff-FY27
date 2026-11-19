@@ -1,0 +1,46 @@
+{
+  "node": "i-l45S8LnTvc",
+  "status": "completed",
+  "date": "2026-11-19",
+  "model": "Lib Image 2.5 Pro",
+  "resolution": "2K",
+  "aspectRatio": "16:9",
+  "quality": "标准画质",
+  "count": 1,
+  "credits": 39,
+  "balanceBefore": 2773,
+  "balanceAfter": 2734,
+  "output": "frames/REF-DE-group-LibTV-v05.png",
+  "preview": "previews/REF-DE-group-LibTV-v05-review.jpg",
+  "prompt": "对原队形图做局部身份与肤色校准，保留原始构图，不重新设计群像。\n【唯一编辑底图】 \n图片 7\n  是原始六人队形图，也是唯一的整体编辑底图与构图基准。严格保留它的略俯视机位、焦距、透视、画面裁切、舞台几何与暖色背景、前后距离、人物大小关系、高低错落、各人位置及原有姿态。保留原来的1+2+3纵深队形，不改成平视横排，不统一站姿。\n【六张单人参考仅定义各人身份与自然肤色】 \n图片 1\n  是Feng，原图前排中央； \n图片 2\n  是Jessica，原图第二排左侧； \n图片 3\n  是Scott，原图第二排右侧，保持他自己的脸和眼镜，不复制Feng； \n图片 4\n  是Song，原图后排左侧； \n图片 5\n  是Amy，原图后排中央； \n图片 6\n  是Renwei，原图后排右侧，保留墨镜。恰好六个不同的人。单人图不用于重排群像、不替换原姿态或机位。\n【仅修正人物光色】六人的脸、耳、颈部和手分别匹配对应单人图中的自然肤色与身份特征，消除原群像脸和手不自然的橙褐、灰黑、暗紫偏色。适度柔和中性面部填充，保留自然阴影、立体感与空间深度；背景暖色、衣服边缘反射、地面接触阴影维持原样。保持原图的服装、身体比例、动作张力与精细3D卡通渲染。不要整体美白，不统一六人的肤色，不全局提亮，不压平明暗层次，不拉近放大，不更换镜头，不改变舞台或队形。无新增文字、标签、水印。",
+  "references": [
+    {
+      "label": "图片 7",
+      "node": "i-PIufotrfK5"
+    },
+    {
+      "label": "图片 1",
+      "node": "i-OV685IuQDD"
+    },
+    {
+      "label": "图片 2",
+      "node": "i-4Fx2L2IPOj"
+    },
+    {
+      "label": "图片 3",
+      "node": "i-e1Zmtro5VV"
+    },
+    {
+      "label": "图片 4",
+      "node": "i-FJj0jSYnVL"
+    },
+    {
+      "label": "图片 5",
+      "node": "i-5EaLZTHFnc"
+    },
+    {
+      "label": "图片 6",
+      "node": "i-Rdk6hADvE5"
+    }
+  ]
+}

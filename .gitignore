@@ -2,3 +2,11 @@
 # Python runtime cache
 __pycache__/
 *.py[cod]
+
+# Keep generated video files local
+*.[mM][pP]4
+*.[mM][oO][vV]
+*.[wW][eE][bB][mM]
+*.[mM][kK][vV]
+*.[aA][vV][iI]
+*.[mM]4[vV]

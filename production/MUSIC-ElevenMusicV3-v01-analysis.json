@@ -1,0 +1,83 @@
+{
+  "file": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\music\\MUSIC-FY27-street-dance-60s-ElevenMusicV3-v01.mp3",
+  "sha256": "5d07261ff9c96df8c9faf831ba4e3c3fce5c34d79cc5713e52da9875d8535dd6",
+  "bytes": 961350,
+  "container_duration_seconds": 60.081625,
+  "codec": "mp3float",
+  "sample_rate": 44100,
+  "channels": 2,
+  "decoded_duration_seconds": 60.08163,
+  "peak_amplitude": 1.37897,
+  "tempo_estimation_method": "Positive log-spectrum spectral-flux autocorrelation over 4-48 seconds, 70-180 BPM; not a perceptual listening review.",
+  "tempo_candidates": [
+    {
+      "bpm": 120.05,
+      "relative_periodicity": 1.0
+    },
+    {
+      "bpm": 79.88,
+      "relative_periodicity": 0.638
+    },
+    {
+      "bpm": 96.32,
+      "relative_periodicity": 0.132
+    },
+    {
+      "bpm": 159.14,
+      "relative_periodicity": 0.1
+    }
+  ],
+  "energy_windows": [
+    {
+      "start": 0,
+      "end": 12,
+      "rms_dbfs": -11.35
+    },
+    {
+      "start": 12,
+      "end": 20,
+      "rms_dbfs": -11.43
+    },
+    {
+      "start": 20,
+      "end": 24,
+      "rms_dbfs": -12.46
+    },
+    {
+      "start": 24,
+      "end": 32,
+      "rms_dbfs": -10.62
+    },
+    {
+      "start": 32,
+      "end": 36,
+      "rms_dbfs": -9.96
+    },
+    {
+      "start": 36,
+      "end": 40,
+      "rms_dbfs": -10.9
+    },
+    {
+      "start": 40,
+      "end": 44,
+      "rms_dbfs": -9.91
+    },
+    {
+      "start": 44,
+      "end": 48,
+      "rms_dbfs": -9.91
+    },
+    {
+      "start": 48,
+      "end": 60,
+      "rms_dbfs": -11.3
+    }
+  ],
+  "limitations": [
+    "Tempo estimate can have half/double-tempo ambiguity.",
+    "Energy levels do not establish chorus, musical style, vocal absence or exact downbeat placement.",
+    "44-second Drop and 48-second outro need listening/edit review.",
+    "Not approved as final soundtrack."
+  ]
+}

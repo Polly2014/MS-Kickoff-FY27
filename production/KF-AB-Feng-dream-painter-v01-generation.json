@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-19",
+  "status": "generated_pending_user_review",
+  "provider": "dream-painter configured Azure",
+  "model": "gpt-image-2",
+  "generation_count": 1,
+  "quality": "high",
+  "actual_size": [
+    2048,
+    1152
+  ],
+  "references": [
+    "assets/characters/production-pack/feng/feng-front-v01.png",
+    "production/frames/stage-locals/STAGE-LOCAL-06-Feng-cyan-violet-4K-v01.png"
+  ],
+  "pose_reference_used": false,
+  "libtv_result_used_as_reference": false,
+  "prompt_file": "production/actual-prompts/KF-AB-Feng-dream-painter-v01.txt",
+  "output_file": "production/frames/keyframes-v07/KF-AB-Feng-dream-painter-v01.png",
+  "preview_file": "production/previews/KF-AB-Feng-dream-painter-v01.jpg",
+  "sha256": "ac4cbd1eedf3f583518954737664e5526a45bfbdb5fb8d87de6777232bd78a39",
+  "libtv_credits_spent": 0,
+  "api_cost": null,
+  "review": {
+    "identity": "Feng face, glasses, hair, outfit and proportions visually close to source.",
+    "stage": "Cyan floor, near-left curved edge and right tall blue/violet fold closely follow stage02 composition.",
+    "framing": "Full body retained with room around hands and shoes; character occupies roughly 83 percent of image height, exceeding the requested 60 percent.",
+    "pose": "Hands low and apart, feet supported, knees only mildly bent; pose is less lowered/energetic than LibTV candidate. Anatomical right-foot-forward target not reliably followed.",
+    "recommendation": "Useful stage and identity continuity candidate; do not claim pose fully matches target."
+  },
+  "uploaded_to_libtv": false,
+  "selected_for_final": false
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-18",
+  "asset_id": "STAGE-LOCAL-06-Feng-cyan-violet-4K-v01",
+  "status": "generated_and_visually_checked",
+  "provider": "dream-painter configured Azure",
+  "model": "gpt-image-2",
+  "quality": "high",
+  "requested_size": "3840x2160",
+  "references": [
+    "frames/STAGE_MASTER-gpt-image-2-v02.png",
+    "frames/HANDOFF-stage-gpt-image-2-v01.png",
+    "frames/stage-locals/STAGE-LOCAL-03-violet-match-v01.png"
+  ],
+  "prompt_file": "actual-prompts/STAGE-LOCAL-06-Feng-cyan-violet-4K-v01.txt",
+  "output_file": "frames/stage-locals/STAGE-LOCAL-06-Feng-cyan-violet-4K-v01.png",
+  "purpose": "Feng-specific local camera between Jessica cyan and Scott blue-violet; final-resolution image candidate",
+  "libtv_video_generations": 0,
+  "api_cost": null,
+  "used_in_final": false,
+  "actual_size": [
+    3840,
+    2160
+  ],
+  "sha256": "38ffeb1ebf44206fbfa4327924478be7b3890af378cbb81208012fa537c7cc17",
+  "generation_count": 1,
+  "libtv_uploaded": true,
+  "libtv_credits_spent": 0,
+  "review_status": "static_candidate_only",
+  "review": "Empty stage. Broad continuous cyan-left to blue floor, violet toward right; tall blue ribbon fold cropped at right and smaller violet fold behind it. Clear central dance area and headroom. Thick near-left rounded edge gives new local composition, no full Logo, no people or text. Shares references/material family but not a calibrated camera view.",
+  "limitations": [
+    "A rendered still does not verify video action, exact stage geometry, camera travel or temporal continuity.",
+    "Other selected local backgrounds remain 2048x1152; this file and stage master are 3840x2160.",
+    "Existing A/B videos are unchanged. No new video requested."
+  ],
+  "preview_file": "previews/STAGE-LOCAL-06-Feng-cyan-violet-4K-v01.jpg",
+  "continuity_guide": "13-STAGE-CONTINUITY-LOCK.md",
+  "api_cost_note": "One configured Azure GPT Image 2 edit request, separate from LibTV credits; API charge not queried.",
+  "canvas_node_id": "i-dgQOPwWiXd",
+  "canvas_title": "STAGE-Copilot-局部02-青蓝过渡-4K-v01",
+  "playback_order": 2,
+  "source_id_note": "Original generation asset id06 retained for provenance; current canvas playback number is02."
+}

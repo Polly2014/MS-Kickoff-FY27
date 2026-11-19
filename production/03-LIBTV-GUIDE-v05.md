@@ -1,3 +1,5 @@
+> 当前版本：[五段导演蓝图 v07](16-FIVE-SEGMENT-DIRECTOR-BLUEPRINT-v07.md)及[关键构图准备单](17-KEYFRAME-PREPARATION-v07.md)。下方为历史文档，不作为当前执行依据。
+
 # v05 操作指南 · 图片本地调用，视频分段生成
 
 最新成本方向：用户允许480P与低成本模型，当前优先建议Wan 3.0，H3-Highspeed备选；先低成本验效果再选择正式分辨率。报价与重试预算见[低成本路线](08-LOW-COST-ROUTE.md)。下文Seedance2.5原生1080P流程保留为已完成B段及必要难段参考。

@@ -1,0 +1,20 @@
+{
+  "submittedAt": "2026-11-19T12:18:58.102Z",
+  "nodeId": "v-mJlycCOmzY",
+  "version": "v08",
+  "status": "generating",
+  "model": "Wan 3.0",
+  "mode": "全能参考",
+  "resolution": "480P",
+  "aspectRatio": "16:9",
+  "durationSeconds": 8,
+  "outputs": 1,
+  "audio": false,
+  "quotedCredits": 32,
+  "balanceBefore": 2876,
+  "userAuthorized": true,
+  "observedUI": "生成中...",
+  "preparationRecord": "SEG-D-v08-canvas-preparation.json",
+  "balanceAfter": 2844,
+  "chargedCredits": 32
+}
