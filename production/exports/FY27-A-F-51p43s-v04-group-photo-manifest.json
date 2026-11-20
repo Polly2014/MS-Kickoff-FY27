@@ -1,0 +1,45 @@
+{
+  "status": "pending_user_review",
+  "output": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\exports\\FY27-A-F-51p43s-480P-v04-group-photo-LibTV-cameos-music.mp4",
+  "frames": 1543,
+  "fps": 30.0,
+  "duration": 51.43333333333333,
+  "f_start": 45.93333333333333,
+  "libtv_source": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\videos\\SEG-F-creators-peek-6s-Wan3-480P-v01-green.mp4",
+  "source_fps": 30.0,
+  "source_frames": 180,
+  "f_duration": 5.5,
+  "fade_out_seconds": 0.5,
+  "photo_hold_before_fade_seconds": 1.9333333333333331,
+  "music_head_end": 47.58333333333333,
+  "music_tail_start": 56.08163265306123,
+  "fixed_key_rois": [
+    [
+      0,
+      6,
+      426,
+      480
+    ],
+    [
+      1,
+      30,
+      427,
+      480
+    ]
+  ],
+  "cameo_max_visible_height_1080p": 130,
+  "credits_spent": 0,
+  "original_generation_credits": 24,
+  "edit": "first wave then final cast photo; left holds frame88, right frame92; no bow or retreat; fade 5.0-5.5s",
+  "limitations": "hold uses still neutral poses; original frontal body angle retained",
+  "stage": "E tail, full-width upward reframe, no shrinking",
+  "text": "local overlay, exact current credits",
+  "verification": {
+    "full_decode": "passed",
+    "sampled_AE_frames": "exact pixels",
+    "audio": "original music head timing preserved; natural last 4s crossfaded inside F; last 0.5s fades",
+    "audio_duration_seconds": 51.45541950113379,
+    "audio_peak": 0.6232362985610962,
+    "last_frame": "black, verified decoded pixels"
+  }
+}

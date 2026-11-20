@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-20",
+  "authorization": "这点积分，我全部同意，你直接推进吧",
+  "model": "HuoShan-画质增强",
+  "resolution": "1080P",
+  "fps": 30,
+  "credits_total": 18,
+  "balance_before": 2399,
+  "balance_after": 2381,
+  "status": "all_generated_and_downloaded",
+  "jobs": [
+    {
+      "segment": "INTRO",
+      "node": "v-6e7QwOGXOe",
+      "duration_seconds": 4,
+      "credits": 2
+    },
+    {
+      "segment": "B-v08",
+      "node": "v-VWxQswHYvB",
+      "duration_seconds": 12,
+      "credits": 4
+    },
+    {
+      "segment": "C-v08",
+      "node": "v-y4mbwea2xS",
+      "duration_seconds": 8,
+      "credits": 3
+    },
+    {
+      "segment": "D-v08",
+      "node": "v-uyUL58uqhL",
+      "duration_seconds": 8,
+      "credits": 3
+    },
+    {
+      "segment": "D-v13",
+      "node": "v-Oq5pR9teGw",
+      "duration_seconds": 8,
+      "credits": 3
+    },
+    {
+      "segment": "E-v08",
+      "node": "v-52Hb9y4LAR",
+      "duration_seconds": 8,
+      "credits": 3
+    }
+  ],
+  "A": "reuse previous HuoShan enhancement",
+  "download_note": "refresh resolved stalled downloads; no duplicate paid submissions",
+  "proof": "previews/HD-all-generated-2381balance-v01.jpg"
+}

@@ -1,0 +1,8 @@
+file 'D:/git_workspace/www.polly.com/X-Workspace/MS-Kickoff-FY27/production/videos/HD-edit-INTRO-1080P30-v02-title-polish-silent.mp4'
+file 'D:/git_workspace/www.polly.com/X-Workspace/MS-Kickoff-FY27/production/videos/HD-edit-A-1080P30-v01-silent.mp4'
+file 'D:/git_workspace/www.polly.com/X-Workspace/MS-Kickoff-FY27/production/videos/HD-edit-B-1080P30-v01-silent.mp4'
+file 'D:/git_workspace/www.polly.com/X-Workspace/MS-Kickoff-FY27/production/videos/HD-edit-C-1080P30-v01-silent.mp4'
+file 'D:/git_workspace/www.polly.com/X-Workspace/MS-Kickoff-FY27/production/videos/HD-edit-D08-1080P30-v01-silent.mp4'
+file 'D:/git_workspace/www.polly.com/X-Workspace/MS-Kickoff-FY27/production/videos/HD-edit-D13-1080P30-v01-silent.mp4'
+file 'D:/git_workspace/www.polly.com/X-Workspace/MS-Kickoff-FY27/production/videos/HD-edit-E-1080P30-v01-silent.mp4'
+file 'D:/git_workspace/www.polly.com/X-Workspace/MS-Kickoff-FY27/production/videos/HD-edit-F-1080P30-v01-silent.mp4'

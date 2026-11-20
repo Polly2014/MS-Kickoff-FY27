@@ -1,0 +1,45 @@
+{
+  "status": "generated_downloaded_composited_pending_user_review",
+  "node": "v-awgIDf2cJa",
+  "name": "SEG-F-两小只左右探头致谢-6s-Wan3-480P-v01-待生成",
+  "model": "Wan 3.0",
+  "mode": "全能参考",
+  "resolution": "480P",
+  "aspect_ratio": "16:9",
+  "duration": 6,
+  "count": 1,
+  "audio": false,
+  "smart_expansion": false,
+  "auto_link": false,
+  "real_mention_badge_verified": true,
+  "quote_credits": 24,
+  "baseline_display": 30,
+  "balance_observed": 2491,
+  "credits_spent": 24,
+  "prompt": "actual-prompts/SEG-F-creators-peek-individual-refs-Wan3-6s-v02.txt",
+  "background": "pure green for later keying; stage not passed to this generation",
+  "postprocess": "key each side separately, compose at opposite lower corners; text rendered locally",
+  "layout_preview": "previews/F-credits-layout-v03-bold-idea-static-placeholder.jpg",
+  "reference_nodes": [
+    {
+      "id": "i-sq1BjZMM8c",
+      "person": "Baoli Wang",
+      "mention": "图片 1",
+      "file": "frames/creators/F-cameo-Baoli-Wang-v02-transparent.png"
+    },
+    {
+      "id": "i-UgTQPKf0lA",
+      "person": "Yun Gu",
+      "mention": "图片 2",
+      "file": "frames/creators/F-cameo-Yun-Gu-v02-transparent.png"
+    }
+  ],
+  "previous_pair_reference_removed": true,
+  "screenshot": "previews/SEG-F-LibTV-generated-24credits-v01.jpg",
+  "browser_updated": true,
+  "balance_before": 2491,
+  "balance_after": 2467,
+  "source_video": "videos/SEG-F-creators-peek-6s-Wan3-480P-v01-green.mp4",
+  "canvas_title_still_pending_generation": true,
+  "output": "exports/FY27-A-F-52s-480P-v02-LibTV-cameos-music.mp4"
+}

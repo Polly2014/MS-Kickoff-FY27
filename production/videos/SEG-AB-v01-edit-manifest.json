@@ -1,0 +1,72 @@
+{
+  "output": {
+    "file": "SEG-AB-Wan3-480P-v01-direct-24s.mp4",
+    "frames": 720,
+    "fps": 30.0,
+    "size": [
+      854,
+      480
+    ],
+    "seconds": 24.0
+  },
+  "sources": [
+    {
+      "file": "SEG-A-Wan3-480P-v07-adopted.mp4",
+      "frames": 360,
+      "fps": 30.0,
+      "size": [
+        854,
+        480
+      ],
+      "seconds": 12.0
+    },
+    {
+      "file": "SEG-B-Wan3-480P-v08-adopted.mp4",
+      "frames": 360,
+      "fps": 30.0,
+      "size": [
+        854,
+        480
+      ],
+      "seconds": 12.0
+    }
+  ],
+  "edit": "A [0,12) + B [0,12); hard cut at 12.000s; video stream copy; silent",
+  "rationale": "Boundary poses and stage composition closely match. Keep the final A pose before B begins its floor move. Reassess beat timing after music placement.",
+  "preview": {
+    "file": "SEG-AB-v01-junction-10-14s.mp4",
+    "frames": 120,
+    "fps": 30.0,
+    "size": [
+      854,
+      480
+    ],
+    "seconds": 4.0
+  },
+  "source_match_checks": [
+    {
+      "output_frame": 0,
+      "source": "SEG-A-Wan3-480P-v07-adopted.mp4",
+      "source_frame": 0,
+      "exact_pixels": true
+    },
+    {
+      "output_frame": 359,
+      "source": "SEG-A-Wan3-480P-v07-adopted.mp4",
+      "source_frame": 359,
+      "exact_pixels": true
+    },
+    {
+      "output_frame": 360,
+      "source": "SEG-B-Wan3-480P-v08-adopted.mp4",
+      "source_frame": 0,
+      "exact_pixels": true
+    },
+    {
+      "output_frame": 719,
+      "source": "SEG-B-Wan3-480P-v08-adopted.mp4",
+      "source_frame": 359,
+      "exact_pixels": true
+    }
+  ]
+}

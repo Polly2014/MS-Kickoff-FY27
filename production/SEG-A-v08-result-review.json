@@ -1,0 +1,37 @@
+{
+  "source": "SEG-A-Wan3-480P-v08-single-descent.mp4",
+  "metadata": {
+    "frames": 360,
+    "fps": 30.0,
+    "width": 854,
+    "height": 480
+  },
+  "review_status": "rejected_by_user",
+  "observation": "Only one final descent in sampled frames. New A ends lower than B starts; direct 12-second junction jumps upward.",
+  "recommended_edit": {
+    "a_source_frames": [
+      0,
+      340
+    ],
+    "a_source_end_seconds": 11.333333333333334,
+    "b_source_start": 0,
+    "preview": "SEG-AB-A08-B08-matched-junction-v02-music.mp4",
+    "preview_a_source_frames": [
+      280,
+      340
+    ],
+    "preview_b_source_frames": [
+      0,
+      60
+    ],
+    "preview_cut_seconds": 2
+  },
+  "raw_junction": "SEG-AB-A08-B08-direct-junction-music-v01.mp4",
+  "credit_cost": 48,
+  "remaining_credits": 2491,
+  "rejection_reason": "Jessica background changes mid-segment to Feng stage",
+  "canvas_node_deleted": true,
+  "deletion_reversible": "LibTV confirmation explicitly permits Ctrl+Z",
+  "recommended_edit_superseded": true,
+  "new_direction": "Use original A v07, cut on the outgoing beam before Feng reveal, then cut into existing B; discussion only, not executed."
+}

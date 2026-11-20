@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-20",
+  "status": "passed",
+  "checked_markdown": [
+    "README.md",
+    "production\\00-START-HERE.md",
+    "production\\25-FINAL-DELIVERY-v01.md",
+    "production\\04-DELIVERY-CHECKLIST.md",
+    "production\\VERIFICATION.md"
+  ],
+  "missing_local_links": [],
+  "parsed_json": [
+    "credits-info.json",
+    "canvas-before-final-tidy-20261120.json",
+    "canvas-after-final-tidy-20261120.json",
+    "exports/FY27-Kickoff-FINAL-manifest.json",
+    "exports/FY27-Kickoff-WeChat-manifest.json"
+  ],
+  "media_integrity": [
+    {
+      "file": "production\\exports\\FY27-Kickoff-FINAL-1080P.mp4",
+      "sha256_match": true,
+      "bytes": 54542732
+    },
+    {
+      "file": "production\\exports\\FY27-Kickoff-WeChat-720P.mp4",
+      "sha256_match": true,
+      "bytes": 8941492
+    }
+  ],
+  "timeline_frames": 1663,
+  "timeline_csv": "final-edit-timeline-20261120.csv",
+  "scope": "current delivery entrypoints; historical documents preserved; full decode already recorded in media manifests",
+  "credits_spent": 0
+}

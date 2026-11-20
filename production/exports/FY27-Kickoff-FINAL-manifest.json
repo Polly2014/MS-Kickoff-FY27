@@ -1,0 +1,19 @@
+{
+  "status": "approved_final",
+  "approved_date": "2026-11-20",
+  "approval": "完美，定稿！！！",
+  "team": "STCA M365 Copilot Foundation & Platform Team",
+  "file": "FY27-Kickoff-FINAL-1080P.mp4",
+  "source_version": "FY27-CG-intro-A-F-55p43s-1080P-v05-intro-a-audio-bridge-music.mp4",
+  "sha256": "52ea529519aef33922f1186292a0a2d54103b4d803f4a5c4e1db765018ef2a0d",
+  "bytes": 54542732,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "frames": 1663,
+  "duration_seconds": 55.43333333333333,
+  "delivery": "H.264 / AAC, MP4",
+  "verification": "exact file copy of user-approved v05; SHA256 matches",
+  "render_verification": "HD-intro-a-bridge-v05-manifest.json",
+  "credits_spent_to_finalize": 0
+}

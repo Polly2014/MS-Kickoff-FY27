@@ -1,0 +1,148 @@
+{
+  "output": {
+    "file": "FY27-A-E-46p5s-480P-roughcut-v02-music.mp4",
+    "frames": 1395,
+    "fps": 30.0,
+    "size": [
+      854,
+      480
+    ],
+    "seconds": 46.5
+  },
+  "timeline": [
+    {
+      "segment": "A",
+      "start": 0.0,
+      "end": 10.5,
+      "file": "SEG-A-Wan3-480P-v02-edit-first-dip-10p5s.mp4"
+    },
+    {
+      "segment": "B",
+      "start": 10.5,
+      "end": 22.5,
+      "file": "SEG-B-Wan3-480P-v08-adopted.mp4"
+    },
+    {
+      "segment": "C",
+      "start": 22.5,
+      "end": 30.5,
+      "file": "SEG-C-Wan3-480P-v08-adopted.mp4"
+    },
+    {
+      "segment": "D",
+      "start": 30.5,
+      "end": 38.5,
+      "file": "SEG-D-Wan3-480P-v14-edit-v08first4s-v13last4s.mp4"
+    },
+    {
+      "segment": "E",
+      "start": 38.5,
+      "end": 46.5,
+      "file": "SEG-E-Wan3-480P-v08-adopted.mp4"
+    }
+  ],
+  "edit": {
+    "a_source_frames": [
+      0,
+      315
+    ],
+    "a_source_seconds": [
+      0,
+      10.5
+    ],
+    "removed_a_seconds": [
+      10.5,
+      12
+    ],
+    "b_source_start": 0,
+    "reason": "Cut during the first descent before A rebounds and dips again"
+  },
+  "video": "Only A trim re-encoded at CRF16; B-E stream copied; no speed changes or dissolves",
+  "audio": {
+    "source": "MUSIC-FY27-street-dance-60s-ElevenMusicV3-v01.mp3",
+    "range": [
+      0,
+      46.5
+    ],
+    "continuous": true,
+    "gain_db": -4,
+    "fade_out": [
+      45.8,
+      46.5
+    ],
+    "decoded_seconds": 46.509569160997735,
+    "peak": 0.6232362985610962
+  },
+  "preview": "SEG-AB-v02-first-dip-junction-music.mp4",
+  "verification": {
+    "full_decode": "passed",
+    "frame_matches": [
+      {
+        "segment": "A",
+        "output_frame": 0,
+        "source_frame": 0,
+        "exact_pixels": true
+      },
+      {
+        "segment": "A",
+        "output_frame": 314,
+        "source_frame": 314,
+        "exact_pixels": true
+      },
+      {
+        "segment": "B",
+        "output_frame": 315,
+        "source_frame": 0,
+        "exact_pixels": true
+      },
+      {
+        "segment": "B",
+        "output_frame": 674,
+        "source_frame": 359,
+        "exact_pixels": true
+      },
+      {
+        "segment": "C",
+        "output_frame": 675,
+        "source_frame": 0,
+        "exact_pixels": true
+      },
+      {
+        "segment": "C",
+        "output_frame": 914,
+        "source_frame": 239,
+        "exact_pixels": true
+      },
+      {
+        "segment": "D",
+        "output_frame": 915,
+        "source_frame": 0,
+        "exact_pixels": true
+      },
+      {
+        "segment": "D",
+        "output_frame": 1154,
+        "source_frame": 239,
+        "exact_pixels": true
+      },
+      {
+        "segment": "E",
+        "output_frame": 1155,
+        "source_frame": 0,
+        "exact_pixels": true
+      },
+      {
+        "segment": "E",
+        "output_frame": 1394,
+        "source_frame": 239,
+        "exact_pixels": true
+      }
+    ],
+    "a_encode_psnr": [
+      45.6934302543325,
+      43.53948500361049,
+      42.42316774874671
+    ]
+  },
+  "credit_cost": 0
+}

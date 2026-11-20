@@ -1,0 +1,9 @@
+﻿segment,global_in_frame,global_out_frame_exclusive,source_in_frame,source_out_frame_exclusive,fps
+INTRO,0,120,0,120,30
+A,120,418,0,298,30
+B,418,778,0,360,30
+C,778,1018,0,240,30
+D1-v08,1018,1138,0,120,30
+D2-v13,1138,1258,120,240,30
+E,1258,1498,0,240,30
+F-composite,1498,1663,0,165,30

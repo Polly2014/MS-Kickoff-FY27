@@ -1,0 +1,25 @@
+{
+  "status": "static_layout_only",
+  "typography": {
+    "idea": {
+      "size": 44,
+      "width": 1027,
+      "y": 835
+    },
+    "creators": {
+      "size": 32,
+      "width": 460,
+      "y": 910
+    },
+    "models": {
+      "size": 24,
+      "width": 909,
+      "y": 994
+    },
+    "tools": {
+      "size": 24,
+      "width": 581,
+      "y": 1031
+    }
+  }
+}

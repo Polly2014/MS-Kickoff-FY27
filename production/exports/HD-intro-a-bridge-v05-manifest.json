@@ -1,0 +1,33 @@
+{
+  "status": "approved_final",
+  "output": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\exports\\FY27-CG-intro-A-F-55p43s-1080P-v05-intro-a-audio-bridge-music.mp4",
+  "preview": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\previews\\INTRO-A-v05-audio-bridge-6s-review.mp4",
+  "comparison": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\previews\\INTRO-A-v04-v05-audio-bridge-before-after-6s.mp4",
+  "duration_seconds": 55.43333333333333,
+  "frames": 1663,
+  "fps": 30,
+  "edit": {
+    "picture_cut": 4.0,
+    "wet_interval": [
+      3.72,
+      4.28
+    ],
+    "tail_into_A_seconds": 0.28,
+    "source": "existing CG source final0.5s, damped diffuse stereo reflections",
+    "wet_peak": 0.13170862197875977,
+    "wet_rms_4_to_4p1": 0.027090387418866158,
+    "music": "no offset, gain change, ducking or beat shift"
+  },
+  "mix_peak": 0.842529296875,
+  "verification": {
+    "video_stream": "byte-identical to v04",
+    "video_sha256": "d55b5436218641f8457a1785d1ab846edb6746afd79ca746dcb4df7ed51c5821",
+    "full_decode": "passed",
+    "outside_edit_PCM": "unchanged before quantization and AAC encode",
+    "outside_edit_AAC_rmse": 0.0046827532351017
+  },
+  "credits_spent": 0,
+  "approved_date": "2026-11-20",
+  "approval": "完美，定稿！！！",
+  "final_delivery_file": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\exports\\FY27-Kickoff-FINAL-1080P.mp4"
+}

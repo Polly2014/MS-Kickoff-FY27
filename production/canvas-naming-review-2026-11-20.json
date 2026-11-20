@@ -1,0 +1,35 @@
+{
+  "updated": [
+    [
+      "scott-front-v01.png",
+      "CHAR-Scott-正面全身-v01"
+    ],
+    [
+      "SEG-D-Renwei到六人共舞-8s-Wan3-480P-v08-待生成",
+      "SEG-D-Renwei到六人共舞-8s-Wan3-480P-v08-历史备选"
+    ],
+    [
+      "SEG-D-Renwei到六人共舞-8s-Wan3-480P-v09-肤色修订",
+      "SEG-D-Renwei到六人共舞-8s-Wan3-480P-v09-肤色修订-历史备选"
+    ],
+    [
+      "音频节点 1",
+      "TOOL-音频生成-空白待用-v01"
+    ],
+    [
+      "高清",
+      "TOOL-图片高清放大-空白待用-v01"
+    ]
+  ],
+  "observedAccepted": {
+    "A": "v07",
+    "B": "v08",
+    "C": "v08",
+    "D": "v13",
+    "E": "v08"
+  },
+  "remainingCosmetic": [
+    "KF-AB所用图的已选用可统一为采用",
+    "早期候选图中英文文件名可逐步统一；不影响当前采用链路"
+  ]
+}

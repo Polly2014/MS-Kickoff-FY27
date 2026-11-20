@@ -1,0 +1,34 @@
+{
+  "status": "pending_user_review",
+  "output": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\exports\\FY27-A-F-52s-480P-v02-LibTV-cameos-music.mp4",
+  "frames": 1560,
+  "fps": 30.0,
+  "duration": 52.0,
+  "f_start": 45.93333333333333,
+  "libtv_source": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\videos\\SEG-F-creators-peek-6s-Wan3-480P-v01-green.mp4",
+  "source_fps": 30.0,
+  "source_frames": 180,
+  "fixed_key_rois": [
+    [
+      0,
+      6,
+      426,
+      480
+    ],
+    [
+      1,
+      30,
+      427,
+      480
+    ]
+  ],
+  "cameo_max_visible_height_1080p": 130,
+  "credits_spent": 24,
+  "stage": "E tail, full-width upward reframe, no shrinking",
+  "text": "local overlay, exact current credits",
+  "verification": {
+    "full_decode": "passed",
+    "sampled_AE_frames": "exact pixels",
+    "audio": "stream copied from prior 52s mix"
+  }
+}

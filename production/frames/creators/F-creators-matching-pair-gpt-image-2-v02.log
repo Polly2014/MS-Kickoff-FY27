@@ -1,0 +1,14 @@
+Reference: production\frames\creators\F-creators-matching-pair-gpt-image-2-v01.png
+Prompt file: production\actual-prompts\F-creators-matching-pair-v02.txt
+📁 Loading config from: D:\git_workspace\www.polly.com\.claude\skills\dream-painter\scripts\config.env
+🔗 Using endpoint: https://polly-ai-foundry-resource.cognitiveservices.azure.com/
+🚀 Using deployment: gpt-image-1.5
+Actual requested deployment: gpt-image-2
+Image 1: production\frames\creators\F-creators-matching-pair-gpt-image-2-v01.png
+Image 2: production\references\creators\Yun-Gu-user-reference.jpeg
+🎨 Generating transformed image...
+   Size: 1536x1024
+   Prompt preview: Edit Image 1, the two-person creator asset sheet. Preserve exactly the two identities, left/right ar...
+✅ Saved: production\frames\creators\F-creators-matching-pair-gpt-image-2-v02.png
+📦 File size: 1226 KB
+Saved requested resolution without the CLI 1200px downscale.

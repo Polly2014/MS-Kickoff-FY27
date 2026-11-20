@@ -1,0 +1,32 @@
+{
+  "status": "pending_user_review",
+  "output": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\exports\\FY27-CG-intro-A-F-55p43s-480P-v01-music.mp4",
+  "preview": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\previews\\INTRO-B-CG-to-Jessica-first9s-v01-music.mp4",
+  "frames": 1663,
+  "fps": 30,
+  "duration_seconds": 55.43333333333333,
+  "intro_seconds": 4,
+  "source": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\videos\\INTRO-B-CG-ignite-4s-Wan3-480P-v01-source.mp4",
+  "source_fps": 30.0,
+  "title_lines": [
+    "STCA M365 Copilot",
+    "Foundation & Platform Team"
+  ],
+  "title_visible_interval": [
+    0.65,
+    3.4
+  ],
+  "generated_audio_peak": 0.9468526840209961,
+  "intro_gain": 0.8977109262555056,
+  "audio": "generated CG sound effects followed by original v06 music, body timing shifted exactly 4s",
+  "verification": {
+    "AEF_sampled_frames": "exact pixels, sequential decode",
+    "full_decode": "passed",
+    "audio_seconds": 55.44927083333334,
+    "audio_peak": 0.8458586931228638
+  },
+  "limitations": "generation prompt compliance and perceived sound quality require user review",
+  "credits_spent": 16,
+  "balance_before": 2467,
+  "balance_after": 2451
+}

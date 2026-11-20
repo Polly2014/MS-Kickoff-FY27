@@ -1,0 +1,428 @@
+[
+  {
+    "class": "react-flow__node react-flow__node-group nopan selectable parent draggable",
+    "id": "g-0HFCorbNTe",
+    "testid": "rf__node-g-0HFCorbNTe",
+    "text": "CHAR-FY27-六人正面与多视图设定-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-group nopan selectable parent draggable",
+    "id": "g-2Km7uBa5wS",
+    "testid": "rf__node-g-2Km7uBa5wS",
+    "text": "KEYFRAME-FY27-A至B衔接候选-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-group nopan selectable parent draggable",
+    "id": "g-fpbf8PVmqX",
+    "testid": "rf__node-g-fpbf8PVmqX",
+    "text": "STAGE-FY27-Logo母版与多机位总览-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-group nopan selectable parent draggable",
+    "id": "g-gja9NRxdlx",
+    "testid": "rf__node-g-gja9NRxdlx",
+    "text": "TOOLS-FY27-音频与高清待用节点-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-group nopan selectable parent draggable",
+    "id": "g-qVy5PgeH1s",
+    "testid": "rf__node-g-qVy5PgeH1s",
+    "text": "MUSIC-FY27-A至E分段及片尾-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-group nopan selectable parent draggable",
+    "id": "g-ybvfcsoLg3",
+    "testid": "rf__node-g-ybvfcsoLg3",
+    "text": "STAGE-FY27-局部01至06-颜色顺序-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-group nopan selectable parent draggable",
+    "id": "g-yFMWU80nOw",
+    "testid": "rf__node-g-yFMWU80nOw",
+    "text": "TEST-FY27-A至B历史样片-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-audio nopan selectable draggable",
+    "id": "a-20OI4VbvXP",
+    "testid": "rf__node-a-20OI4VbvXP",
+    "text": "MUSIC-FY27-街舞主曲-60s-ElevenMusicV3-v01 - 副本"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-0Xh7Sm0vo8",
+    "testid": "rf__node-i-0Xh7Sm0vo8",
+    "text": "REF-DE-六人队形-原肤色中性面光-LibTV-v04"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-10GbjCzSzq",
+    "testid": "rf__node-i-10GbjCzSzq",
+    "text": "REF-DE-六人队形-自然肤色123-v07-采用"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-A8cOoRkSBv",
+    "testid": "rf__node-i-A8cOoRkSBv",
+    "text": "KF-AB-Feng-局部02-接拍POSE-LibTV-v01-已选用"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-b0aObV6ZDX",
+    "testid": "rf__node-i-b0aObV6ZDX",
+    "text": "REF-DE-v13尾帧-右转接势-480P-v01-采用"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-CcwtaLh0ww",
+    "testid": "rf__node-i-CcwtaLh0ww",
+    "text": "KF-AB-Feng-A段实际尾帧-12s-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-kZ6g89huCa",
+    "testid": "rf__node-i-kZ6g89huCa",
+    "text": "REF-F-创作团队-Baoli-Yun-统一画风-v02-采用"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-l45S8LnTvc",
+    "testid": "rf__node-i-l45S8LnTvc",
+    "text": "REF-DE-六人队形-原构图肤色修复-LibTV-v05"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-NjJKQKEVPr",
+    "testid": "rf__node-i-NjJKQKEVPr",
+    "text": "POSE-AB-Feng-grounded-ready-v01.png"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-PIufotrfK5",
+    "testid": "rf__node-i-PIufotrfK5",
+    "text": "REF-DE-六人身份与队形-Scott已修正-v03"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-sq1BjZMM8c",
+    "testid": "rf__node-i-sq1BjZMM8c",
+    "text": "F-cameo-Baoli-Wang-v02-transparent.png"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-UgTQPKf0lA",
+    "testid": "rf__node-i-UgTQPKf0lA",
+    "text": "F-cameo-Yun-Gu-v02-transparent.png"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selected selectable draggable",
+    "id": "v-002YZjAFcl",
+    "testid": "rf__node-v-002YZjAFcl",
+    "text": "HD-01-A-源12s取前9p93s-HuoShan-1080P30-采用"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-1LoGO2MCBz",
+    "testid": "rf__node-v-1LoGO2MCBz",
+    "text": "HD-A-v07-12s-Topazlabs-1080P30-v01-已生成待对比"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-52Hb9y4LAR",
+    "testid": "rf__node-v-52Hb9y4LAR",
+    "text": "HD-E-v08-8s-HuoShan-1080P30-v01-采用"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-6e7QwOGXOe",
+    "testid": "rf__node-v-6e7QwOGXOe",
+    "text": "HD-INTRO-CG-4s-HuoShan-1080P30-v01-采用"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-aBjKkphXQR",
+    "testid": "rf__node-v-aBjKkphXQR",
+    "text": "SEG-D-Renwei到六人共舞-8s-Wan3-480P-v09-肤色修订-历史备选"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-AQDSjEB4Zg",
+    "testid": "rf__node-v-AQDSjEB4Zg",
+    "text": "SEG-A-Jessica到Feng-12s-Wan3-480P-v07-采用"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-awgIDf2cJa",
+    "testid": "rf__node-v-awgIDf2cJa",
+    "text": "SEG-F-两小只左右探头致谢-6s-Wan3-480P-v01-待生成"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-h9ACkvK23o",
+    "testid": "rf__node-v-h9ACkvK23o",
+    "text": "SEG-E-六人共舞到Logo点亮-8s-Wan3-480P-v08-采用"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-lVh4JKiCNG",
+    "testid": "rf__node-v-lVh4JKiCNG",
+    "text": "SEG-B-Feng到Scott到三人共舞-12s-Wan3-480P-v08-采用"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-mJlycCOmzY",
+    "testid": "rf__node-v-mJlycCOmzY",
+    "text": "SEG-D-Renwei到六人共舞-8s-Wan3-480P-v08-历史备选"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-nkUzXaLEBh",
+    "testid": "rf__node-v-nkUzXaLEBh",
+    "text": "INTRO-B-节拍点火CG-4s-Wan3-480P-v01-待审"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-Oq5pR9teGw",
+    "testid": "rf__node-v-Oq5pR9teGw",
+    "text": "HD-D-v13-8s-HuoShan-1080P30-v01-采用"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-qXYcCoJoLR",
+    "testid": "rf__node-v-qXYcCoJoLR",
+    "text": "SEG-D-Renwei到六人共舞-8s-Wan3-480P-v13-采用"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-UGPE35mtsG",
+    "testid": "rf__node-v-UGPE35mtsG",
+    "text": "SEG-C-Song到Amy-8s-Wan3-480P-v08-采用"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-uyUL58uqhL",
+    "testid": "rf__node-v-uyUL58uqhL",
+    "text": "HD-D-v08-8s-HuoShan-1080P30-v01-采用"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-VWxQswHYvB",
+    "testid": "rf__node-v-VWxQswHYvB",
+    "text": "HD-B-v08-12s-HuoShan-1080P30-v01-采用"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-y4mbwea2xS",
+    "testid": "rf__node-v-y4mbwea2xS",
+    "text": "HD-C-v08-8s-HuoShan-1080P30-v01-采用"
+  },
+  {
+    "class": "react-flow__node react-flow__node-audio nopan selectable draggable",
+    "id": "a-0GMYWXPnXT",
+    "testid": "rf__node-a-0GMYWXPnXT",
+    "text": "MUSIC-CREDITS-48-60-Outro-12s-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-audio nopan selectable draggable",
+    "id": "a-2FHy8KDFuN",
+    "testid": "rf__node-a-2FHy8KDFuN",
+    "text": "MUSIC-D-32-40-Renwei-Group-8s-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-audio nopan selectable draggable",
+    "id": "a-7n10vSUxdM",
+    "testid": "rf__node-a-7n10vSUxdM",
+    "text": "MUSIC-E-40-48-Group-Logo-8s-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-audio nopan selectable draggable",
+    "id": "a-dWpsxIOiix",
+    "testid": "rf__node-a-dWpsxIOiix",
+    "text": "MUSIC-A-00-12-Jessica-Feng-12s-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-audio nopan selectable draggable",
+    "id": "a-Hd6yWYMlXc",
+    "testid": "rf__node-a-Hd6yWYMlXc",
+    "text": "MUSIC-C-24-32-Song-Amy-8s-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-audio nopan selectable draggable",
+    "id": "a-TAIlAANNUL",
+    "testid": "rf__node-a-TAIlAANNUL",
+    "text": "MUSIC-B-12-24-Feng-Scott-Trio-12s-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-audio nopan selectable draggable",
+    "id": "a-w6gdefilpD",
+    "testid": "rf__node-a-w6gdefilpD",
+    "text": "TOOL-音频生成-空白待用-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-0F0tcoTXnK",
+    "testid": "rf__node-i-0F0tcoTXnK",
+    "text": "STAGE_MASTER-gpt-image-2-v02"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-2otVSX966A",
+    "testid": "rf__node-i-2otVSX966A",
+    "text": "STAGE-Copilot-局部03-蓝紫接棒-2K-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-4cmaW64j1o",
+    "testid": "rf__node-i-4cmaW64j1o",
+    "text": "STAGE-Copilot-局部04-暖色双人-2K-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-4Fx2L2IPOj",
+    "testid": "rf__node-i-4Fx2L2IPOj",
+    "text": "CHAR-Jessica-正面全身-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-5EaLZTHFnc",
+    "testid": "rf__node-i-5EaLZTHFnc",
+    "text": "CHAR-Amy-正面全身-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-bnYk80IcWm",
+    "testid": "rf__node-i-bnYk80IcWm",
+    "text": "CHAR-Scott-多视图设定-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-dgQOPwWiXd",
+    "testid": "rf__node-i-dgQOPwWiXd",
+    "text": "STAGE-Copilot-局部02-青蓝过渡-4K-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-e1Zmtro5VV",
+    "testid": "rf__node-i-e1Zmtro5VV",
+    "text": "CHAR-Scott-正面全身-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-ew9mV035ue",
+    "testid": "rf__node-i-ew9mV035ue",
+    "text": "TOOL-图片高清放大-空白待用-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-Fb9Mu0iXWH",
+    "testid": "rf__node-i-Fb9Mu0iXWH",
+    "text": "STAGE-Copilot-局部06-蓝青拱折-备用-2K-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-FJj0jSYnVL",
+    "testid": "rf__node-i-FJj0jSYnVL",
+    "text": "CHAR-Song-正面全身-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-IhmE0T28ju",
+    "testid": "rf__node-i-IhmE0T28ju",
+    "text": "STAGE-Copilot-全景概念-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-jMeEQyh1bC",
+    "testid": "rf__node-i-jMeEQyh1bC",
+    "text": "CHAR-Amy-多视图设定-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-kzsIrmfBdI",
+    "testid": "rf__node-i-kzsIrmfBdI",
+    "text": "STAGE-Copilot-局部05-暖色群舞-2K-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-OeWdbiLoT2",
+    "testid": "rf__node-i-OeWdbiLoT2",
+    "text": "KF-AtoB-Feng-fullbody-12s-candidate-v01.png"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-oHNioLJTgp",
+    "testid": "rf__node-i-oHNioLJTgp",
+    "text": "CHAR-Jessica-多视图设定-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-OV685IuQDD",
+    "testid": "rf__node-i-OV685IuQDD",
+    "text": "CHAR-Feng-正面全身-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-P9XvulU7pU",
+    "testid": "rf__node-i-P9XvulU7pU",
+    "text": "CHAR-Renwei-多视图设定-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-PHayPm84M6",
+    "testid": "rf__node-i-PHayPm84M6",
+    "text": "CHAR-Song-多视图设定-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-Rdk6hADvE5",
+    "testid": "rf__node-i-Rdk6hADvE5",
+    "text": "CHAR-Renwei-正面全身-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-rT6OBZqneE",
+    "testid": "rf__node-i-rT6OBZqneE",
+    "text": "STAGE-Copilot-局部01-蓝青开场-2K-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-T5wV1cDMWG",
+    "testid": "rf__node-i-T5wV1cDMWG",
+    "text": "CHAR-Feng-多视图设定-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-wkVHbIQhal",
+    "testid": "rf__node-i-wkVHbIQhal",
+    "text": "STAGE-Copilot-多机位九宫格-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-image nopan selectable draggable",
+    "id": "i-ZVD1cX5WEo",
+    "testid": "rf__node-i-ZVD1cX5WEo",
+    "text": "KF-B-Scott-blueviolet-gpt-image-2-v01.png"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-iGdnPGr9l8",
+    "testid": "rf__node-v-iGdnPGr9l8",
+    "text": "TEST-A-Jessica到Feng-15s-Wan3-480P-v01 - 副本"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-mkFVjwxt8O",
+    "testid": "rf__node-v-mkFVjwxt8O",
+    "text": "TEST-B-Feng到Scott-蓝紫局部-15s-Wan3-480P-v01"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-qFpcETQeIX",
+    "testid": "rf__node-v-qFpcETQeIX",
+    "text": "TEST-A-Jessica到Feng-蓝青局部-15s-Wan3-480P-v02"
+  },
+  {
+    "class": "react-flow__node react-flow__node-video nopan selectable draggable",
+    "id": "v-qH9MQ0txJ2",
+    "testid": "rf__node-v-qH9MQ0txJ2",
+    "text": "TEST-A-Jessica到Feng-15s-Wan3-480P-v01"
+  }
+]

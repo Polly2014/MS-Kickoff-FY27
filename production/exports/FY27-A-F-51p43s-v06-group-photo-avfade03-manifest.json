@@ -1,0 +1,27 @@
+{
+  "status": "pending_user_review",
+  "output": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\exports\\FY27-A-F-51p43s-480P-v06-group-photo-avfade03-music.mp4",
+  "preview": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\previews\\SEG-E-F-8p50s-v06-group-photo-avfade03-music.mp4",
+  "duration_seconds": 51.43333333333333,
+  "audio_visual_fade_seconds": 0.3,
+  "audio_fade_start": 51.13333333333333,
+  "music_head_end": 47.58333333333333,
+  "music_tail_source_seconds": [
+    54,
+    58
+  ],
+  "gain_db": -4,
+  "crossfade_seconds": 0.15,
+  "credits_spent": 0,
+  "video": "identical compressed picture stream to v05",
+  "verification": {
+    "full_decode": "passed",
+    "picture_packet_comparison": "passed",
+    "audio_duration": "passed",
+    "tail_rms_dbfs": {
+      "before_fade": -23.10500157990278,
+      "fade_end": -58.800130792872906
+    }
+  },
+  "note": "Original music has a natural gradual decay; last .3s applies a shared closing envelope. No listening verification claimed."
+}

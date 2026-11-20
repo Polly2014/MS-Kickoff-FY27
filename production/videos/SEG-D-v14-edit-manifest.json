@@ -1,0 +1,62 @@
+{
+  "output": "SEG-D-Wan3-480P-v14-edit-v08first4s-v13last4s.mp4",
+  "edit": "Hard cut at 4.000s; v08 [0,4) + v13 [4,8); silent",
+  "checks": [
+    {
+      "file": "SEG-D-v14-part1-v08-0-4s.mp4",
+      "frames": 120,
+      "fps": 30.0,
+      "size": [
+        854,
+        480
+      ],
+      "seconds": 4.0
+    },
+    {
+      "file": "SEG-D-v14-part2-v13-4-8s.mp4",
+      "frames": 120,
+      "fps": 30.0,
+      "size": [
+        854,
+        480
+      ],
+      "seconds": 4.0
+    },
+    {
+      "file": "SEG-D-Wan3-480P-v14-edit-v08first4s-v13last4s.mp4",
+      "frames": 240,
+      "fps": 30.0,
+      "size": [
+        854,
+        480
+      ],
+      "seconds": 8.0
+    }
+  ],
+  "source_match_checks": [
+    {
+      "output_frame": 0,
+      "source": "SEG-D-Wan3-480P-v08-original.mp4",
+      "source_frame": 0,
+      "psnr": 44.5469977752209
+    },
+    {
+      "output_frame": 119,
+      "source": "SEG-D-Wan3-480P-v08-original.mp4",
+      "source_frame": 119,
+      "psnr": 39.45236699508821
+    },
+    {
+      "output_frame": 120,
+      "source": "SEG-D-Wan3-480P-v13-adopted.mp4",
+      "source_frame": 120,
+      "psnr": 39.77739836277095
+    },
+    {
+      "output_frame": 239,
+      "source": "SEG-D-Wan3-480P-v13-adopted.mp4",
+      "source_frame": 239,
+      "psnr": 38.7345606783001
+    }
+  ]
+}

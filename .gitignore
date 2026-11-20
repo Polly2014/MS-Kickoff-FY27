@@ -10,3 +10,10 @@ __pycache__/
 *.[mM][kK][vV]
 *.[aA][vV][iI]
 *.[mM]4[vV]
+
+# Keep generated music and intermediate audio local
+/production/audio/*.wav
+/production/music/*.mp3
+
+# Two-pass video encoding cache
+/production/exports/WeChat-*-encode-*.log*

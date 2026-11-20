@@ -1,0 +1,263 @@
+{
+  "status": "pending_user_review",
+  "output": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\exports\\FY27-CG-intro-A-F-55p43s-1080P-HuoShan-v01-music.mp4",
+  "frames": 1663,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "duration_seconds": 55.43333333333333,
+  "inputs": [
+    {
+      "file": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\videos\\INTRO-CG-HuoShan-1080P30-HD-v01.mp4",
+      "width": 1922,
+      "height": 1080,
+      "fps": 30.0,
+      "frames": 120,
+      "alignment": [
+        {
+          "frame": 9,
+          "best_output_frame": 9,
+          "mae": 0.48131945729255676
+        },
+        {
+          "frame": 30,
+          "best_output_frame": 30,
+          "mae": 0.4630555510520935
+        },
+        {
+          "frame": 60,
+          "best_output_frame": 60,
+          "mae": 0.4707465171813965
+        },
+        {
+          "frame": 90,
+          "best_output_frame": 90,
+          "mae": 0.5318750143051147
+        },
+        {
+          "frame": 110,
+          "best_output_frame": 110,
+          "mae": 0.5507639050483704
+        }
+      ]
+    },
+    {
+      "file": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\videos\\SEG-A-v07-HuoShan-1080P30-HD-v01.mp4",
+      "width": 1922,
+      "height": 1080,
+      "fps": 30.0,
+      "frames": 360,
+      "alignment": [
+        {
+          "frame": 9,
+          "best_output_frame": 9,
+          "mae": 0.6503298878669739
+        },
+        {
+          "frame": 90,
+          "best_output_frame": 90,
+          "mae": 0.6241319179534912
+        },
+        {
+          "frame": 180,
+          "best_output_frame": 180,
+          "mae": 0.7352430820465088
+        },
+        {
+          "frame": 270,
+          "best_output_frame": 270,
+          "mae": 0.750659704208374
+        },
+        {
+          "frame": 350,
+          "best_output_frame": 350,
+          "mae": 0.6241666674613953
+        }
+      ]
+    },
+    {
+      "file": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\videos\\SEG-B-v08-HuoShan-1080P30-HD-v01.mp4",
+      "width": 1922,
+      "height": 1080,
+      "fps": 30.0,
+      "frames": 360,
+      "alignment": [
+        {
+          "frame": 9,
+          "best_output_frame": 9,
+          "mae": 0.6497048735618591
+        },
+        {
+          "frame": 90,
+          "best_output_frame": 90,
+          "mae": 0.5979166626930237
+        },
+        {
+          "frame": 180,
+          "best_output_frame": 180,
+          "mae": 0.5979514122009277
+        },
+        {
+          "frame": 270,
+          "best_output_frame": 270,
+          "mae": 0.8037673830986023
+        },
+        {
+          "frame": 350,
+          "best_output_frame": 350,
+          "mae": 0.7890798449516296
+        }
+      ]
+    },
+    {
+      "file": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\videos\\SEG-C-v08-HuoShan-1080P30-HD-v01.mp4",
+      "width": 1922,
+      "height": 1080,
+      "fps": 30.0,
+      "frames": 240,
+      "alignment": [
+        {
+          "frame": 9,
+          "best_output_frame": 9,
+          "mae": 0.5907638669013977
+        },
+        {
+          "frame": 60,
+          "best_output_frame": 60,
+          "mae": 0.5611979365348816
+        },
+        {
+          "frame": 120,
+          "best_output_frame": 120,
+          "mae": 0.7434201240539551
+        },
+        {
+          "frame": 180,
+          "best_output_frame": 180,
+          "mae": 0.6542187333106995
+        },
+        {
+          "frame": 230,
+          "best_output_frame": 230,
+          "mae": 0.6341145634651184
+        }
+      ]
+    },
+    {
+      "file": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\videos\\SEG-D-v08-HuoShan-1080P30-HD-v01.mp4",
+      "width": 1922,
+      "height": 1080,
+      "fps": 30.0,
+      "frames": 240,
+      "alignment": [
+        {
+          "frame": 9,
+          "best_output_frame": 9,
+          "mae": 0.7091666460037231
+        },
+        {
+          "frame": 60,
+          "best_output_frame": 60,
+          "mae": 0.727222204208374
+        },
+        {
+          "frame": 120,
+          "best_output_frame": 120,
+          "mae": 1.0061805248260498
+        },
+        {
+          "frame": 180,
+          "best_output_frame": 180,
+          "mae": 1.0177431106567383
+        },
+        {
+          "frame": 230,
+          "best_output_frame": 230,
+          "mae": 0.8914930820465088
+        }
+      ]
+    },
+    {
+      "file": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\videos\\SEG-D-v13-HuoShan-1080P30-HD-v01.mp4",
+      "width": 1922,
+      "height": 1080,
+      "fps": 30.0,
+      "frames": 240,
+      "alignment": [
+        {
+          "frame": 9,
+          "best_output_frame": 9,
+          "mae": 0.7326735854148865
+        },
+        {
+          "frame": 60,
+          "best_output_frame": 60,
+          "mae": 0.7068576216697693
+        },
+        {
+          "frame": 120,
+          "best_output_frame": 120,
+          "mae": 1.402430534362793
+        },
+        {
+          "frame": 180,
+          "best_output_frame": 180,
+          "mae": 1.3890278339385986
+        },
+        {
+          "frame": 230,
+          "best_output_frame": 230,
+          "mae": 1.509218692779541
+        }
+      ]
+    },
+    {
+      "file": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\videos\\SEG-E-v08-HuoShan-1080P30-HD-v01.mp4",
+      "width": 1922,
+      "height": 1080,
+      "fps": 30.0,
+      "frames": 240,
+      "alignment": [
+        {
+          "frame": 9,
+          "best_output_frame": 9,
+          "mae": 1.3264409303665161
+        },
+        {
+          "frame": 60,
+          "best_output_frame": 60,
+          "mae": 0.9846527576446533
+        },
+        {
+          "frame": 120,
+          "best_output_frame": 120,
+          "mae": 1.3582812547683716
+        },
+        {
+          "frame": 180,
+          "best_output_frame": 180,
+          "mae": 0.8286284804344177
+        },
+        {
+          "frame": 230,
+          "best_output_frame": 230,
+          "mae": 0.7785763740539551
+        }
+      ]
+    }
+  ],
+  "credits_spent_this_batch": 18,
+  "balance_before": 2399,
+  "balance_after": 2381,
+  "enhancement": "HuoShan 1080P30, normalized 1922 to 1920 wide",
+  "audio": "identical compressed audio packets to approved 480P v03",
+  "audio_sha256": "1d11270a1a2005c190ee269385bb7876490ffd2fd31177f74cd0c68ac9bcfb64",
+  "verification": {
+    "full_decode": "passed",
+    "sampled_temporal_alignment": "all exact frame indices",
+    "last_frame": "black",
+    "timeline": "120+298+360+240+120+120+240+165=1663"
+  },
+  "F": "HD E tail, existing tiny 480P avatar animation; typography rerendered at1080",
+  "AB": "approved 480P glow isolated then resized, first8 B frames"
+}

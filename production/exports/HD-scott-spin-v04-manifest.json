@@ -1,0 +1,27 @@
+{
+  "status": "pending_user_review",
+  "output": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\exports\\FY27-CG-intro-A-F-55p43s-1080P-v04-scott-spin-sfx-music.mp4",
+  "preview": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\previews\\Scott-spin-v04-sfx-5p5s-review.mp4",
+  "frames": 1663,
+  "fps": 30,
+  "duration_seconds": 55.43333333333333,
+  "cue": {
+    "segment": "D v08 solo, floor spin",
+    "start_seconds": 34.3,
+    "end_seconds": 37.12,
+    "sound": "one warm airflow swell, subtle rotating stereo texture, no impact",
+    "peak": 0.05602519676449152,
+    "relative_music_rms_db": -23.54858384747272
+  },
+  "sfx_stem": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\audio\\SFX-Scott-single-spin-v01.wav",
+  "mix_source": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\audio\\MIX-HD-title-relay-sfx-v01.wav",
+  "mix_peak": 0.842559814453125,
+  "verification": {
+    "video_stream": "byte-identical to approved v03",
+    "video_sha256": "d55b5436218641f8457a1785d1ab846edb6746afd79ca746dcb4df7ed51c5821",
+    "full_decode": "passed",
+    "outside_cue_PCM": "unchanged before quantization and AAC encode",
+    "outside_cue_AAC_rmse": 0.004893159493803978
+  },
+  "credits_spent": 0
+}

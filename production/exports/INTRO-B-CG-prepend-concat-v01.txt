@@ -1,0 +1,2 @@
+file 'D:/git_workspace/www.polly.com/X-Workspace/MS-Kickoff-FY27/production/videos/INTRO-B-CG-title-4s-480P-v01-silent.mp4'
+file 'D:/git_workspace/www.polly.com/X-Workspace/MS-Kickoff-FY27/production/exports/FY27-A-F-51p43s-480P-v06-group-photo-avfade03-music.mp4'

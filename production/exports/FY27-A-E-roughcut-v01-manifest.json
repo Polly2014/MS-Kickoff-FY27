@@ -1,0 +1,174 @@
+{
+  "output": {
+    "file": "FY27-A-E-48s-480P-roughcut-v01-music.mp4",
+    "frames": 1440,
+    "fps": 30.0,
+    "size": [
+      854,
+      480
+    ],
+    "seconds": 48.0
+  },
+  "timeline": [
+    {
+      "segment": "A",
+      "start": 0.0,
+      "end": 12.0,
+      "source": {
+        "file": "SEG-A-Wan3-480P-v07-adopted.mp4",
+        "frames": 360,
+        "fps": 30.0,
+        "size": [
+          854,
+          480
+        ],
+        "seconds": 12.0
+      }
+    },
+    {
+      "segment": "B",
+      "start": 12.0,
+      "end": 24.0,
+      "source": {
+        "file": "SEG-B-Wan3-480P-v08-adopted.mp4",
+        "frames": 360,
+        "fps": 30.0,
+        "size": [
+          854,
+          480
+        ],
+        "seconds": 12.0
+      }
+    },
+    {
+      "segment": "C",
+      "start": 24.0,
+      "end": 32.0,
+      "source": {
+        "file": "SEG-C-Wan3-480P-v08-adopted.mp4",
+        "frames": 240,
+        "fps": 30.0,
+        "size": [
+          854,
+          480
+        ],
+        "seconds": 8.0
+      }
+    },
+    {
+      "segment": "D",
+      "start": 32.0,
+      "end": 40.0,
+      "source": {
+        "file": "SEG-D-Wan3-480P-v14-edit-v08first4s-v13last4s.mp4",
+        "frames": 240,
+        "fps": 30.0,
+        "size": [
+          854,
+          480
+        ],
+        "seconds": 8.0
+      }
+    },
+    {
+      "segment": "E",
+      "start": 40.0,
+      "end": 48.0,
+      "source": {
+        "file": "SEG-E-Wan3-480P-v08-adopted.mp4",
+        "frames": 240,
+        "fps": 30.0,
+        "size": [
+          854,
+          480
+        ],
+        "seconds": 8.0
+      }
+    }
+  ],
+  "video": "Stream copied; all segment durations preserved; hard cuts",
+  "audio": {
+    "source": "MUSIC-FY27-street-dance-60s-ElevenMusicV3-v01.mp3",
+    "sha256": "5d07261ff9c96df8c9faf831ba4e3c3fce5c34d79cc5713e52da9875d8535dd6",
+    "source_range": [
+      0,
+      48
+    ],
+    "gain_db": -4,
+    "fade_out": [
+      47.3,
+      48
+    ],
+    "codec": "AAC 256k stereo 44100Hz",
+    "decoded_samples": 2116800,
+    "peak": 0.6232362985610962,
+    "source_correlation": 0.9993328200882076
+  },
+  "verification": {
+    "full_video_decode": "passed",
+    "source_boundary_matches": [
+      {
+        "segment": "A",
+        "output_frame": 0,
+        "source_frame": 0,
+        "exact_pixels": true
+      },
+      {
+        "segment": "A",
+        "output_frame": 359,
+        "source_frame": 359,
+        "exact_pixels": true
+      },
+      {
+        "segment": "B",
+        "output_frame": 360,
+        "source_frame": 0,
+        "exact_pixels": true
+      },
+      {
+        "segment": "B",
+        "output_frame": 719,
+        "source_frame": 359,
+        "exact_pixels": true
+      },
+      {
+        "segment": "C",
+        "output_frame": 720,
+        "source_frame": 0,
+        "exact_pixels": true
+      },
+      {
+        "segment": "C",
+        "output_frame": 959,
+        "source_frame": 239,
+        "exact_pixels": true
+      },
+      {
+        "segment": "D",
+        "output_frame": 960,
+        "source_frame": 0,
+        "exact_pixels": true
+      },
+      {
+        "segment": "D",
+        "output_frame": 1199,
+        "source_frame": 239,
+        "exact_pixels": true
+      },
+      {
+        "segment": "E",
+        "output_frame": 1200,
+        "source_frame": 0,
+        "exact_pixels": true
+      },
+      {
+        "segment": "E",
+        "output_frame": 1439,
+        "source_frame": 239,
+        "exact_pixels": true
+      }
+    ]
+  },
+  "scope": "A-E only; 12-second F/outro not included; no generated sound effects",
+  "credit_cost": 0
+}

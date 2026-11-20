@@ -1,0 +1,34 @@
+{
+  "status": "generating",
+  "nodeId": "v-h9ACkvK23o",
+  "name": "SEG-E-六人共舞到Logo点亮-8s-Wan3-480P-v08-待生成",
+  "previousAcceptedVideo": "v-qXYcCoJoLR",
+  "model": "Wan 3.0",
+  "mode": "全能参考",
+  "resolution": "480P",
+  "aspectRatio": "16:9",
+  "durationSeconds": 8,
+  "count": 1,
+  "sound": false,
+  "smartExpansion": false,
+  "autoLink": false,
+  "displayedCreditCost": 32,
+  "refs": [
+    {
+      "id": "i-10GbjCzSzq",
+      "text": "图片 1"
+    },
+    {
+      "id": "i-b0aObV6ZDX",
+      "text": "图片 2"
+    },
+    {
+      "id": "i-0F0tcoTXnK",
+      "text": "图片 3"
+    }
+  ],
+  "limitation": "尾帧作为全能参考图使用；当前首尾帧模式禁用，不是精确首帧锁定。副本显示的旧视频不是E生成结果。",
+  "promptRevision": "enhanced-1160-characters",
+  "actualCreditCost": 32,
+  "balanceAfter": 2519
+}

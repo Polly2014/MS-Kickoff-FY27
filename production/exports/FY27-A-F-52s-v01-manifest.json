@@ -1,0 +1,33 @@
+{
+  "status": "local_preview_pending_user_review",
+  "output": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\exports\\FY27-A-F-52s-480P-v01-music.mp4",
+  "frames": 1560,
+  "fps": 30.0,
+  "duration": 52.0,
+  "f_start": 45.93333333333333,
+  "f_frames": 182,
+  "f_duration": 6.066666666666666,
+  "background": "E last frame, locally scaled and softly darkened; no new model animation",
+  "cameos": "approved v02 static transparent PNGs; local translation and rotation; visible height about 5%",
+  "credits": "locally rendered at 1920x1080 then scaled to review size; stage remains 480P source",
+  "audio": {
+    "source": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\music\\MUSIC-FY27-street-dance-60s-ElevenMusicV3-v01.mp3",
+    "head": [
+      0,
+      48.15
+    ],
+    "tail": [
+      56.08163265306123,
+      60.08163265306123
+    ],
+    "crossfade_seconds": 0.15,
+    "gain_db": -4,
+    "decoded_peak": 0.6375889182090759
+  },
+  "verification": {
+    "full_decode": "passed",
+    "sampled_AE_frames": "exact decoded pixels",
+    "audio_duration": "passed"
+  },
+  "libtv_credit_cost": 0
+}

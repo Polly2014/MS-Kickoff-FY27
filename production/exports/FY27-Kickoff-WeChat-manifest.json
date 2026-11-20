@@ -1,0 +1,20 @@
+{
+  "status": "ready",
+  "source": "FY27-Kickoff-FINAL-1080P.mp4",
+  "file": "FY27-Kickoff-WeChat-720P.mp4",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "frames": 1663,
+  "duration_seconds": 55.43333333333333,
+  "video": "H.264 High Level3.1 / yuv420p / two-pass1200k",
+  "audio": "AAC stereo96k /44100Hz",
+  "faststart": true,
+  "bytes": 8941492,
+  "source_bytes": 54542732,
+  "reduction_percent": 83.6,
+  "sha256": "d207fe894308dc91c9bad8f94b05e22048c291cf9d60e0c1f3bd137b8eade07c",
+  "verification": "frame count, dimensions and full decode passed",
+  "note": "sharing copy; official delivery remains the approved1080P file",
+  "credits_spent": 0
+}

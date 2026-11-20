@@ -1,0 +1,5 @@
+file '../videos/SEG-A-Wan3-480P-v07-adopted.mp4'
+file '../videos/SEG-B-Wan3-480P-v08-adopted.mp4'
+file '../videos/SEG-C-Wan3-480P-v08-adopted.mp4'
+file '../videos/SEG-D-Wan3-480P-v14-edit-v08first4s-v13last4s.mp4'
+file '../videos/SEG-E-Wan3-480P-v08-adopted.mp4'

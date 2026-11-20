@@ -1,0 +1,2 @@
+file 'SEG-A-Wan3-480P-v07-adopted.mp4'
+file 'SEG-B-Wan3-480P-v08-adopted.mp4'

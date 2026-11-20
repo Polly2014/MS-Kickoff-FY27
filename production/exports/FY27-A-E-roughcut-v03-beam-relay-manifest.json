@@ -1,0 +1,88 @@
+{
+  "status": "approved_AB_transition_integrated",
+  "output": "FY27-A-E-45p93s-480P-roughcut-v03-beam-relay-music.mp4",
+  "frames": 1378,
+  "fps": 30.0,
+  "duration": 45.93333333333333,
+  "timeline": [
+    {
+      "segment": "A",
+      "start": 0.0,
+      "end": 9.933333333333334
+    },
+    {
+      "segment": "B",
+      "start": 9.933333333333334,
+      "end": 21.933333333333334
+    },
+    {
+      "segment": "C",
+      "start": 21.933333333333334,
+      "end": 29.933333333333334
+    },
+    {
+      "segment": "D",
+      "start": 29.933333333333334,
+      "end": 37.93333333333333
+    },
+    {
+      "segment": "E",
+      "start": 37.93333333333333,
+      "end": 45.93333333333333
+    }
+  ],
+  "a_source_frames": [
+    0,
+    298
+  ],
+  "b_source_frames": [
+    0,
+    360
+  ],
+  "light_b_frames": [
+    0,
+    8
+  ],
+  "video": "AB encoded once at CRF16 with approved light carryover; CDE stream copied unchanged",
+  "audio": {
+    "source": "MUSIC-FY27-street-dance-60s-ElevenMusicV3-v01.mp3",
+    "range": [
+      0,
+      45.93333333333333
+    ],
+    "continuous": true,
+    "gain_db": -4,
+    "fade_out": [
+      45.23333333333333,
+      45.93333333333333
+    ],
+    "decoded_peak": 0.6232362985610962
+  },
+  "verification": {
+    "full_decode": "passed",
+    "approved_preview_checks": [
+      {
+        "output_frame": 297,
+        "approved_preview_frame": 59,
+        "psnr": 44.784127427083725
+      },
+      {
+        "output_frame": 298,
+        "approved_preview_frame": 60,
+        "psnr": 49.72050985691474
+      },
+      {
+        "output_frame": 302,
+        "approved_preview_frame": 64,
+        "psnr": 46.40437293488834
+      },
+      {
+        "output_frame": 306,
+        "approved_preview_frame": 68,
+        "psnr": 44.71616426568373
+      }
+    ],
+    "CDE_source_boundaries": "exact pixels"
+  },
+  "credit_cost": 0
+}

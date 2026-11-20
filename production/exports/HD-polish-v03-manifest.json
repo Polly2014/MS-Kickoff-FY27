@@ -1,0 +1,68 @@
+{
+  "status": "pending_user_review",
+  "output": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\exports\\FY27-CG-intro-A-F-55p43s-1080P-v03-title-relay-sfx-music.mp4",
+  "title_only_original_audio": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\exports\\FY27-CG-intro-A-F-55p43s-1080P-v02-title-polish-music.mp4",
+  "intro_preview": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\previews\\INTRO-polish-v02-first9s-music.mp4",
+  "sfx_preview": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\previews\\HD-three-relays-v03-sfx-review.mp4",
+  "frames": 1663,
+  "fps": 30,
+  "duration_seconds": 55.43333333333333,
+  "title_sizes": [
+    100,
+    66
+  ],
+  "previous_title_sizes": [
+    91,
+    66
+  ],
+  "title_effect": "one cyan glyph-limited sweep .97-1.62s, no added intro audio",
+  "cues": [
+    {
+      "name": "AB",
+      "start": 13.22,
+      "duration": 0.88,
+      "pan": [
+        -0.65,
+        0.5
+      ],
+      "seed": 27,
+      "peak": 0.051976721511049005,
+      "relative_rms_db": -23.80106953373264
+    },
+    {
+      "name": "BC",
+      "start": 25.39,
+      "duration": 0.83,
+      "pan": [
+        0.5,
+        -0.45
+      ],
+      "seed": 28,
+      "peak": 0.050094650915514995,
+      "relative_rms_db": -23.690278064014052
+    },
+    {
+      "name": "CD",
+      "start": 33.22,
+      "duration": 0.62,
+      "pan": [
+        0.4,
+        -0.35
+      ],
+      "seed": 29,
+      "peak": 0.04637468468228438,
+      "relative_rms_db": -24.14541339180785
+    }
+  ],
+  "sfx_stem": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\audio\\SFX-three-relays-local-v01.wav",
+  "mix_peak": 0.8425926566123962,
+  "intro_reencode_rmse": 0.002641119994223118,
+  "verification": {
+    "full_decode": "passed",
+    "body_frames_after_intro": "all1543frames pixel identical to approvedHD",
+    "title_only_audio": "identical compressed packets to approvedHD",
+    "intro_sound": "original PCM unchanged before AAC encode, no added cue before13.22s",
+    "ending_sound": "no added cue after33.84s, original music tail and fade retained"
+  },
+  "credits_spent": 0
+}

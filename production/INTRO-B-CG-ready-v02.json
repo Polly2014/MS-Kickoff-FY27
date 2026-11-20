@@ -1,0 +1,37 @@
+{
+  "status": "generated_CG_approved_larger_title_v02_pending_review",
+  "node": "v-nkUzXaLEBh",
+  "name": "INTRO-B-节拍点火CG-4s-Wan3-480P-v01-待审",
+  "model": "Wan 3.0",
+  "mode": "全能参考",
+  "aspect": "16:9",
+  "resolution": "480P",
+  "duration_seconds": 4,
+  "outputs": 1,
+  "audio": true,
+  "smart_expansion": false,
+  "auto_link": false,
+  "quote_credits": 16,
+  "baseline_credits": 20,
+  "credits_spent": 16,
+  "balance_observed": 2467,
+  "reference_nodes": [
+    {
+      "id": "i-rT6OBZqneE",
+      "name": "STAGE-Copilot-局部01-蓝青开场-2K-v01",
+      "real_mention_badge_verified": true
+    }
+  ],
+  "prompt": "actual-prompts/INTRO-B-CG-ignite-Wan3-4s-sound-v02.txt",
+  "screenshot": "previews/INTRO-B-CG-generated-16credits-v01.jpg",
+  "option_A_status": "rejected; dedicated files and old A/B comparison config removed",
+  "postproduction": "exact title overlay locally; review generated synchronous sound effects; no generated background music or speech; join to A shoe impact and original music entrance",
+  "submission_authorization": "User: 开始吧",
+  "submitted_once": true,
+  "balance_before": 2467,
+  "balance_after": 2451,
+  "source_video": "videos/INTRO-B-CG-ignite-4s-Wan3-480P-v01-source.mp4",
+  "preview": "previews/INTRO-B-CG-to-Jessica-first9s-v02-large-title-music.mp4",
+  "full_video": "exports/FY27-CG-intro-A-F-55p43s-480P-v02-large-title-music.mp4",
+  "latest_local_edit_credits": 0
+}

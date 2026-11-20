@@ -1,0 +1,22 @@
+{
+  "status": "pending_user_review",
+  "output": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\exports\\FY27-A-F-51p43s-480P-v05-group-photo-fade03-music.mp4",
+  "preview": "D:\\git_workspace\\www.polly.com\\X-Workspace\\MS-Kickoff-FY27\\production\\previews\\SEG-E-F-8p50s-v05-group-photo-fade03-music.mp4",
+  "frames": 1543,
+  "fps": 30,
+  "duration_seconds": 51.43333333333333,
+  "f_duration_seconds": 5.5,
+  "fade_out_frames": 9,
+  "fade_out_seconds": 0.3,
+  "fade_start_f_seconds": 5.2,
+  "cast_photo_hold_before_fade_seconds": 2.1333333333333333,
+  "credits_spent": 0,
+  "audio": "identical compressed audio packets to v04",
+  "verification": {
+    "full_decode": "passed",
+    "AE_sampled_frames": "exact pixels",
+    "last_frame": "black",
+    "audio_packet_comparison": "passed"
+  },
+  "method": "retain v04 F frames 0-149, clone bright cast photo, final nine-frame fade"
+}
